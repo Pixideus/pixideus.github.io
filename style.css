@@ -31,13 +31,15 @@ body{
    ===================================================== */
 
 
+/* =====================================================
+   HERO / BANNIERE
+   ===================================================== */
+
 .hero{
 
     position:relative;
 
     width:100%;
-
-    height:auto;
 
     overflow:hidden;
 
@@ -52,11 +54,9 @@ body{
 
     height:auto;
 
-    max-height:650px;
-
-    object-fit:contain;
-
     display:block;
+
+    object-fit:initial;
 
 }
 
@@ -72,7 +72,7 @@ body{
 
     bottom:0;
 
-    height:180px;
+    height:120px;
 
     background:
 
@@ -89,7 +89,7 @@ body{
 
     position:absolute;
 
-    bottom:35px;
+    bottom:30px;
 
     left:50%;
 
