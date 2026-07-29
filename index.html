@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixideus | World of Warcraft Housing</title>
 
-    <meta name="description" content="Portfolio des créations Housing World of Warcraft par Pixideus.">
-    <meta name="theme-color" content="#0b0d14">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Pixideus | World of Warcraft Housing</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="description" content="Pixideus - World of Warcraft Housing creations portfolio">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 
+
 <header class="hero">
 
-    <img src="banner.jpg" alt="Pixideus Banner" class="banner">
+    <img src="banner.jpg" class="banner" alt="Pixideus">
 
     <div class="hero-overlay"></div>
 
+
     <div class="hero-content">
-
-        <h1>Pixideus</h1>
-
-        <p>
-            World of Warcraft Housing Creations
-        </p>
 
         <a href="#portfolio" class="hero-button">
             Explore my Builds
@@ -38,273 +35,243 @@
 
     </div>
 
+
 </header>
+
 
 
 <main>
 
+
 <section id="portfolio" class="portfolio">
 
-    <div class="section-title">
 
-        <h2>Portfolio</h2>
+<div class="section-title">
 
-        <p>
-            A collection of my favorite housing creations.
-        </p>
+<h2>Portfolio</h2>
 
-    </div>
-
-
-    <div class="filters">
-
-        <button class="filter active" data-filter="all">All</button>
-
-        <button class="filter" data-filter="interior">Interiors</button>
-
-        <button class="filter" data-filter="exterior">Exteriors</button>
-
-        <button class="filter" data-filter="theme">Themes</button>
-
-        <button class="filter" data-filter="legacy">Legacy</button>
-
-    </div>
-
-
-    <div class="gallery">
-
-        <!-- Build 1 -->
-
-        <article class="card" data-category="theme">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Babylon"
-                 alt="Babylon">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Theme
-                </span>
-
-                <h3>Hanging Gardens of Babylon</h3>
-
-                <p>
-                    Epic fantasy recreation inspired by one of the Seven Wonders.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- Build 2 -->
-
-        <article class="card" data-category="interior">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Hogwarts"
-                 alt="Hogwarts">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Interior
-                </span>
-
-                <h3>Hogwarts Common Room</h3>
-
-                <p>
-                    Cozy magical atmosphere inspired by the wizarding world.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- Build 3 -->
-
-        <article class="card" data-category="theme">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Nevermore"
-                 alt="Nevermore">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Theme
-                </span>
-
-                <h3>Nevermore Academy</h3>
-
-                <p>
-                    Gothic architecture with mysterious ambience.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- Build 4 -->
-
-        <article class="card" data-category="legacy">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Santorini"
-                 alt="Santorini">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Legacy
-                </span>
-
-                <h3>Mini Santorini</h3>
-
-                <p>
-                    Award-winning miniature village inspired by Greece.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- Build 5 -->
-
-        <article class="card" data-category="exterior">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=London"
-                 alt="London">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Exterior
-                </span>
-
-                <h3>Old London</h3>
-
-                <p>
-                    Victorian streets and mysterious atmosphere.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- Build 6 -->
-
-        <article class="card" data-category="theme">
-
-            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Wonderland"
-                 alt="Wonderland">
-
-            <div class="card-content">
-
-                <span class="category">
-                    Theme
-                </span>
-
-                <h3>Alice in Wonderland</h3>
-
-                <p>
-                    Surreal fantasy environment inspired by Lewis Carroll.
-                </p>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<!-- ========================= -->
-<!-- MODAL -->
-<!-- ========================= -->
-
-<div class="modal" id="modal">
-
-    <div class="modal-content">
-
-        <button class="close">&times;</button>
-
-        <div class="modal-left">
-
-            <div class="slider">
-
-                <button class="arrow left">&#10094;</button>
-
-                <img
-                    id="modalImage"
-                    src="https://placehold.co/1000x700/111111/FFFFFF?text=Gallery"
-                    alt="Gallery">
-
-                <button class="arrow right">&#10095;</button>
-
-            </div>
-
-        </div>
-
-
-        <div class="modal-right">
-
-            <h2 id="modalTitle">
-                Build Title
-            </h2>
-
-            <p id="modalDescription">
-
-                Description of the build.
-
-            </p>
-
-            <div class="video-wrapper">
-
-                <iframe
-                        id="youtubeVideo"
-                        src="https://www.youtube.com/embed/gx798FRvx14"
-                        title="YouTube video"
-                        allowfullscreen>
-                </iframe>
-
-            </div>
-
-        </div>
-
-    </div>
+<p>
+A collection of my World of Warcraft housing creations.
+</p>
 
 </div>
 
 
+
+<div class="filters">
+
+<button class="filter active" data-filter="all">
+All
+</button>
+
+<button class="filter" data-filter="interior">
+Interiors
+</button>
+
+<button class="filter" data-filter="exterior">
+Exteriors
+</button>
+
+<button class="filter" data-filter="theme">
+Themes
+</button>
+
+<button class="filter" data-filter="legacy">
+Legacy
+</button>
+
+</div>
+
+
+
+
+
+<div class="gallery">
+
+
+
+<article class="card" data-category="theme">
+
+<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Babylon">
+
+<div class="card-content">
+
+<span class="category">
+Theme
+</span>
+
+<h3>
+Hanging Gardens of Babylon
+</h3>
+
+<p>
+Epic fantasy recreation inspired by ancient wonders.
+</p>
+
+</div>
+
+</article>
+
+
+
+
+
+<article class="card" data-category="interior">
+
+<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Hogwarts">
+
+<div class="card-content">
+
+<span class="category">
+Interior
+</span>
+
+<h3>
+Hogwarts Common Room
+</h3>
+
+<p>
+Magical interior atmosphere.
+</p>
+
+</div>
+
+</article>
+
+
+
+
+
+<article class="card" data-category="legacy">
+
+<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Santorini">
+
+<div class="card-content">
+
+<span class="category">
+Legacy
+</span>
+
+<h3>
+Mini Santorini
+</h3>
+
+<p>
+Award-winning fantasy village.
+</p>
+
+</div>
+
+</article>
+
+
+
+</div>
+
+
+</section>
+
+
+</main>
+
+
+
+
+<div class="modal" id="modal">
+
+
+<div class="modal-content">
+
+
+<button class="close">
+×
+</button>
+
+
+
+<div class="modal-left">
+
+<img id="modalImage"
+src=""
+alt="">
+
+</div>
+
+
+
+<div class="modal-right">
+
+<h2 id="modalTitle">
+Build
+</h2>
+
+
+<p id="modalDescription">
+Description
+</p>
+
+
+
+<div class="video-wrapper">
+
+<iframe
+src="https://www.youtube.com/embed/gx798FRvx14"
+allowfullscreen>
+</iframe>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
 <script>
 
+
 const cards=document.querySelectorAll(".card");
+
 const modal=document.getElementById("modal");
+
 const close=document.querySelector(".close");
+
+
 
 cards.forEach(card=>{
 
-card.addEventListener("click",()=>{
 
-document.getElementById("modalTitle").innerText=
+card.onclick=()=>{
+
+
+document.getElementById("modalTitle").innerText =
 card.querySelector("h3").innerText;
 
-document.getElementById("modalDescription").innerText=
+
+document.getElementById("modalDescription").innerText =
 card.querySelector("p").innerText;
 
-document.getElementById("modalImage").src=
+
+document.getElementById("modalImage").src =
 card.querySelector("img").src;
+
 
 modal.classList.add("show");
 
-});
+
+}
+
 
 });
+
+
+
 
 close.onclick=()=>{
 
@@ -312,9 +279,12 @@ modal.classList.remove("show");
 
 }
 
-window.onclick=(e)=>{
 
-if(e.target===modal){
+
+
+window.onclick=(event)=>{
+
+if(event.target===modal){
 
 modal.classList.remove("show");
 
@@ -323,21 +293,32 @@ modal.classList.remove("show");
 }
 
 
+
+
 const filters=document.querySelectorAll(".filter");
+
+
 
 filters.forEach(button=>{
 
-button.addEventListener("click",()=>{
 
-filters.forEach(b=>b.classList.remove("active"));
+button.onclick=()=>{
+
+
+filters.forEach(btn=>btn.classList.remove("active"));
 
 button.classList.add("active");
 
-const filter=button.dataset.filter;
+
+
+let category=button.dataset.filter;
+
+
 
 cards.forEach(card=>{
 
-if(filter==="all"){
+
+if(category==="all" || card.dataset.category===category){
 
 card.style.display="block";
 
@@ -345,22 +326,25 @@ card.style.display="block";
 
 else{
 
-card.style.display=
-card.dataset.category===filter
-?
-"block"
-:
-"none";
+card.style.display="none";
 
 }
 
-});
 
 });
 
+
+}
+
+
+
 });
+
+
 
 </script>
 
+
 </body>
+
 </html>
