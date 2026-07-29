@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Pixideus | World of Warcraft Housing</title>
 
-<meta name="description" content="Pixideus - World of Warcraft Housing creations portfolio">
+<meta name="description" content="Pixideus - World of Warcraft Housing creations">
 
 <link rel="stylesheet" href="style.css">
 
@@ -20,153 +21,98 @@
 <body>
 
 
+<!-- =========================
+     BANNER
+========================= -->
+
+
 <header class="hero">
 
-    <img src="banner.jpg" class="banner" alt="Pixideus">
+<img src="banner.jpg" class="banner" alt="Pixideus">
 
-    <div class="hero-overlay"></div>
-
-
-    <div class="hero-content">
-
-        <a href="#portfolio" class="hero-button">
-            Explore my Builds
-        </a>
-
-    </div>
-
+<div class="hero-overlay"></div>
 
 </header>
 
 
 
+
+
+<!-- =========================
+     CREATIONS
+========================= -->
+
+
 <main>
 
 
-<section id="portfolio" class="portfolio">
+<section class="creations" id="creations">
 
 
 <div class="section-title">
 
-<h2>Portfolio</h2>
+<h1>My Worlds</h1>
 
 <p>
-A collection of my World of Warcraft housing creations.
+Discover my World of Warcraft housing creations.
 </p>
 
 </div>
 
 
 
+
+
+<!-- FILTERS -->
+
+
 <div class="filters">
+
 
 <button class="filter active" data-filter="all">
 All
 </button>
 
+
 <button class="filter" data-filter="interior">
 Interiors
 </button>
+
 
 <button class="filter" data-filter="exterior">
 Exteriors
 </button>
 
-<button class="filter" data-filter="theme">
-Themes
+
+<button class="filter" data-filter="fantasy">
+Fantasy
 </button>
+
+
+<button class="filter" data-filter="gothic">
+Gothic
+</button>
+
 
 <button class="filter" data-filter="legacy">
 Legacy
 </button>
 
-</div>
-
-
-
-
-
-<div class="gallery">
-
-
-
-<article class="card" data-category="theme">
-
-<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Babylon">
-
-<div class="card-content">
-
-<span class="category">
-Theme
-</span>
-
-<h3>
-Hanging Gardens of Babylon
-</h3>
-
-<p>
-Epic fantasy recreation inspired by ancient wonders.
-</p>
 
 </div>
 
-</article>
 
 
 
 
-
-<article class="card" data-category="interior">
-
-<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Hogwarts">
-
-<div class="card-content">
-
-<span class="category">
-Interior
-</span>
-
-<h3>
-Hogwarts Common Room
-</h3>
-
-<p>
-Magical interior atmosphere.
-</p>
-
-</div>
-
-</article>
+<!-- BUILDS WILL APPEAR HERE -->
 
 
-
-
-
-<article class="card" data-category="legacy">
-
-<img src="https://placehold.co/700x450/171b28/FFFFFF?text=Santorini">
-
-<div class="card-content">
-
-<span class="category">
-Legacy
-</span>
-
-<h3>
-Mini Santorini
-</h3>
-
-<p>
-Award-winning fantasy village.
-</p>
-
-</div>
-
-</article>
-
+<div class="gallery" id="gallery">
 
 
 </div>
+
 
 
 </section>
@@ -177,172 +123,91 @@ Award-winning fantasy village.
 
 
 
+
+
+<!-- =========================
+     BUILD MODAL
+========================= -->
+
+
 <div class="modal" id="modal">
 
 
 <div class="modal-content">
 
 
-<button class="close">
+<button class="close" id="closeModal">
 ×
 </button>
 
 
 
-<div class="modal-left">
 
-<img id="modalImage"
-src=""
-alt="">
+<div class="modal-gallery">
+
+
+<button class="gallery-arrow left" id="previousImage">
+❮
+</button>
+
+
+<img id="modalImage" src="" alt="">
+
+
+<button class="gallery-arrow right" id="nextImage">
+❯
+</button>
+
 
 </div>
 
 
 
-<div class="modal-right">
+
+
+<div class="modal-info">
+
 
 <h2 id="modalTitle">
-Build
 </h2>
 
 
 <p id="modalDescription">
-Description
 </p>
 
 
 
 <div class="video-wrapper">
 
+
 <iframe
-src="https://www.youtube.com/embed/gx798FRvx14"
+id="modalVideo"
+src=""
 allowfullscreen>
 </iframe>
 
-</div>
-
 
 </div>
 
-
-</div>
 
 
 </div>
 
 
 
+</div>
 
-<script>
 
+</div>
 
-const cards=document.querySelectorAll(".card");
 
-const modal=document.getElementById("modal");
 
-const close=document.querySelector(".close");
 
 
 
-cards.forEach(card=>{
+<script src="builds.js"></script>
 
-
-card.onclick=()=>{
-
-
-document.getElementById("modalTitle").innerText =
-card.querySelector("h3").innerText;
-
-
-document.getElementById("modalDescription").innerText =
-card.querySelector("p").innerText;
-
-
-document.getElementById("modalImage").src =
-card.querySelector("img").src;
-
-
-modal.classList.add("show");
-
-
-}
-
-
-});
-
-
-
-
-close.onclick=()=>{
-
-modal.classList.remove("show");
-
-}
-
-
-
-
-window.onclick=(event)=>{
-
-if(event.target===modal){
-
-modal.classList.remove("show");
-
-}
-
-}
-
-
-
-
-const filters=document.querySelectorAll(".filter");
-
-
-
-filters.forEach(button=>{
-
-
-button.onclick=()=>{
-
-
-filters.forEach(btn=>btn.classList.remove("active"));
-
-button.classList.add("active");
-
-
-
-let category=button.dataset.filter;
-
-
-
-cards.forEach(card=>{
-
-
-if(category==="all" || card.dataset.category===category){
-
-card.style.display="block";
-
-}
-
-else{
-
-card.style.display="none";
-
-}
-
-
-});
-
-
-}
-
-
-
-});
-
-
-
-</script>
+<script src="script.js"></script>
 
 
 </body>
