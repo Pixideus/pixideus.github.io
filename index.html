@@ -1,172 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixideus | World of Warcraft Housing</title>
 
-    <title>Pixideus - World of Warcraft Housing Creations</title>
+    <meta name="description" content="Portfolio des créations Housing World of Warcraft par Pixideus.">
+    <meta name="theme-color" content="#0b0d14">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="hero">
 
-    <img src="banner.jpg" alt="Pixideus World of Warcraft Housing Creations" class="banner">
+    <img src="banner.jpg" alt="Pixideus Banner" class="banner">
 
-    <nav>
-        <ul class="menu">
+    <div class="hero-overlay"></div>
 
-            <li><a href="index.html">Home</a></li>
+    <div class="hero-content">
 
-            <li class="dropdown">
-                <a href="#">Interiors</a>
-                <ul class="submenu">
-                    <li><a href="#">Bedrooms</a></li>
-                    <li><a href="#">Libraries</a></li>
-                    <li><a href="#">Taverns</a></li>
-                    <li><a href="#">War Rooms</a></li>
-                    <li><a href="#">Race Rooms</a></li>
-                    <li><a href="#">Class Rooms</a></li>
-                </ul>
-            </li>
+        <h1>Pixideus</h1>
 
-            <li class="dropdown">
-                <a href="#">Exteriors</a>
-                <ul class="submenu">
-                    <li><a href="#">Houses</a></li>
-                    <li><a href="#">Gardens</a></li>
-                    <li><a href="#">Landscapes</a></li>
-                    <li><a href="#">Azeroth Views</a></li>
-                </ul>
-            </li>
+        <p>
+            World of Warcraft Housing Creations
+        </p>
 
-            <li class="dropdown">
-                <a href="#">Themes</a>
-                <ul class="submenu">
-                    <li><a href="#">Hogwarts</a></li>
-                    <li><a href="#">Tim Burton</a></li>
-                    <li><a href="#">Fantasy</a></li>
-                    <li><a href="#">Ancient Civilizations</a></li>
-                </ul>
-            </li>
+        <a href="#portfolio" class="hero-button">
+            Explore my Builds
+        </a>
 
-            <li><a href="#">Legacy Projects</a></li>
-
-            <li><a href="#">Available Designs</a></li>
-
-            <li><a href="#">About Me</a></li>
-
-            <li><a href="#">Contact</a></li>
-
-        </ul>
-    </nav>
+    </div>
 
 </header>
 
 
 <main>
 
-<section class="hero">
+<section id="portfolio" class="portfolio">
 
-    <h1>Every build tells a story.</h1>
+    <div class="section-title">
 
-    <h2>Welcome to my world.</h2>
+        <h2>Portfolio</h2>
 
-    <p>
-        From Alliance manors and Horde strongholds to cozy taverns,
-        class halls, race-inspired rooms and breathtaking views across Azeroth,
-        I create unique World of Warcraft housing experiences.
-    </p>
+        <p>
+            A collection of my favorite housing creations.
+        </p>
 
-</section>
+    </div>
 
 
+    <div class="filters">
 
-<section class="featured">
+        <button class="filter active" data-filter="all">All</button>
 
-    <h2>Featured Builds</h2>
+        <button class="filter" data-filter="interior">Interiors</button>
+
+        <button class="filter" data-filter="exterior">Exteriors</button>
+
+        <button class="filter" data-filter="theme">Themes</button>
+
+        <button class="filter" data-filter="legacy">Legacy</button>
+
+    </div>
 
 
-    <div class="cards">
+    <div class="gallery">
+
+        <!-- Build 1 -->
+
+        <article class="card" data-category="theme">
+
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Babylon"
+                 alt="Babylon">
+
+            <div class="card-content">
+
+                <span class="category">
+                    Theme
+                </span>
+
+                <h3>Hanging Gardens of Babylon</h3>
+
+                <p>
+                    Epic fantasy recreation inspired by one of the Seven Wonders.
+                </p>
+
+            </div>
+
+        </article>
 
 
-        <article class="card">
+        <!-- Build 2 -->
 
-            <img src="images/tree-house.jpg" alt="Tree House">
+        <article class="card" data-category="interior">
 
-            <h3>Tree House</h3>
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Hogwarts"
+                 alt="Hogwarts">
 
-            <p>
-                A magical home built among the trees.
-            </p>
+            <div class="card-content">
+
+                <span class="category">
+                    Interior
+                </span>
+
+                <h3>Hogwarts Common Room</h3>
+
+                <p>
+                    Cozy magical atmosphere inspired by the wizarding world.
+                </p>
+
+            </div>
 
         </article>
 
 
+        <!-- Build 3 -->
 
-        <article class="card">
+        <article class="card" data-category="theme">
 
-            <img src="images/babylon.jpg" alt="Hanging Gardens of Babylon">
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Nevermore"
+                 alt="Nevermore">
 
-            <h3>Hanging Gardens of Babylon</h3>
+            <div class="card-content">
 
-            <p>
-                An ancient wonder recreated in Azeroth.
-            </p>
+                <span class="category">
+                    Theme
+                </span>
+
+                <h3>Nevermore Academy</h3>
+
+                <p>
+                    Gothic architecture with mysterious ambience.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- Build 4 -->
+
+        <article class="card" data-category="legacy">
+
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Santorini"
+                 alt="Santorini">
+
+            <div class="card-content">
+
+                <span class="category">
+                    Legacy
+                </span>
+
+                <h3>Mini Santorini</h3>
+
+                <p>
+                    Award-winning miniature village inspired by Greece.
+                </p>
+
+            </div>
 
         </article>
 
 
+        <!-- Build 5 -->
 
-        <article class="card">
+        <article class="card" data-category="exterior">
 
-            <img src="images/silvermoon.jpg" alt="Silvermoon View">
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=London"
+                 alt="London">
 
-            <h3>Silvermoon Vista</h3>
+            <div class="card-content">
 
-            <p>
-                A breathtaking view inspired by Azeroth.
-            </p>
+                <span class="category">
+                    Exterior
+                </span>
+
+                <h3>Old London</h3>
+
+                <p>
+                    Victorian streets and mysterious atmosphere.
+                </p>
+
+            </div>
 
         </article>
 
+
+        <!-- Build 6 -->
+
+        <article class="card" data-category="theme">
+
+            <img src="https://placehold.co/700x450/171b28/FFFFFF?text=Wonderland"
+                 alt="Wonderland">
+
+            <div class="card-content">
+
+                <span class="category">
+                    Theme
+                </span>
+
+                <h3>Alice in Wonderland</h3>
+
+                <p>
+                    Surreal fantasy environment inspired by Lewis Carroll.
+                </p>
+
+            </div>
+
+        </article>
 
     </div>
 
 </section>
 
-
-
-<section class="about-preview">
-
-    <h2>Behind Pixideus</h2>
-
-    <p>
-        World of Warcraft player since 2005.
-        After years of high-end PvE and progression raiding,
-        I discovered a new passion: creating places where stories begin.
-    </p>
-
-    <a href="#">Discover my journey</a>
-
-</section>
-
-
 </main>
 
 
-<footer>
+<!-- ========================= -->
+<!-- MODAL -->
+<!-- ========================= -->
 
-    <p>
-        © Pixideus - World of Warcraft Housing Creations
-    </p>
+<div class="modal" id="modal">
 
-</footer>
+    <div class="modal-content">
+
+        <button class="close">&times;</button>
+
+        <div class="modal-left">
+
+            <div class="slider">
+
+                <button class="arrow left">&#10094;</button>
+
+                <img
+                    id="modalImage"
+                    src="https://placehold.co/1000x700/111111/FFFFFF?text=Gallery"
+                    alt="Gallery">
+
+                <button class="arrow right">&#10095;</button>
+
+            </div>
+
+        </div>
 
 
-<script src="script.js"></script>
+        <div class="modal-right">
+
+            <h2 id="modalTitle">
+                Build Title
+            </h2>
+
+            <p id="modalDescription">
+
+                Description of the build.
+
+            </p>
+
+            <div class="video-wrapper">
+
+                <iframe
+                        id="youtubeVideo"
+                        src="https://www.youtube.com/embed/gx798FRvx14"
+                        title="YouTube video"
+                        allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+const cards=document.querySelectorAll(".card");
+const modal=document.getElementById("modal");
+const close=document.querySelector(".close");
+
+cards.forEach(card=>{
+
+card.addEventListener("click",()=>{
+
+document.getElementById("modalTitle").innerText=
+card.querySelector("h3").innerText;
+
+document.getElementById("modalDescription").innerText=
+card.querySelector("p").innerText;
+
+document.getElementById("modalImage").src=
+card.querySelector("img").src;
+
+modal.classList.add("show");
+
+});
+
+});
+
+close.onclick=()=>{
+
+modal.classList.remove("show");
+
+}
+
+window.onclick=(e)=>{
+
+if(e.target===modal){
+
+modal.classList.remove("show");
+
+}
+
+}
+
+
+const filters=document.querySelectorAll(".filter");
+
+filters.forEach(button=>{
+
+button.addEventListener("click",()=>{
+
+filters.forEach(b=>b.classList.remove("active"));
+
+button.classList.add("active");
+
+const filter=button.dataset.filter;
+
+cards.forEach(card=>{
+
+if(filter==="all"){
+
+card.style.display="block";
+
+}
+
+else{
+
+card.style.display=
+card.dataset.category===filter
+?
+"block"
+:
+"none";
+
+}
+
+});
+
+});
+
+});
+
+</script>
 
 </body>
 </html>
