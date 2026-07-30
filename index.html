@@ -2,86 +2,268 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pixideus - World of Warcraft Housing Creations</title>
+    <title>Pixideus | World of Warcraft Housing Creator</title>
 
+    <meta name="description"
+        content="Discover the World of Warcraft housing creations of Pixideus. Original builds, collections and artistic projects.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-    <header class="hero"></header>
+<header id="top">
 
-    <main>
+    <div class="container">
 
-        <section class="section">
+        <div class="logo">
+            Pixideus
+        </div>
 
-            <h2>My Builds</h2>
+        <nav>
 
-            <div id="my-builds" class="gallery-grid"></div>
+            <a href="#builds">My Builds</a>
 
-        </section>
+            <a href="#collections">Collections</a>
 
+            <a href="#old-builds">Old Builds</a>
 
-        <section class="section">
+            <a href="#about">About Me</a>
 
-            <h2>Collections</h2>
+            <a href="#contact">Contact Me</a>
 
-            <div id="collections" class="gallery-grid"></div>
-
-        </section>
-
-
-        <section class="section">
-
-            <h2>Old Builds</h2>
-
-            <div id="old-builds" class="gallery-grid"></div>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <p class="footer-note">
-            Screenshots always reflect the latest version of each build. Videos remain unchanged after publication and may therefore show minor differences.
-        </p>
-
-        <p class="copyright">
-            © Pixideus • World of Warcraft Housing Creations
-        </p>
-
-    </footer>
-
-
-    <!-- Lightbox -->
-
-    <div id="lightbox" class="lightbox">
-
-        <span class="close">&times;</span>
-
-        <img id="lightbox-image" src="" alt="">
-
-        <button id="prev">&#10094;</button>
-
-        <button id="next">&#10095;</button>
+        </nav>
 
     </div>
 
+</header>
 
-    <script src="builds.js"></script>
-    <script src="script.js"></script>
+<section class="hero">
+
+    <img src="images/banner.jpg" alt="Pixideus Banner">
+
+</section>
+
+<section class="socials">
+
+    <a href="https://instagram.com/" target="_blank">
+
+        <i class="fa-brands fa-instagram"></i>
+
+    </a>
+
+    <a href="https://youtube.com/" target="_blank">
+
+        <i class="fa-brands fa-youtube"></i>
+
+    </a>
+
+    <a href="https://reddit.com/" target="_blank">
+
+        <i class="fa-brands fa-reddit"></i>
+
+    </a>
+
+    <a href="https://facebook.com/" target="_blank">
+
+        <i class="fa-brands fa-facebook"></i>
+
+    </a>
+
+</section>
+
+<section class="explore">
+
+    <button id="exploreButton">
+
+        ✨ Explore my creations ✨
+
+    </button>
+
+</section>
+
+<main>
+
+<section id="builds" class="section">
+
+    <div class="section-title">
+
+        <h2>My Builds</h2>
+
+        <p>
+            Every build is handcrafted inside World of Warcraft Housing.
+        </p>
+
+    </div>
+
+    <div id="buildContainer">
+
+        <!-- builds.js -->
+
+    </div>
+
+</section>
+
+<section id="collections" class="section">
+
+    <div class="section-title">
+
+        <h2>Collections</h2>
+
+        <p>
+            Themed projects and artistic universes.
+        </p>
+
+    </div>
+
+    <div class="collection-grid">
+
+        <article class="collection-card">
+
+            <h3>Hogwarts</h3>
+
+            <p>
+                A magical collection inspired by the famous wizarding school.
+            </p>
+
+        </article>
+
+        <article class="collection-card">
+
+            <h3>Burtonesque Wonderland</h3>
+
+            <p>
+                Dark fantasy creations inspired by Tim Burton.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section id="old-builds" class="section">
+
+    <div class="section-title">
+
+        <h2>Old Builds</h2>
+
+        <p>
+            My earliest creations.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="about" class="section">
+
+    <div class="section-title">
+
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about">
+
+        <p>
+
+            Hello!
+
+        </p>
+
+        <p>
+
+            I'm Pixideus, a World of Warcraft Housing creator passionate about
+            transforming empty spaces into immersive worlds.
+
+        </p>
+
+        <p>
+
+            Every project is imagined, designed and built with creativity,
+            patience and attention to detail.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section">
+
+    <div class="section-title">
+
+        <h2>Contact Me</h2>
+
+        <p>
+
+            Want to discuss a build or simply say hello?
+
+        </p>
+
+    </div>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            placeholder="Character / Nickname"
+            required>
+
+        <input
+            type="text"
+            placeholder="BattleTag (optional)">
+
+        <input
+            type="email"
+            placeholder="Email (optional)">
+
+        <textarea
+            rows="8"
+            placeholder="Your message..."
+            required></textarea>
+
+        <button type="submit">
+
+            Send Message
+
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        © 2026 Pixideus
+
+    </p>
+
+</footer>
+
+<script src="builds.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 
