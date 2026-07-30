@@ -11,39 +11,26 @@ body {
 
     color:white;
 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lato', Arial, sans-serif;
 
 }
-
-
 
 .hero {
+
     height:420px;
+
     background-image:url("images/banner.jpg");
-    background-size:cover;
+
+    background-size:100% auto;
+
+    background-repeat:no-repeat;
+
     background-position:center top;
-    position:relative;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+    background-color:#0d0d16;
+
 }
 
-.hero::before {
-    content:"";
-    position:absolute;
-    inset:0;
-    background:linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.15),
-        rgba(13,13,22,0.9)
-    );
-}
-
-.hero-content {
-    position:relative;
-    z-index:1;
-    text-align:center;
-}
 
 
 
