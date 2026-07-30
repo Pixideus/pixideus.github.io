@@ -15,6 +15,10 @@ body {
 
 }
 
+
+
+/* Banner */
+
 .hero {
 
     height:420px;
@@ -29,20 +33,96 @@ body {
 
     background-color:#0d0d16;
 
+    position:relative;
+
+}
+
+
+.hero::after {
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    right:0;
+
+    bottom:0;
+
+    height:120px;
+
+    background:linear-gradient(
+        to bottom,
+        rgba(13,13,22,0),
+        rgba(13,13,22,1)
+    );
+
 }
 
 
 
+/* Typography */
+
+h1,
+h2,
+h3 {
+
+    font-family:'Cinzel', serif;
+
+}
+
+
+
+/* Creator note */
+
+.creator-note {
+
+    width:70%;
+
+    max-width:800px;
+
+    margin:20px auto 45px;
+
+    padding:15px 25px;
+
+    background:#12121d;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    color:#aaa;
+
+    font-size:14px;
+
+    font-style:italic;
+
+}
+
+
+
+.creator-note h2 {
+
+    font-size:18px;
+
+    color:#e7a6c5;
+
+    margin:0 0 10px;
+
+}
+
+
+
+/* Main content */
 
 main {
-
 
     width:90%;
 
     max-width:1200px;
 
     margin:auto;
-
 
 }
 
@@ -58,55 +138,41 @@ section {
 
 section h2 {
 
-
     font-size:32px;
-
 
     color:#e7a6c5;
 
-
     border-bottom:1px solid #333;
-
 
     padding-bottom:15px;
 
-
 }
 
 
 
+/* Gallery */
 
 .gallery-grid {
 
-
     display:grid;
-
 
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
-
     gap:30px;
 
-
 }
-
 
 
 
 .card {
 
-
     background:#171725;
-
 
     border-radius:15px;
 
-
     overflow:hidden;
 
-
     transition:0.3s;
-
 
 }
 
@@ -114,48 +180,35 @@ section h2 {
 
 .card:hover {
 
-
     transform:translateY(-8px);
 
-
 }
-
 
 
 
 .card img {
 
-
     width:100%;
-
 
     height:230px;
 
-
     object-fit:cover;
 
-
 }
-
 
 
 
 .card-content {
 
-
     padding:20px;
-
 
 }
 
 
 
-
 .card h3 {
 
-
     color:#e7a6c5;
-
 
 }
 
@@ -163,28 +216,22 @@ section h2 {
 
 .card p {
 
-
     color:#cccccc;
 
-
     line-height:1.5;
-
 
 }
 
 
 
+/* Footer */
 
 footer {
 
-
     text-align:center;
-
 
     padding:40px;
 
-
     color:#888;
-
 
 }
