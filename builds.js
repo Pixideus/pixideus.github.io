@@ -1,7 +1,7 @@
 const builds = [
 
     {
-        section: "Standalone Builds",
+        section: "My Builds",
         title: "Hanging Gardens of Babylon",
         description: "An epic fantasy recreation inspired by the legendary Hanging Gardens of Babylon, bringing one of the Seven Wonders to life.",
         room: "Daylight Circle Room",
@@ -18,7 +18,7 @@ const builds = [
 
 
     {
-        section: "Standalone Builds",
+        section: "My Builds",
         title: "Getaway to Greece",
         description: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
         room: "Evening Circle Room",
@@ -34,7 +34,7 @@ const builds = [
 
 
     {
-        section: "Standalone Builds",
+        section: "My Builds",
         title: "Inside the Tree, an Enchanted Nook",
         description: "A cozy home hidden inside a giant enchanted tree. Climb all the way to the top to discover every corner.",
         room: "Daylight Circle Room",
