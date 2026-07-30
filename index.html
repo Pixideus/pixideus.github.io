@@ -8,80 +8,80 @@
 
     <title>Pixideus - World of Warcraft Housing Creations</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-
 <body>
 
+    <header class="hero"></header>
 
-<header class="hero">
-</header>
+    <main>
 
+        <section class="section">
 
+            <h2>My Builds</h2>
 
-<main>
+            <div id="my-builds" class="gallery-grid"></div>
 
-
-<section>
-
-    <h2>My Builds</h2>
-
-    <div id="my-builds" class="gallery-grid"></div>
-
-</section>
+        </section>
 
 
+        <section class="section">
 
-<section>
+            <h2>Collections</h2>
 
-    <h2>Collections</h2>
+            <div id="collections" class="gallery-grid"></div>
 
-    <div id="collections" class="gallery-grid"></div>
-
-</section>
-
+        </section>
 
 
-<section>
+        <section class="section">
 
-    <h2>Old Builds</h2>
+            <h2>Old Builds</h2>
 
-    <div id="old-builds" class="gallery-grid"></div>
+            <div id="old-builds" class="gallery-grid"></div>
 
-</section>
+        </section>
 
-
-
-</main>
+    </main>
 
 
+    <footer>
+
+        <p class="footer-note">
+            Screenshots always reflect the latest version of each build. Videos remain unchanged after publication and may therefore show minor differences.
+        </p>
+
+        <p class="copyright">
+            © Pixideus • World of Warcraft Housing Creations
+        </p>
+
+    </footer>
 
 
-<footer>
+    <!-- Lightbox -->
 
-    <p class="note">
-        Note: My creations often evolve over time. Screenshots reflect the latest version of each build, while videos remain as originally published and may show minor differences.
-    </p>
+    <div id="lightbox" class="lightbox">
 
+        <span class="close">&times;</span>
 
-    <p>
-        © Pixideus - World of Warcraft Housing Creations
-    </p>
+        <img id="lightbox-image" src="" alt="">
 
+        <button id="prev">&#10094;</button>
 
-</footer>
+        <button id="next">&#10095;</button>
 
-
+    </div>
 
 
-<script src="builds.js"></script>
-
-<script src="script.js"></script>
-
+    <script src="builds.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
