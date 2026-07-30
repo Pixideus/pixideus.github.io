@@ -1,215 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <title>Pixideus - World of Warcraft Housing Creations</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Pixideus | World of Warcraft Housing</title>
-
-<meta name="description" content="Pixideus - World of Warcraft Housing creations">
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-
-<!-- =========================
-     BANNER
-========================= -->
-
-
 <header class="hero">
 
-<img src="banner.jpg" class="banner" alt="Pixideus">
+    <div class="hero-content">
 
-<div class="hero-overlay"></div>
+        <img src="images/logo.png" alt="Pixideus logo" class="logo">
+
+        <h1>Pixideus</h1>
+
+        <h2>World of Warcraft Housing Creations</h2>
+
+        <p>
+            Discover original World of Warcraft Housing creations inspired by
+            fantasy worlds, legendary places and iconic stories.
+        </p>
+
+    </div>
 
 </header>
 
 
+<section class="creator-note">
 
+    <h2>Creator's Note</h2>
 
-
-<!-- =========================
-     CREATIONS
-========================= -->
-
-
-<main>
-
-
-<section class="creations" id="creations">
-
-
-<div class="section-title">
-
-<h1>My Worlds</h1>
-
-<p>
-Discover my World of Warcraft housing creations.
-</p>
-
-</div>
-
-
-
-
-
-<!-- FILTERS -->
-
-
-<div class="filters">
-
-
-<button class="filter active" data-filter="all">
-All
-</button>
-
-
-<button class="filter" data-filter="interior">
-Interiors
-</button>
-
-
-<button class="filter" data-filter="exterior">
-Exteriors
-</button>
-
-
-<button class="filter" data-filter="fantasy">
-Fantasy
-</button>
-
-
-<button class="filter" data-filter="gothic">
-Gothic
-</button>
-
-
-<button class="filter" data-filter="legacy">
-Legacy
-</button>
-
-
-</div>
-
-
-
-
-
-<!-- BUILDS WILL APPEAR HERE -->
-
-
-<div class="gallery" id="gallery">
-
-
-</div>
-
-
+    <p>
+        My creations often evolve over time. Screenshots always reflect the
+        latest version of each build, while videos remain as originally
+        published and may therefore show minor differences.
+    </p>
 
 </section>
 
 
+<main>
+
+    <section>
+
+        <h2>Standalone Builds</h2>
+
+        <div id="standalone-builds" class="gallery-grid"></div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Collections</h2>
+
+        <div id="collections" class="gallery-grid"></div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Old Builds</h2>
+
+        <div id="old-builds" class="gallery-grid"></div>
+
+    </section>
+
 </main>
 
 
+<footer>
 
+    <p>
+        © Pixideus - World of Warcraft Housing Creations
+    </p>
 
-
-
-<!-- =========================
-     BUILD MODAL
-========================= -->
-
-
-<div class="modal" id="modal">
-
-
-<div class="modal-content">
-
-
-<button class="close" id="closeModal">
-×
-</button>
-
-
-
-
-<div class="modal-gallery">
-
-
-<button class="gallery-arrow left" id="previousImage">
-❮
-</button>
-
-
-<img id="modalImage" src="" alt="">
-
-
-<button class="gallery-arrow right" id="nextImage">
-❯
-</button>
-
-
-</div>
-
-
-
-
-
-<div class="modal-info">
-
-
-<h2 id="modalTitle">
-</h2>
-
-
-<p id="modalDescription">
-</p>
-
-
-
-<div class="video-wrapper">
-
-
-<iframe
-id="modalVideo"
-src=""
-allowfullscreen>
-</iframe>
-
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
+</footer>
 
 
 <script src="builds.js"></script>
-
 <script src="script.js"></script>
 
 
 </body>
-
 </html>
