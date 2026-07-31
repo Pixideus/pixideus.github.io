@@ -147,7 +147,6 @@ section{
 
 
 
-
 /*==========================
   HEADER
 ==========================*/
@@ -157,24 +156,28 @@ section{
     position:fixed;
 
     top:0;
-
     left:0;
-
     width:100%;
 
-    z-index:999;
+    height:70px;
 
-    background:rgba(13,13,22,.90);
+    z-index:1000;
 
-    backdrop-filter:blur(10px);
+    background:rgba(10,10,18,.30);
 
-    border-bottom:1px solid rgba(255,255,255,.05);
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
 
 }
 
 .main-nav{
 
-    height:80px;
+    height:70px;
 
     display:flex;
 
@@ -186,9 +189,9 @@ section{
 
 .logo img{
 
-    width:auto;
+    height:56px;
 
-    height:50px;
+    width:auto;
 
 }
 
@@ -196,17 +199,21 @@ section{
 
     display:flex;
 
+    align-items:center;
+
     gap:35px;
 
 }
 
 .nav a{
 
-    color:var(--text-soft);
+    color:#ffffff;
 
     font-size:.95rem;
 
     font-weight:500;
+
+    letter-spacing:.3px;
 
 }
 
@@ -223,7 +230,6 @@ section{
 }
 
 
-
 /*==========================
   HERO
 ==========================*/
@@ -232,11 +238,11 @@ section{
 
     position:relative;
 
-    margin-top:80px;
+    margin-top:0px;
 
     padding:0;
 
-    height:420px;
+    height:400px;
 
     overflow:hidden;
 
