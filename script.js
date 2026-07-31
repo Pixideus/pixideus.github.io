@@ -7,7 +7,9 @@ function createCard(build) {
 
    card.innerHTML = `
 
-        <img src="${build.cover}" alt="${build.title}">
+       <img src="${build.cover}" 
+     alt="${build.title}"
+     loading="lazy">
 
         <div class="build-content">
 
