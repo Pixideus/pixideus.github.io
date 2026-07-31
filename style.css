@@ -224,8 +224,6 @@ section{
 
 
 
-
-
 /*==========================
   HERO
 ==========================*/
@@ -234,11 +232,15 @@ section{
 
     position:relative;
 
-    height:75vh;
+    height:58vh;
 
-    min-height:650px;
+    min-height:480px;
+
+    max-height:620px;
 
     overflow:hidden;
+
+    margin-top:80px;
 
 }
 
@@ -254,17 +256,13 @@ section{
 
     object-fit:cover;
 
+    object-position:center center;
+
 }
 
 .hero-overlay{
 
-    position:absolute;
-
-    inset:0;
-
-    background:rgba(10,10,18,.15);
-
-    z-index:1;
+    display:none;
 
 }
 
@@ -278,33 +276,25 @@ section{
 
     display:flex;
 
-    align-items:center;
+    justify-content:flex-end;
 
-    justify-content:center;
+    align-items:flex-end;
 
-}
-
-.hero-title{
-
-    font-size:5rem;
-
-    letter-spacing:2px;
-
-    margin-bottom:15px;
+    padding-bottom:40px;
 
 }
 
+.hero-title,
 .hero-subtitle{
 
-    font-size:1.15rem;
-
-    margin-bottom:35px;
-
-    color:#d9d9e5;
+    display:none;
 
 }
+
+
+
 /*==========================
-  HERO CONTENT
+  HERO SOCIAL
 ==========================*/
 
 .hero-social{
@@ -313,19 +303,17 @@ section{
 
     justify-content:center;
 
-    align-items:center;
+    gap:15px;
 
-    gap:18px;
-
-    margin-bottom:35px;
+    margin-bottom:20px;
 
 }
 
 .hero-social a{
 
-    width:48px;
+    width:46px;
 
-    height:48px;
+    height:46px;
 
     border-radius:50%;
 
@@ -335,13 +323,13 @@ section{
 
     align-items:center;
 
-    font-size:1.15rem;
+    background:rgba(15,15,25,.75);
 
-    color:var(--text);
+    color:#ffffff;
 
-    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.08);
 
-    border:1px solid rgba(255,255,255,.10);
+    transition:.3s;
 
 }
 
@@ -349,12 +337,41 @@ section{
 
     background:var(--accent);
 
-    color:#fff;
-
-    transform:translateY(-4px);
+    transform:translateY(-3px);
 
 }
 
+
+
+/*==========================
+  HERO BUTTON
+==========================*/
+
+.main-button{
+
+    display:inline-block;
+
+    padding:14px 34px;
+
+    border-radius:40px;
+
+    background:var(--accent);
+
+    color:#fff;
+
+    font-weight:600;
+
+    box-shadow:var(--shadow);
+
+}
+
+.main-button:hover{
+
+    background:var(--accent-hover);
+
+    transform:translateY(-3px);
+
+}
 
 
 
