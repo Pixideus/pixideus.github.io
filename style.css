@@ -232,11 +232,11 @@ section{
 
     position:relative;
 
-    height:58vh;
+    height:46vh;
 
-    min-height:480px;
+    min-height:360px;
 
-    max-height:620px;
+    max-height:500px;
 
     overflow:hidden;
 
