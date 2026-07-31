@@ -394,6 +394,12 @@ section{
   PORTFOLIO
 ==========================*/
 
+.portfolio-section{
+
+    padding:35px 0;
+
+}
+
 .portfolio-section h2{
 
     margin-bottom:10px;
@@ -405,8 +411,6 @@ section{
     margin-bottom:25px;
 
 }
-
-
 
 
 
