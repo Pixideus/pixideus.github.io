@@ -183,7 +183,18 @@ section{
 
     align-items:center;
 
-    justify-content:space-between;
+}
+.nav{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:35px;
+
+    flex:1;
 
 }
 
@@ -200,6 +211,10 @@ section{
     display:flex;
 
     align-items:center;
+
+    justify-content:center;
+
+    flex:1;
 
     gap:35px;
 
