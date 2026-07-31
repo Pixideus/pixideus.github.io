@@ -230,7 +230,11 @@ section{
 
 .hero-section{
 
+    position:relative;
+
     margin-top:80px;
+
+    padding:0;
 
     height:420px;
 
@@ -258,11 +262,7 @@ section{
 
 .hero-bar{
 
-    background:#131320;
-
-    border-top:1px solid rgba(255,255,255,.05);
-
-    border-bottom:1px solid rgba(255,255,255,.05);
+    padding:0;
 
 }
 
