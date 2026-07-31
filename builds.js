@@ -11,7 +11,8 @@ const builds = [
             "images/Babylon/babylon2.jpg",
             "images/Babylon/babylon3.jpg",
             "images/Babylon/babylon4.jpg",
-            "images/Babylon/babylon5.jpg"
+            "images/Babylon/babylon5.jpg",
+            "images/Babylon/babylon6.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=gx798FRvx14"
     },
@@ -27,7 +28,8 @@ const builds = [
             "images/Greek-village/greek-village1.jpg",
             "images/Greek-village/greek-village2.jpg",
             "images/Greek-village/greek-village3.jpg",
-            "images/Greek-village/greek-village4.jpg"
+            "images/Greek-village/greek-village4.jpg",
+            "images/Greek-village/greek-village5.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=sxcbPXjXkvU"
     },
@@ -46,6 +48,7 @@ const builds = [
             "images/Inside-the-tree/tree4.jpg",
             "images/Inside-the-tree/tree5.jpg",
             "images/Inside-the-tree/tree6.jpg",
+            "images/Inside-the-tree/tree7.jpg",
             "images/Inside-the-tree/tree7.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=TvvXBZrNwtU"
@@ -57,13 +60,13 @@ const builds = [
         title: "Hogwarts - School of Magic",
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe.",
         room: "Multiple Rooms",
-        cover: "images/hogwarts/cover-sortinghat.jpg",
+        cover: "images/hogwarts/cover-hogwarts.jpg",
         youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg",
 
         children: [
             {
                 title: "Sorting Hat",
-                cover: "images/hogwarts/sortinghat.jpg"
+                cover: "images/hogwarts/sortinghat2.jpg"
             },
             {
                 title: "Great Hall",
@@ -101,3 +104,15 @@ const builds = [
     }
 
 ];
+,
+{
+    section: "Old Builds",
+    title: "Old Builds Collection",
+    description: "A selection of my previous World of Warcraft housing creations.",
+    cover: "images/Old-builds/cover-old-builds.jpg",
+    images: [
+        "images/Old-builds/old1.jpg",
+        "images/Old-builds/old2.jpg",
+        "images/Old-builds/old3.jpg"
+    ]
+}
