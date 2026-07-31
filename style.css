@@ -816,3 +816,76 @@ footer p{
 
 }
 
+/*==========================
+  BUILDS GALLERY
+==========================*/
+
+.builds-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3, 1fr);
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+
+.build-card{
+
+    background:#151522;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+
+.build-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+.build-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.build-content{
+
+    padding:20px;
+
+}
+
+
+.build-content h3{
+
+    margin:0 0 10px;
+
+    color:white;
+
+}
+
+
+.build-content p{
+
+    color:#aaa;
+
+    font-size:.9rem;
+
+}
