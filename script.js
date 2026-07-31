@@ -5,7 +5,7 @@ function createCard(build) {
     card.className = "build-card";
 
 
-    card.innerHTML = `
+   card.innerHTML = `
 
         <img src="${build.cover}" alt="${build.title}">
 
@@ -13,13 +13,17 @@ function createCard(build) {
 
             <h3>${build.title}</h3>
 
-            <p>${build.description}</p>
+            ${build.room ? `<p>${build.room}</p>` : ""}
 
         </div>
 
     `;
 
+card.addEventListener("click", () => {
 
+    openBuild(build);
+
+});
     return card;
 
 }
@@ -52,3 +56,9 @@ function displayBuilds() {
 
 
 displayBuilds();
+
+function openBuild(build){
+
+    alert(build.title);
+
+}
