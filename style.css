@@ -274,13 +274,9 @@ section{
 
 .hero-bar-content{
 
-    height:80px;
+    height:65px;
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
+    justify-content:center;
 
 }
 
