@@ -263,7 +263,7 @@ section{
 
 }
 
-.hero-image{
+.hero-video{
 
     width:100%;
 
@@ -271,10 +271,9 @@ section{
 
     object-fit:cover;
 
-    object-position:center center;
+    display:block;
 
 }
-
 
 
 /*==========================
