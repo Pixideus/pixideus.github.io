@@ -230,7 +230,7 @@ const builds = [
     "https://www.youtube.com/watch?v=N7ysApQUjWo",
     "https://www.youtube.com/watch?v=5n0IOwvWkR8",
     "https://www.youtube.com/watch?v=BE87NK2Ny80"
-],
+]
     ],
       
 },
