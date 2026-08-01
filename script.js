@@ -59,8 +59,6 @@ function displayBuilds() {
 
 }
 
-displayBuilds();
-
 let currentBuild = null;
 let currentImage = 0;
 
@@ -73,47 +71,43 @@ function openBuild(build){
     document.getElementById("gallery-title").textContent = build.title;
 
     document.getElementById("gallery-image").src =
-        build.cover;
+        build.images[currentImage];
 
     document.getElementById("gallery-modal").style.display = "flex";
 
 }
 
-document.getElementById("next-image").addEventListener("click",()=>{
+
+
+document.getElementById("next-image").addEventListener("click", ()=>{
+
+    if(!currentBuild) return;
+
 
     if(currentImage < currentBuild.images.length - 1){
 
         currentImage++;
 
         document.getElementById("gallery-image").src =
-        currentBuild.images[currentImage];
+            currentBuild.images[currentImage];
 
     }
 
 });
 
 
-document.getElementById("prev-image").addEventListener("click",()=>{
+
+document.getElementById("prev-image").addEventListener("click", ()=>{
+
+    if(!currentBuild) return;
+
 
     if(currentImage > 0){
 
         currentImage--;
 
         document.getElementById("gallery-image").src =
-        currentBuild.images[currentImage];
-
-    }
-
-});
-
-document.getElementById("prev-image").addEventListener("click",()=>{
-
-    if(currentImage > 0){
-
-        currentImage--;
-
-        document.getElementById("gallery-image").src =
-        "images/Babylon/" + currentBuild.images[currentImage];
+            currentBuild.images[currentImage];
 
     }
 
