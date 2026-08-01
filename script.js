@@ -33,11 +33,15 @@ function displayBuilds() {
     const buildsContainer = document.getElementById("builds-container");
     const legacyContainer = document.getElementById("legacy-container");
 
+    if (!buildsContainer && !legacyContainer) {
+        return;
+    }
+
     builds.forEach(build => {
 
         const card = createCard(build);
 
-        if (build.section === "My Builds") {
+        if (build.section === "My Builds" && buildsContainer) {
 
             buildsContainer.appendChild(card);
 
