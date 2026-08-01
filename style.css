@@ -1159,7 +1159,7 @@ animation: breadcrumbShake .3s ease;
 
 .close-viewer {
 
-    position:fixed;
+    position:absolute;
 
     top:20px;
     right:35px;
