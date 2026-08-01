@@ -131,7 +131,10 @@ const builds = [
             "images/Tim-Burton/charlie4.jpg"
             
         ],
-        youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
+        videos: [
+            "https://www.youtube.com/watch?v=-0euCNUfjCo",
+                 "https://www.youtube.com/watch?v=c8po75Vtp4M"
+                 ],
        },
 
      {
