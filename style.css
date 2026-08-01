@@ -1326,4 +1326,10 @@ animation: breadcrumbShake .3s ease;
 }
 .portfolio-section h2 {
     font-family: 'TBJ Palatino', serif;
+    font-size: 3rem;
+    color: #d98cff;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 8px rgba(217, 140, 255, 0.5),
+        0 0 18px rgba(217, 140, 255, 0.3);
 }
