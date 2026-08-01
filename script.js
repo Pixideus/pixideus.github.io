@@ -1,10 +1,5 @@
 function createCard(build) {
 
-    const column = document.createElement("div");
-
-    column.className = "col-xl-3 col-lg-4 col-md-6";
-
-
     const card = document.createElement("div");
 
     card.className = "build-card";
@@ -12,9 +7,9 @@ function createCard(build) {
 
     card.innerHTML = `
 
-        <img src="${build.cover}" 
-             alt="${build.title}"
-             loading="lazy">
+       <img src="${build.cover}" 
+     alt="${build.title}"
+     loading="lazy">
 
         <div class="build-content">
 
@@ -34,21 +29,19 @@ function createCard(build) {
     });
 
 
-    column.appendChild(card);
-
-    return column;
+    return card;
 
 }
+
+
+
 function displayBuilds() {
 
     const buildsContainer = document.getElementById("builds-container");
-    const legacyContainer = document.getElementById("legacy-container");
-
 
     builds.forEach(build => {
 
         const card = createCard(build);
-
 
         if (build.section === "My Builds") {
 
@@ -56,13 +49,16 @@ function displayBuilds() {
 
         }
 
-
-        if (build.section === "Old Builds") {
-
-            legacyContainer.appendChild(card);
-
-        }
-
     });
+
+}
+
+
+displayBuilds();
+
+
+function openBuild(build){
+
+    alert(build.title);
 
 }
