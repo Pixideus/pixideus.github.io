@@ -61,6 +61,28 @@ if(typeof builds !== "undefined"){
 }
 
 // =========================
+// Build Page
+// =========================
+
+const params = new URLSearchParams(window.location.search);
+const buildId = params.get("id");
+
+if (buildId) {
+
+    const build = builds.find(b => b.id === buildId);
+
+    if (build) {
+
+        document.getElementById("build-title").textContent = build.title;
+
+        document.getElementById("build-description").textContent = build.description;
+
+        document.getElementById("build-room").textContent = build.room;
+
+    }
+
+}
+// =========================
 // Build Image Carousel Viewer
 // =========================
 
