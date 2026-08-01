@@ -131,9 +131,17 @@ const builds = [
                         
         ],
         videos: [
-            "https://www.youtube.com/watch?v=-0euCNUfjCo",
-                 "https://www.youtube.com/watch?v=c8po75Vtp4M"
-                 ],
+    {
+    videos: [
+    {
+        title: "Burtonesque Wonderland - Video 1",
+        url: "https://www.youtube.com/watch?v=-0euCNUfjCo"
+    },
+    {
+        title: "Burtonesque Wonderland - Video 2",
+        url: "https://www.youtube.com/watch?v=c8po75Vtp4M"
+    }
+],
        },
 
      {
