@@ -947,6 +947,43 @@ footer p{
     margin-bottom:20px;
 
 }
+.build-intro {
+
+    display:flex;
+    gap:40px;
+
+    align-items:center;
+
+    margin-top:40px;
+    margin-bottom:50px;
+
+}
+
+
+.build-info {
+
+    flex:1;
+
+}
+
+
+.video-container {
+
+    flex:1;
+
+    aspect-ratio:16 / 9;
+
+}
+
+
+.video-container iframe {
+
+    width:100%;
+    height:100%;
+
+    border-radius:12px;
+
+}
 
 
 .build-description{
