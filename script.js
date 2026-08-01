@@ -140,9 +140,43 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryImages = document.querySelectorAll(".build-gallery img");
 
     const viewer = document.querySelector(".image-viewer");
-    const viewerImage = document.querySelector(".image-viewer img");
-    const closeViewer = document.querySelector(".close-viewer");
+const viewerImage = document.querySelector(".image-viewer img");
+const closeViewer = document.querySelector(".close-viewer");
 
+
+galleryImages.forEach(image => {
+
+    image.addEventListener("click", () => {
+
+        viewerImage.src = image.dataset.full;
+
+        viewer.classList.add("active");
+
+    });
+
+});
+
+
+if(closeViewer){
+
+    closeViewer.addEventListener("click", () => {
+
+        viewer.classList.remove("active");
+
+    });
+
+}
+
+
+viewer.addEventListener("click", (event) => {
+
+    if(event.target === viewer){
+
+        viewer.classList.remove("active");
+
+    }
+
+});
 galleryImages.forEach(image => {
 
     image.addEventListener("click", () => {
