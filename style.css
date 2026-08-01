@@ -1073,3 +1073,24 @@ footer p{
     margin:0 8px;
 
 }
+
+.build-gallery img {
+
+    width:100%;
+
+    border-radius:12px;
+
+    transition:transform .3s ease, box-shadow .3s ease;
+
+    cursor:pointer;
+
+}
+
+
+.build-gallery img:hover {
+
+    transform:scale(1.05);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+
+}
