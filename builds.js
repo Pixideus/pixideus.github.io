@@ -112,12 +112,10 @@ const builds = [
         title: "Burtonesque Wonderland",
         id: "burton",
         description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuicen, Alice in Wonderlands, Charlie and the chocolate factory.  Wednesday's bedroom was first a castle bedroom that i adjusted",
-        
-             room: "Multiple Rooms",
+        room: "Multiple Rooms",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
-        "https://www.youtube.com/watch?v=c8po75Vtp4M",
-        
+             
 
         images: [
             "images/Tim-Burton/tim-burton1.jpg",
