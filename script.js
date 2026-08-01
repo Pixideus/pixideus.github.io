@@ -87,12 +87,37 @@ if (buildId) {
 
 
        const video = document.getElementById("build-video");
+const videoList = document.getElementById("video-list");
+
 
 if (build.youtube) {
 
     video.src = build.youtube.replace("watch?v=", "embed/");
 
     video.title = build.title;
+
+}
+
+
+if (build.videos) {
+
+    video.src = build.videos[0].replace("watch?v=", "embed/");
+
+    build.videos.forEach((url, index) => {
+
+        const button = document.createElement("button");
+
+        button.textContent = "Video " + (index + 1);
+
+        button.addEventListener("click", () => {
+
+            video.src = url.replace("watch?v=", "embed/");
+
+        });
+
+        videoList.appendChild(button);
+
+    });
 
 }
 
