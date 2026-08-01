@@ -79,6 +79,8 @@ const builds = [
         ]
     },
 
+    
+    
 
     {
         section: "My Builds",
@@ -103,6 +105,50 @@ const builds = [
         ]
        },
 
+     {
+        section: "My Builds",
+        title: "Jamaican Bar",
+        description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.",
+        room: "Exterior",
+        cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
+        images: [
+            "jamaican-bar1.jpg",
+"jamaican-bar2.jpg",
+"jamaican-bar3.jpg",
+"jamaican-bar4.jpg",
+"jamaican-bar5.jpg",
+"jamaican-bar6.jpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=OlOqKHN4s-8"
+    },
+
+  {
+        section: "My Builds",
+        title: "Manor on the hill",
+        description: "Gothic manor",
+        room: "Exterior",
+        cover: "images/Manor/cover-manor.jpg",
+        images: [
+            "manor1.jpg",
+"manor2.jpg",
+"manor3.jpg",
+"manor4.jpg",
+"manor5.jpg",
+"manor6.jpg"
+        ],
+    },
+
+   {
+        section: "My Builds",
+        title: "Silvermoon view",
+        description: "Silvermoon",
+        room: "Square Room (Tiny)",
+        cover: "images/Silvermoon/cover-silvermoon.jpg",
+        images: [
+            "silvermoon.jpg"
+        ],
+    },  
+    
     {
         section: "Old Builds",
         title: "Old Builds Collection",
