@@ -118,7 +118,11 @@ if(prevImage){
     });
 
 }
-displayBuilds();
+if(typeof builds !== "undefined"){
+
+    displayBuilds();
+
+}
 
 // =========================
 // Build Image Viewer
