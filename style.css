@@ -1336,7 +1336,8 @@ animation: breadcrumbShake .3s ease;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.portfolio-section h2 {
+.portfolio-section h2,
+.about-section h2 {
     position: relative;
     display: table;
     margin: 0 auto;
@@ -1350,7 +1351,9 @@ animation: breadcrumbShake .3s ease;
 }
 
 .portfolio-section h2::before,
-.portfolio-section h2::after {
+.portfolio-section h2::after,
+.about-section h2::before,
+.about-section h2::after {
     content: "✦";
     position: absolute;
     top: 50%;
@@ -1360,11 +1363,13 @@ animation: breadcrumbShake .3s ease;
     animation: sparkle 3s infinite ease-in-out;
 }
 
-.portfolio-section h2::before {
+.portfolio-section h2::before,
+.about-section h2::before {
     left: -40px;
 }
 
-.portfolio-section h2::after {
+.portfolio-section h2::after,
+.about-section h2::after {
     right: -40px;
     animation-delay: 1.5s;
 }
