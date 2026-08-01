@@ -101,18 +101,18 @@ const builds = [
                 cover: "images/Tim-Burton/beetlejuice-hall.jpg"
             }
         ]
+       },
+
+    {
+        section: "Old Builds",
+        title: "Old Builds Collection",
+        description: "A selection of my previous World of Warcraft housing creations.",
+        cover: "images/Old-builds/cover-old-builds.jpg",
+        images: [
+            "images/Old-builds/old1.jpg",
+            "images/Old-builds/old2.jpg",
+            "images/Old-builds/old3.jpg"
+        ]
     }
 
 ];
-,
-{
-    section: "Old Builds",
-    title: "Old Builds Collection",
-    description: "A selection of my previous World of Warcraft housing creations.",
-    cover: "images/Old-builds/cover-old-builds.jpg",
-    images: [
-        "images/Old-builds/old1.jpg",
-        "images/Old-builds/old2.jpg",
-        "images/Old-builds/old3.jpg"
-    ]
-}
