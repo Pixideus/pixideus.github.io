@@ -61,9 +61,20 @@ function displayBuilds() {
 
 displayBuilds();
 
+let currentBuild = null;
+let currentImage = 0;
+
 
 function openBuild(build){
 
-    alert(build.title);
+    currentBuild = build;
+    currentImage = 0;
+
+    document.getElementById("gallery-title").textContent = build.title;
+
+    document.getElementById("gallery-image").src =
+        build.cover;
+
+    document.getElementById("gallery-modal").style.display = "flex";
 
 }
