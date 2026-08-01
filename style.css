@@ -1336,24 +1336,38 @@ animation: breadcrumbShake .3s ease;
         0 0 18px rgba(217,140,255,0.3);
 }
 
+.portfolio-section .col-lg-12 {
+    text-align: center;
+}
+
+.portfolio-section h2::before,
 .portfolio-section h2::after {
     content: "✦";
     position: absolute;
-    right: -25px;
-    top: 10px;
+    top: 50%;
+    transform: translateY(-50%);
     color: #f5b6ff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     animation: sparkle 3s infinite ease-in-out;
+}
+
+.portfolio-section h2::before {
+    left: -40px;
+}
+
+.portfolio-section h2::after {
+    right: -40px;
+    animation-delay: 1.5s;
 }
 
 @keyframes sparkle {
     0%, 100% {
         opacity: 0.3;
-        transform: scale(0.8) rotate(0deg);
+        transform: translateY(-50%) scale(0.8) rotate(0deg);
     }
 
     50% {
         opacity: 1;
-        transform: scale(1.2) rotate(45deg);
+        transform: translateY(-50%) scale(1.2) rotate(45deg);
     }
 }
