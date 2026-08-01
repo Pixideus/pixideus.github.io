@@ -141,7 +141,7 @@ const builds = [
         title: "Burtonesque Wonderland - Video 2",
         url: "https://www.youtube.com/watch?v=c8po75Vtp4M"
     }
-],
+]
        },
 
      {
