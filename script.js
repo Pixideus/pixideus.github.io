@@ -86,11 +86,15 @@ if (buildId) {
         document.getElementById("breadcrumb-title").textContent = build.title;
 
 
-        const video = document.getElementById("build-video");
+       const video = document.getElementById("build-video");
 
-        video.src = build.youtube.replace("watch?v=", "embed/");
+if (build.youtube) {
 
-        video.title = build.title;
+    video.src = build.youtube.replace("watch?v=", "embed/");
+
+    video.title = build.title;
+
+}
 
 
        const gallery = document.getElementById("build-gallery");
