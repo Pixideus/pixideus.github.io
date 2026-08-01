@@ -133,9 +133,7 @@ const builds = [
             "images/Tim-Burton/charlie2.jpg",
             "images/Tim-Burton/charlie3.jpg",
             "images/Tim-Burton/charlie4.jpg"
-            {
-           
-            }
+            
         ]
        },
 
