@@ -78,12 +78,35 @@ if (buildId) {
         document.getElementById("build-description").textContent = build.description;
 
         document.getElementById("build-room").textContent = build.room;
-document.getElementById("breadcrumb-title").textContent = build.title;
-      const video = document.getElementById("build-video");
 
-video.src = build.youtube.replace("watch?v=", "embed/");
+        document.getElementById("breadcrumb-title").textContent = build.title;
 
-video.title = build.title;  
+
+        const video = document.getElementById("build-video");
+
+        video.src = build.youtube.replace("watch?v=", "embed/");
+
+        video.title = build.title;
+
+
+        const gallery = document.getElementById("build-gallery");
+
+        build.images.forEach(image => {
+
+            const img = document.createElement("img");
+
+            img.src = image.small;
+
+            img.dataset.full = image.full;
+
+            img.alt = build.title;
+
+            img.loading = "lazy";
+
+            gallery.appendChild(img);
+
+        });
+
     }
 
 }
