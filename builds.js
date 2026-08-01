@@ -2,6 +2,7 @@ const builds = [
 
     {
         section: "My Builds",
+        id: "babylon",
         title: "Hanging Gardens of Babylon",
         description: "An epic fantasy recreation inspired by the legendary Hanging Gardens of Babylon, bringing one of the Seven Wonders to life.",
         room: "Daylight Circle Room",
@@ -20,6 +21,7 @@ const builds = [
 
     {
         section: "My Builds",
+        id: "greece",
         title: "Getaway to Greece",
         description: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
         room: "Evening Circle Room",
@@ -38,6 +40,7 @@ const builds = [
     {
         section: "My Builds",
         title: "Inside the Tree, an Enchanted Nook",
+        id: "tree",
         description: "A cozy home hidden inside a giant enchanted tree. Climb all the way to the top to discover every corner.",
         room: "Daylight Circle Room",
         cover: "images/Inside-the-tree/cover-tree.jpg",
@@ -58,6 +61,7 @@ const builds = [
     {
         section: "My Builds",
         title: "Hogwarts - School of Magic",
+        id: "hogwarts",
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe.",
         room: "Multiple Rooms",
         cover: "images/hogwarts/cover-hogwarts.jpg",
@@ -85,6 +89,7 @@ const builds = [
     {
         section: "My Builds",
         title: "Burtonesque Wonderland",
+        id: "burton",
         description: "Inspired by Tim Burton's universe.",
              room: "Multiple Rooms",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
@@ -109,6 +114,7 @@ const builds = [
      {
         section: "My Builds",
         title: "Jamaican Bar",
+         id: "Jamaicanbar",
         description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.",
         room: "Exterior",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
@@ -126,6 +132,7 @@ const builds = [
   {
         section: "My Builds",
         title: "Manor on the hill",
+      id: "manor",
         description: "Gothic manor",
         room: "Exterior",
         cover: "images/Manor/cover-manor.jpg",
@@ -142,6 +149,7 @@ const builds = [
    {
         section: "My Builds",
         title: "Silvermoon view",
+       id: "silvermoon",
         description: "Silvermoon",
         room: "Square Room (Tiny)",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
@@ -153,6 +161,7 @@ const builds = [
   {
     section: "Old Builds",
     title: "Old Builds Collection",
+      id: "oldbuilds",
     description: "A selection of my previous World of Warcraft housing creations.",
     cover: "images/Old-builds/cover-old-builds.jpg",
     images: [
