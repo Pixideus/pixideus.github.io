@@ -119,7 +119,7 @@ const builds = [
         room: "Exterior",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
-            "jamaican-bar1.jpg",
+            "images/jamaican-bar1.jpg",
 "images/jamaican-bar2.jpg",
 "images/jamaican-bar3.jpg",
 "images/jamaican-bar4.jpg",
