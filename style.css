@@ -1173,21 +1173,6 @@ animation: breadcrumbShake .3s ease;
 }
 
 
-
-.carousel-box img {
-
-    max-width:750px;
-
-    max-height:70vh;
-
-    border-radius:12px;
-
-    object-fit:contain;
-
-}
-
-
-
 .close-viewer {
 
     position:absolute;
