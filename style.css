@@ -915,3 +915,84 @@ footer p{
     cursor:pointer;
 
 }
+/*==========================
+  BUILD PAGE
+==========================*/
+
+
+.build-page{
+
+    padding:90px 0;
+
+}
+
+
+.back-button{
+
+    display:inline-block;
+
+    margin-bottom:40px;
+
+    color:var(--accent);
+
+    text-decoration:none;
+
+}
+
+
+.build-page h1{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+
+.build-description{
+
+    max-width:900px;
+
+    font-size:1.1rem;
+
+}
+
+
+.video-container{
+
+    margin:50px 0;
+
+}
+
+
+.video-container iframe{
+
+    width:100%;
+
+    height:600px;
+
+    border-radius:18px;
+
+}
+
+
+.build-gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+.build-gallery img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    object-fit:cover;
+
+}
