@@ -79,7 +79,11 @@ if (buildId) {
 
         document.getElementById("build-room").textContent = build.room;
 document.getElementById("breadcrumb-title").textContent = build.title;
-        
+      const video = document.getElementById("build-video");
+
+video.src = build.youtube.replace("watch?v=", "embed/");
+
+video.title = build.title;  
     }
 
 }
