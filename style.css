@@ -1326,7 +1326,8 @@ animation: breadcrumbShake .3s ease;
 }
 .portfolio-section h2 {
     position: relative;
-    display: inline-block;
+    display: table;
+    margin: 0 auto;
     font-family: 'TBJ Palatino', serif;
     font-size: 3rem;
     color: #d98cff;
@@ -1334,10 +1335,6 @@ animation: breadcrumbShake .3s ease;
     text-shadow:
         0 0 8px rgba(217,140,255,0.5),
         0 0 18px rgba(217,140,255,0.3);
-}
-
-.portfolio-section .col-lg-12 {
-    text-align: center;
 }
 
 .portfolio-section h2::before,
