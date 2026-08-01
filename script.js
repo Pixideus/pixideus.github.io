@@ -140,71 +140,49 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryImages = document.querySelectorAll(".build-gallery img");
 
     const viewer = document.querySelector(".image-viewer");
-const viewerImage = document.querySelector(".image-viewer img");
-const closeViewer = document.querySelector(".close-viewer");
+    const viewerImage = document.querySelector(".image-viewer img");
+    const closeViewer = document.querySelector(".close-viewer");
 
 
-galleryImages.forEach(image => {
-
-    image.addEventListener("click", () => {
-
-        viewerImage.src = image.dataset.full;
-
-        viewer.classList.add("active");
-
-    });
-
-});
+    if(viewer && viewerImage){
 
 
-if(closeViewer){
+        galleryImages.forEach(image => {
 
-    closeViewer.addEventListener("click", () => {
+            image.addEventListener("click", () => {
 
-        viewer.classList.remove("active");
+                viewerImage.src = image.dataset.full;
 
-    });
+                viewer.classList.add("active");
 
-}
+            });
 
-
-viewer.addEventListener("click", (event) => {
-
-    if(event.target === viewer){
-
-        viewer.classList.remove("active");
-
-    }
-
-});
-galleryImages.forEach(image => {
-
-    image.addEventListener("click", () => {
-
-        viewerImage.src = image.dataset.full;
-
-        viewer.classList.add("active");
-
-    });
-
-});
+        });
 
 
-closeViewer.addEventListener("click", () => {
+        if(closeViewer){
 
-    viewer.classList.remove("active");
+            closeViewer.addEventListener("click", () => {
 
-});
-    
-    viewer.addEventListener("click", (event) => {
+                viewer.classList.remove("active");
 
-        if(event.target === viewer){
-
-            viewer.classList.remove("active");
+            });
 
         }
 
-    });
+
+        viewer.addEventListener("click", (event) => {
+
+            if(event.target === viewer){
+
+                viewer.classList.remove("active");
+
+            }
+
+        });
+
+
+    }
 
 
 });
