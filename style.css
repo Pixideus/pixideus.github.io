@@ -1067,13 +1067,16 @@ footer p{
 }
 
 .breadcrumb {
+
     margin-top:20px;
     margin-bottom:20px;
 
-    font-size:1rem;
+    font-size:.9rem;
 
-    color:white;
+    color:var(--text-soft);
+
 }
+
 
 .breadcrumb a {
 
