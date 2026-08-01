@@ -73,40 +73,51 @@ function openBuild(build){
 
 
 
-document.getElementById("next-image").addEventListener("click", ()=>{
+const nextImage = document.getElementById("next-image");
 
-    if(!currentBuild) return;
+if(nextImage){
 
+    nextImage.addEventListener("click", ()=>{
 
-    if(currentImage < currentBuild.images.length - 1){
-
-        currentImage++;
-
-        document.getElementById("gallery-image").src =
-            currentBuild.images[currentImage];
-
-    }
-
-});
+        if(!currentBuild) return;
 
 
+        if(currentImage < currentBuild.images.length - 1){
 
-document.getElementById("prev-image").addEventListener("click", ()=>{
+            currentImage++;
 
-    if(!currentBuild) return;
+            document.getElementById("gallery-image").src =
+                currentBuild.images[currentImage];
+
+        }
+
+    });
+
+}
 
 
-    if(currentImage > 0){
 
-        currentImage--;
+const prevImage = document.getElementById("prev-image");
 
-        document.getElementById("gallery-image").src =
-            currentBuild.images[currentImage];
+if(prevImage){
 
-    }
+    prevImage.addEventListener("click", ()=>{
 
-});
+        if(!currentBuild) return;
 
+
+        if(currentImage > 0){
+
+            currentImage--;
+
+            document.getElementById("gallery-image").src =
+                currentBuild.images[currentImage];
+
+        }
+
+    });
+
+}
 displayBuilds();
 
 // =========================
