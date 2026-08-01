@@ -127,9 +127,19 @@ if(typeof builds !== "undefined"){
 // =========================
 // Build Image Viewer
 // =========================
-console.log("Images trouvées :", document.querySelectorAll(".build-gallery img").length);
+document.addEventListener("DOMContentLoaded", () => {
 
-const galleryImages = document.querySelectorAll(".build-gallery img");
+
+    console.log(
+        "Images trouvées :",
+        document.querySelectorAll(".build-gallery img").length
+    );
+
+
+    const galleryImages = document.querySelectorAll(".build-gallery img");
+
+
+});
 
 const viewer = document.querySelector(".image-viewer");
 const viewerImage = document.querySelector(".image-viewer img");
