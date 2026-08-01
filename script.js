@@ -107,16 +107,23 @@ if (build.videos) {
 
         const button = document.createElement("button");
 
-        button.textContent = "Video " + (index + 1);
+const img = document.createElement("img");
 
-        button.addEventListener("click", () => {
+const videoId = url.split("watch?v=")[1];
 
-            video.src = url.replace("watch?v=", "embed/");
+img.src = `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
 
-        });
+img.alt = "Video " + (index + 1);
 
-        videoList.appendChild(button);
+button.appendChild(img);
 
+button.addEventListener("click", () => {
+
+    video.src = url.replace("watch?v=", "embed/");
+
+});
+
+videoList.appendChild(button);
     });
 
 }
