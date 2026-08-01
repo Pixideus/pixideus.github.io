@@ -112,3 +112,5 @@ document.getElementById("prev-image").addEventListener("click", ()=>{
     }
 
 });
+
+displayBuilds();
