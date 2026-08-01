@@ -126,7 +126,7 @@ p{
 }
 
 #build-title {
-    font-family: 'TBJ Palatino', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight:400;
     color:#d98cff;
     font-size:3rem;
@@ -242,7 +242,8 @@ section{
 
     color:#ffffff;
 
-    font-family: 'TBJ Palatino', serif;
+    font-family: 'Josefin Sans', sans-serif;
+
 
     font-size:1.6rem;
 
@@ -1366,7 +1367,7 @@ animation: breadcrumbShake .3s ease;
     position: relative;
     display: table;
     margin: 0 auto;
-    font-family: 'TBJ Palatino', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     color: #d98cff;
     letter-spacing: 2px;
