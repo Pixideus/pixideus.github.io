@@ -127,9 +127,8 @@ const builds = [
             "images/Tim-Burton/alice4.jpg",
             "images/Tim-Burton/charlie1.jpg",
             "images/Tim-Burton/charlie2.jpg",
-            "images/Tim-Burton/charlie3.jpg",
-            "images/Tim-Burton/charlie4.jpg"
-            
+            "images/Tim-Burton/charlie3.jpg"
+                        
         ],
         videos: [
             "https://www.youtube.com/watch?v=-0euCNUfjCo",
