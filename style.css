@@ -1033,3 +1033,9 @@ footer p{
     object-fit:cover;
 
 }
+.build-page h1,
+.build-page h2 {
+
+    color: var(--accent);
+
+}
