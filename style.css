@@ -951,11 +951,10 @@ footer p{
 
     display:flex;
     gap:40px;
-
     align-items:start;
 
     margin-top:30px;
-    margin-bottom:40px;
+    margin-bottom:10px;
 
 }
 
