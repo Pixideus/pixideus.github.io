@@ -1123,7 +1123,7 @@ animation: breadcrumbShake .3s ease;
 
     inset: 0;
 
-     background: red !important;
+     background: rgba(0, 0, 0, 0.85);
 
     display: none;
 
