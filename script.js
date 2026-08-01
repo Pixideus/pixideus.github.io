@@ -34,10 +34,10 @@ function createCard(build) {
 }
 
 
-
 function displayBuilds() {
 
     const buildsContainer = document.getElementById("builds-container");
+    const legacyContainer = document.getElementById("legacy-container");
 
     builds.forEach(build => {
 
@@ -49,10 +49,15 @@ function displayBuilds() {
 
         }
 
+        if (build.section === "Old Builds" && legacyContainer) {
+
+            legacyContainer.appendChild(card);
+
+        }
+
     });
 
 }
-
 
 displayBuilds();
 
