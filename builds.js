@@ -109,9 +109,34 @@ const builds = [
         description: "A selection of my previous World of Warcraft housing creations.",
         cover: "images/Old-builds/cover-old-builds.jpg",
         images: [
-            "images/Old-builds/old1.jpg",
-            "images/Old-builds/old2.jpg",
-            "images/Old-builds/old3.jpg"
+            "aladdin.jpg",
+"arcantina1.jpg",
+"arcantina2.jpg",
+"cozy-nightelf-bedroom1.jpg",
+"cozy-nightelf-bedroom2.jpg",
+"cozy-nightelf-bedroom3.jpg",
+"cozy-nightelf-bedroom4.jpg",
+"frozen-castle.jpg",
+"greek-exterior1.jpg",
+"greek-exterior2.jpg",
+"grizzly-hills.jpg",
+"harandar.jpg",
+"inside-village.jpg",
+"inside-village2.jpg",
+"moroccanriad1.jpg",
+"oasis1.jpg",
+"oasis2.jpg",
+"old-london.jpg",
+"old-london2.jpg",
+"panda1.jpg",
+"panda2.jpg",
+"panda3.jpg",
+"panda4.jpg",
+"panda5.jpg",
+"panda6.jpg",
+"silvermoonroom.jpg",
+"zulaman.jpg",
+"zulaman2.jpg"
         ]
     }
 
