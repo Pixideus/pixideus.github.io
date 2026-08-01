@@ -127,6 +127,7 @@ if(typeof builds !== "undefined"){
 // =========================
 // Build Image Viewer
 // =========================
+
 document.addEventListener("DOMContentLoaded", () => {
 
 
@@ -138,41 +139,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const galleryImages = document.querySelectorAll(".build-gallery img");
 
-
-});
-
-const viewer = document.querySelector(".image-viewer");
-const viewerImage = document.querySelector(".image-viewer img");
-const closeViewer = document.querySelector(".close-viewer");
+    const viewer = document.querySelector(".image-viewer");
+    const viewerImage = document.querySelector(".image-viewer img");
+    const closeViewer = document.querySelector(".close-viewer");
 
 
-galleryImages.forEach(image => {
+    galleryImages.forEach(image => {
 
-    image.addEventListener("click", () => {
+        image.addEventListener("click", () => {
 
-        viewerImage.src = image.dataset.full;
+            viewerImage.src = image.dataset.full;
 
-        viewer.classList.add("active");
+            viewer.classList.add("active");
+
+        });
 
     });
 
-});
 
-
-closeViewer.addEventListener("click", () => {
-
-    viewer.classList.remove("active");
-
-});
-
-
-viewer.addEventListener("click", (event) => {
-
-    if(event.target === viewer){
+    closeViewer.addEventListener("click", () => {
 
         viewer.classList.remove("active");
 
-    }
+    });
+
+
+    viewer.addEventListener("click", (event) => {
+
+        if(event.target === viewer){
+
+            viewer.classList.remove("active");
+
+        }
+
+    });
+
 
 });
+
+
 console.log("Script chargé");
