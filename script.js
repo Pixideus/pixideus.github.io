@@ -144,26 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeViewer = document.querySelector(".close-viewer");
 
 
-    galleryImages.forEach(image => {
-
-        image.addEventListener("click", () => {
-
-            viewerImage.src = image.dataset.full;
-
-            viewer.classList.add("active");
-
-        });
-
-    });
-
-
-    closeViewer.addEventListener("click", () => {
-
-        viewer.classList.remove("active");
-
-    });
-
-
+    
     viewer.addEventListener("click", (event) => {
 
         if(event.target === viewer){
