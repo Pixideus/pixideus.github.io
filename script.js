@@ -53,71 +53,7 @@ function displayBuilds() {
 
 }
 
-let currentBuild = null;
-let currentImage = 0;
 
-
-function openBuild(build){
-
-    currentBuild = build;
-    currentImage = 0;
-
-    document.getElementById("gallery-title").textContent = build.title;
-
-    document.getElementById("gallery-image").src =
-        build.images[currentImage];
-
-    document.getElementById("gallery-modal").style.display = "flex";
-
-}
-
-
-
-const nextImage = document.getElementById("next-image");
-
-if(nextImage){
-
-    nextImage.addEventListener("click", ()=>{
-
-        if(!currentBuild) return;
-
-
-        if(currentImage < currentBuild.images.length - 1){
-
-            currentImage++;
-
-            document.getElementById("gallery-image").src =
-                currentBuild.images[currentImage];
-
-        }
-
-    });
-
-}
-
-
-
-const prevImage = document.getElementById("prev-image");
-
-if(prevImage){
-
-    prevImage.addEventListener("click", ()=>{
-
-        if(!currentBuild) return;
-
-
-        if(currentImage > 0){
-
-            currentImage--;
-
-            document.getElementById("gallery-image").src =
-                currentBuild.images[currentImage];
-
-        }
-
-    });
-
-}
 if(typeof builds !== "undefined"){
 
     displayBuilds();
