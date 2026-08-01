@@ -130,7 +130,13 @@ button.addEventListener("click", () => {
     video.src = item.url.replace("watch?v=", "embed/");
 
 });
+const title = document.createElement("span");
 
+title.className = "video-title";
+
+title.textContent = item.title;
+
+button.appendChild(title);
 videoList.appendChild(button);
     });
 
