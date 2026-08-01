@@ -4,12 +4,12 @@
 ==================================================*/
 @font-face {
     font-family: 'TBJ Palatino';
-    src: url('fonts/TBJPalatino.ttf') format('truetype');
+    src: url('fonts/TBJ Palatino Mini Edition.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Belgium Victory';
-    src: url('fonts/BelgiumVictory.ttf') format('truetype');
+    src: url('fonts/Belgium Victory.ttf') format('truetype');
 }
 
 /*==========================
@@ -1323,4 +1323,7 @@ animation: breadcrumbShake .3s ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.portfolio-section h2 {
+    font-family: 'TBJ Palatino', serif;
 }
