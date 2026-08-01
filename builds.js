@@ -62,7 +62,7 @@ const builds = [
         section: "My Builds",
         title: "Hogwarts - School of Magic",
         id: "hogwarts",
-        description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe.",
+        description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe. Sorting, Great Hall, Pensieve, Mandrakes, Hagrid's Hut, Potions and Defense against Dark Arts, and Divination classroom",
         room: "Multiple Rooms",
         cover: "images/hogwarts/cover-hogwarts.jpg",
         youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg",
@@ -111,23 +111,29 @@ const builds = [
         section: "My Builds",
         title: "Burtonesque Wonderland",
         id: "burton",
-        description: "Inspired by Tim Burton's universe.",
+        description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuicen, Alice in Wonderlands, Charlie and the chocolate factory",
              room: "Multiple Rooms",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
 
-        children: [
+        images: [
+            "images/Tim-Burton/tim-burton1.jpg",
+            "images/Tim-Burton/tim-burton2.jpg",
+            "images/Tim-Burton/wednesday-bedroom1.jpg",
+            "images/Tim-Burton/wednesday-bedroom2.jpg",
+            "images/Tim-Burton/wednesday-bedroom3.jpg",
+            "images/Tim-Burton/wednesday-bedroom4.jpg",
+            "images/Tim-Burton/beetlejuice-hall.jpg",
+            "images/Tim-Burton/alice1.jpg",
+            "images/Tim-Burton/alice2.jpg",
+            "images/Tim-Burton/alice3.jpg",
+            "images/Tim-Burton/alice4.jpg",
+            "images/Tim-Burton/charlie1.jpg",
+            "images/Tim-Burton/charlie2.jpg",
+            "images/Tim-Burton/charlie3.jpg",
+            "images/Tim-Burton/charlie4.jpg",
             {
-                title: "Nightmare Before Christmas / Sleepy Hollow",
-                cover: "images/Tim-Burton/tim-burton1.jpg"
-            },
-            {
-                title: "Wednesday's Bedroom",
-                cover: "images/Tim-Burton/Wednesday-bedroom1.jpg"
-            },
-            {
-                title: "Beetlejuice Trippy Hallway",
-                cover: "images/Tim-Burton/beetlejuice-hall.jpg"
+           
             }
         ]
        },
@@ -215,6 +221,6 @@ const builds = [
         "images/Old-builds/zulaman.jpg",
         "images/Old-builds/zulaman2.jpg"
     ]
-}
+},
 
 ];
