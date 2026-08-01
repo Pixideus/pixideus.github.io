@@ -145,7 +145,7 @@ const builds = [
         section: "My Builds",
         title: "Jamaican Bar",
          id: "jamaican-bar",
-        description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.",
+        description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.  I've since added some decor as it was made with the 250 budget",
         room: "Exterior",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
