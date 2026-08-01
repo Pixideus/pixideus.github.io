@@ -224,14 +224,41 @@ const builds = [
         "images/Old-builds/zulaman2.jpg",
 ],
         videos: [
-    "https://www.youtube.com/watch?v=yd_-wRA-b58",
-    "https://www.youtube.com/watch?v=IqJvn-2acGA",
-    "https://www.youtube.com/watch?v=ZbJCO1nO7uw",
-    "https://www.youtube.com/watch?v=chYvcghA6IE",
-    "https://www.youtube.com/watch?v=3s5p1KePvZQ",
-    "https://www.youtube.com/watch?v=N7ysApQUjWo",
-    "https://www.youtube.com/watch?v=5n0IOwvWkR8",
-    "https://www.youtube.com/watch?v=BE87NK2Ny80"
+             {
+            title: "Aladdin",
+                 url: "https://www.youtube.com/watch?v=yd_-wRA-b58"
+                     },
+    {
+     title: "Grizzlemaw",
+        url:"https://www.youtube.com/watch?v=IqJvn-2acGA"
+ },
+    {
+            
+        title: "Cozy Pandaren House",
+    url:"https://www.youtube.com/watch?v=ZbJCO1nO7uw"
+             },
+    {
+        title: "Mediterranean exterior",
+    url:"https://www.youtube.com/watch?v=chYvcghA6IE"
+             },
+    {
+       title: "Midnight tour",
+   url:"https://www.youtube.com/watch?v=3s5p1KePvZQ"
+             },
+    {
+        title: "Jack the Ripper",
+    url:"https://www.youtube.com/watch?v=N7ysApQUjWo"
+             },
+    {
+        title: "Frozen castle",
+    url:"https://www.youtube.com/watch?v=5n0IOwvWkR8" 
+    },
+    {
+        
+        title: "Cozy Night elf bedroom",
+    url:"https://www.youtube.com/watch?v=BE87NK2Ny80" 
+    },
+
 ]
   
       
