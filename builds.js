@@ -113,11 +113,11 @@ const builds = [
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
             "jamaican-bar1.jpg",
-"jamaican-bar2.jpg",
-"jamaican-bar3.jpg",
-"jamaican-bar4.jpg",
-"jamaican-bar5.jpg",
-"jamaican-bar6.jpg"
+"images/jamaican-bar2.jpg",
+"images/jamaican-bar3.jpg",
+"images/jamaican-bar4.jpg",
+"images/jamaican-bar5.jpg",
+"images/jamaican-bar6.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=OlOqKHN4s-8"
     },
@@ -129,12 +129,12 @@ const builds = [
         room: "Exterior",
         cover: "images/Manor/cover-manor.jpg",
         images: [
-            "manor1.jpg",
-"manor2.jpg",
-"manor3.jpg",
-"manor4.jpg",
-"manor5.jpg",
-"manor6.jpg"
+            "images/manor1.jpg",
+"images/manor2.jpg",
+"images/manor3.jpg",
+"images/manor4.jpg",
+"images/manor5.jpg",
+"images/manor6.jpg"
         ],
     },
 
@@ -145,7 +145,7 @@ const builds = [
         room: "Square Room (Tiny)",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
         images: [
-            "silvermoon.jpg"
+            "images/silvermoon.jpg"
         ],
     },  
     
