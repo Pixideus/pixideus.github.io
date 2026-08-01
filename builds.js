@@ -67,19 +67,41 @@ const builds = [
         cover: "images/hogwarts/cover-hogwarts.jpg",
         youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg",
 
-        children: [
-            {
-                title: "Sorting Hat",
-                cover: "images/hogwarts/sortinghat2.jpg"
-            },
-            {
-                title: "Great Hall",
-                cover: "images/hogwarts/greathall1.jpg"
-            },
-            {
-                title: "Magic Library & Pensieve",
-                cover: "images/hogwarts/library1.jpg"
-            }
+        images: [
+            "images/hogwarts/sortinghat2.jpg",
+            "images/hogwarts/sortinghat.jpg",
+            "images/hogwarts/hogwarts-hallway.jpg",
+            "images/hogwarts/hogwarts-hallway2.jpg",         
+            "images/hogwarts/greathall1.jpg",
+            "images/hogwarts/greathall2.jpg",
+            "images/hogwarts/greathall3.jpg",
+            "images/hogwarts/greathall4.jpg",
+            "images/hogwarts/library1.jpg",
+            "images/hogwarts/library2.jpg",
+            "images/hogwarts/library3.jpg",
+            "images/hogwarts/library4.jpg",
+            "images/hogwarts/herbology1.jpg",
+            "images/hogwarts/herbology2.jpg",
+            "images/hogwarts/herbology3.jpg",
+            "images/hogwarts/herbology4.jpg",
+            "images/hogwarts/herbology5.jpg",
+             "images/hogwarts/forest1.jpg",
+             "images/hogwarts/forest2.jpg",
+             "images/hogwarts/hagrid1.jpg",
+            "images/hogwarts/hagrid2.jpg",
+            "images/hogwarts/hagrid3.jpg",
+            "images/hogwarts/hagrid4.jpg",
+            "images/hogwarts/potions1.jpg",
+               "images/hogwarts/potions1.jpg",
+               "images/hogwarts/potions2.jpg",
+               "images/hogwarts/potions3.jpg",
+               "images/hogwarts/potions4.jpg",
+               "images/hogwarts/divination1.jpg",
+             "images/hogwarts/divination2.jpg",
+             "images/hogwarts/divination3.jpg",
+             "images/hogwarts/divination4.jpg"
+            
+] 
         ]
     },
 
@@ -120,11 +142,11 @@ const builds = [
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
             "images/Jamaican-bar/jamaican-bar1.jpg",
-"images/Jamaican-bar/jamaican-bar2.jpg",
-"images/Jamaican-bar/jamaican-bar3.jpg",
-"images/Jamaican-bar/jamaican-bar4.jpg",
-"images/Jamaican-bar/jamaican-bar5.jpg",
-"images/Jamaican-bar/jamaican-bar6.jpg"
+            "images/Jamaican-bar/jamaican-bar2.jpg",
+            "images/Jamaican-bar/jamaican-bar3.jpg",
+            "images/Jamaican-bar/jamaican-bar4.jpg",
+            "images/Jamaican-bar/jamaican-bar5.jpg",
+            "images/Jamaican-bar/jamaican-bar6.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=OlOqKHN4s-8"
     },
@@ -138,11 +160,11 @@ const builds = [
         cover: "images/Manor/cover-manor.jpg",
         images: [
             "images/Manor/manor1.jpg",
-"images/Manor/manor2.jpg",
-"images/Manor/manor3.jpg",
-"images/Manor/manor4.jpg",
-"images/Manor/manor5.jpg",
-"images/Manor/manor6.jpg"
+            "images/Manor/manor2.jpg",
+            "images/Manor/manor3.jpg",
+            "images/Manor/manor4.jpg",
+            "images/Manor/manor5.jpg",
+            "images/Manor/manor6.jpg"
         ],
     },
 
