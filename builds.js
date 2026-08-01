@@ -65,8 +65,7 @@ const builds = [
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe. Sorting, Great Hall, Pensieve, Mandrakes, Hagrid's Hut, Potions and Defense against Dark Arts, and Divination classroom",
         room: "Multiple Rooms",
         cover: "images/hogwarts/cover-hogwarts.jpg",
-        youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg",
-
+        
         images: [
             "images/hogwarts/sortinghat2.jpg",
             "images/hogwarts/sortinghat.jpg",
@@ -99,12 +98,9 @@ const builds = [
              "images/hogwarts/divination2.jpg",
              "images/hogwarts/divination3.jpg",
              "images/hogwarts/divination4.jpg"
-            
-] 
-        
+             ],
+        youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
     },
-
-    
     
 
     {
@@ -114,7 +110,7 @@ const builds = [
         description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuicen, Alice in Wonderlands, Charlie and the chocolate factory.  Wednesday's bedroom was first a castle bedroom that i adjusted",
         room: "Multiple Rooms",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
-        youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
+        
              
 
         images: [
@@ -134,7 +130,8 @@ const builds = [
             "images/Tim-Burton/charlie3.jpg",
             "images/Tim-Burton/charlie4.jpg"
             
-        ]
+        ],
+        youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
        },
 
      {
@@ -190,15 +187,7 @@ const builds = [
       id: "oldbuilds",
     description: "A selection of my previous World of Warcraft housing creations.",
     cover: "images/Old-builds/cover-old-builds.jpg",
-       youtube: "https://www.youtube.com/watch?v=yd_-wRA-b58", 
-      "https://www.youtube.com/watch?v=IqJvn-2acGA", 
-      "https://www.youtube.com/watch?v=ZbJCO1nO7uw",
-      "https://www.youtube.com/watch?v=chYvcghA6IE",
-      "https://www.youtube.com/watch?v=3s5p1KePvZQ",
-      "https://www.youtube.com/watch?v=N7ysApQUjWo",
-      "https://www.youtube.com/watch?v=5n0IOwvWkR8",
-      "https://www.youtube.com/watch?v=BE87NK2Ny80",
-      
+           
       
           
       
@@ -231,7 +220,15 @@ const builds = [
         "images/Old-builds/silvermoonroom.jpg",
         "images/Old-builds/zulaman.jpg",
         "images/Old-builds/zulaman2.jpg"
-    ]
+    ],
+      youtube: "https://www.youtube.com/watch?v=yd_-wRA-b58", 
+      "https://www.youtube.com/watch?v=IqJvn-2acGA", 
+      "https://www.youtube.com/watch?v=ZbJCO1nO7uw",
+      "https://www.youtube.com/watch?v=chYvcghA6IE",
+      "https://www.youtube.com/watch?v=3s5p1KePvZQ",
+      "https://www.youtube.com/watch?v=N7ysApQUjWo",
+      "https://www.youtube.com/watch?v=5n0IOwvWkR8",
+      "https://www.youtube.com/watch?v=BE87NK2Ny80",
 },
 
 ];
