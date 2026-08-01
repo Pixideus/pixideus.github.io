@@ -6,31 +6,25 @@ function createCard(build) {
 
 
     card.innerHTML = `
-
-       <img src="${build.cover}" 
-     alt="${build.title}"
-     loading="lazy">
+        <img src="${build.cover}" 
+             alt="${build.title}"
+             loading="lazy">
 
         <div class="build-content">
-
             <h3>${build.title}</h3>
-
-            ${build.room ? `<p>${build.room}</p>` : ""}
-
+            <p>${build.description}</p>
         </div>
-
     `;
 
 
     card.addEventListener("click", () => {
 
-        openBuild(build);
+        window.location.href = `builds/build.html?id=${build.id}`;
 
     });
 
 
     return card;
-
 }
 
 
