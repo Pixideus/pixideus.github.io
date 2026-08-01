@@ -92,7 +92,6 @@ const builds = [
             "images/hogwarts/hagrid3.jpg",
             "images/hogwarts/hagrid4.jpg",
             "images/hogwarts/potions1.jpg",
-               "images/hogwarts/potions1.jpg",
                "images/hogwarts/potions2.jpg",
                "images/hogwarts/potions3.jpg",
                "images/hogwarts/potions4.jpg",
@@ -102,7 +101,7 @@ const builds = [
              "images/hogwarts/divination4.jpg"
             
 ] 
-        ]
+        
     },
 
     
