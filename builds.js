@@ -150,11 +150,11 @@ const builds = [
         section: "My Builds",
         title: "Silvermoon view",
        id: "silvermoon",
-        description: "Silvermoon",
+        description: "A view of Silvermoon that was part of a larger Midnight build (see Old build section)",
         room: "Square Room (Tiny)",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
         images: [
-            "images/Silvermoon/silvermoon.jpg"
+            "images/Silvermoon/silvermoon1.jpg"
         ],
     },  
     
