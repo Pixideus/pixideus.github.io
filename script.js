@@ -96,7 +96,6 @@ if (build.youtube) {
 
 }
 
-
        const gallery = document.getElementById("build-gallery");
 
 build.images.forEach(image => {
