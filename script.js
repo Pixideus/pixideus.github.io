@@ -93,23 +93,23 @@ if (buildId) {
         video.title = build.title;
 
 
-        const gallery = document.getElementById("build-gallery");
+       const gallery = document.getElementById("build-gallery");
 
-        build.images.forEach(image => {
+build.images.forEach(image => {
 
-            const img = document.createElement("img");
+    const img = document.createElement("img");
 
-            img.src = image.small;
+    img.src = image.replace(".jpg", "-small.jpg");
 
-            img.dataset.full = image.full;
+    img.dataset.full = image;
 
-            img.alt = build.title;
+    img.alt = build.title;
 
-            img.loading = "lazy";
+    img.loading = "lazy";
 
-            gallery.appendChild(img);
+    gallery.appendChild(img);
 
-        });
+});
 
     }
 
