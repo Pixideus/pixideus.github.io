@@ -78,3 +78,43 @@ function openBuild(build){
     document.getElementById("gallery-modal").style.display = "flex";
 
 }
+
+document.getElementById("next-image").addEventListener("click",()=>{
+
+    if(currentImage < currentBuild.images.length - 1){
+
+        currentImage++;
+
+        document.getElementById("gallery-image").src =
+        currentBuild.images[currentImage];
+
+    }
+
+});
+
+
+document.getElementById("prev-image").addEventListener("click",()=>{
+
+    if(currentImage > 0){
+
+        currentImage--;
+
+        document.getElementById("gallery-image").src =
+        currentBuild.images[currentImage];
+
+    }
+
+});
+
+document.getElementById("prev-image").addEventListener("click",()=>{
+
+    if(currentImage > 0){
+
+        currentImage--;
+
+        document.getElementById("gallery-image").src =
+        "images/Babylon/" + currentBuild.images[currentImage];
+
+    }
+
+});
