@@ -56,7 +56,7 @@ const builds = [
 
 
     {
-        section: "My builds",
+        section: "My Builds",
         title: "Hogwarts - School of Magic",
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe.",
         room: "Multiple Rooms",
@@ -81,7 +81,7 @@ const builds = [
 
 
     {
-        section: "My builds",
+        section: "My Builds",
         title: "Burtonesque Wonderland",
         description: "Inspired by Tim Burton's universe.",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
