@@ -1101,16 +1101,13 @@ footer p{
 }
 
 .breadcrumb {
-
     margin-top:20px;
     margin-bottom:20px;
 
-    font-size:.9rem;
+    font-size:1rem;
 
-    color:var(--text-soft);
-
+    color:white;
 }
-
 
 .breadcrumb a {
 
