@@ -34,24 +34,26 @@ card.addEventListener("click", () => {
 
 function displayBuilds() {
 
-
     const buildsContainer = document.getElementById("builds-container");
-
+    const collectionsContainer = document.getElementById("collections-container");
 
     builds.forEach(build => {
 
+        const card = createCard(build);
 
         if (build.section === "My Builds") {
-
-            const card = createCard(build);
 
             buildsContainer.appendChild(card);
 
         }
 
+        else if (build.section === "Collections") {
+
+            collectionsContainer.appendChild(card);
+
+        }
 
     });
-
 
 }
 
