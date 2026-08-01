@@ -1159,7 +1159,7 @@ animation: breadcrumbShake .3s ease;
 
 .close-viewer {
 
-    position:absolute;
+    position:fixed;
 
     top:20px;
     right:35px;
@@ -1196,24 +1196,5 @@ animation: breadcrumbShake .3s ease;
     100% {
         transform:translateX(0);
     }
-
-}
-.close-viewer {
-
-    display:block !important;
-
-    position:fixed !important;
-
-    top:20px !important;
-
-    right:40px !important;
-
-    color:red !important;
-
-    background:white;
-
-    font-size:60px;
-
-    z-index:9999 !important;
 
 }
