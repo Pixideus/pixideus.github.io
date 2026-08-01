@@ -112,6 +112,7 @@ displayBuilds();
 // =========================
 // Build Image Viewer
 // =========================
+console.log("Images trouvées :", document.querySelectorAll(".build-gallery img").length);
 
 const galleryImages = document.querySelectorAll(".build-gallery img");
 
