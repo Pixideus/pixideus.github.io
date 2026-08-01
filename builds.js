@@ -114,17 +114,17 @@ const builds = [
      {
         section: "My Builds",
         title: "Jamaican Bar",
-         id: "Jamaicanbar",
+         id: "jamaican-bar",
         description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.",
         room: "Exterior",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
-            "images/jamaican-bar1.jpg",
-"images/jamaican-bar2.jpg",
-"images/jamaican-bar3.jpg",
-"images/jamaican-bar4.jpg",
-"images/jamaican-bar5.jpg",
-"images/jamaican-bar6.jpg"
+            "images/Jamaican-bar/jamaican-bar1.jpg",
+"images/Jamaican-bar/jamaican-bar2.jpg",
+"images/Jamaican-bar/jamaican-bar3.jpg",
+"images/Jamaican-bar/jamaican-bar4.jpg",
+"images/Jamaican-bar/jamaican-bar5.jpg",
+"images/Jamaican-bar/jamaican-bar6.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=OlOqKHN4s-8"
     },
@@ -137,12 +137,12 @@ const builds = [
         room: "Exterior",
         cover: "images/Manor/cover-manor.jpg",
         images: [
-            "images/manor1.jpg",
-"images/manor2.jpg",
-"images/manor3.jpg",
-"images/manor4.jpg",
-"images/manor5.jpg",
-"images/manor6.jpg"
+            "images/Manor/manor1.jpg",
+"images/Manor/manor2.jpg",
+"images/Manor/manor3.jpg",
+"images/Manor/manor4.jpg",
+"images/Manor/manor5.jpg",
+"images/Manor/manor6.jpg"
         ],
     },
 
@@ -154,7 +154,7 @@ const builds = [
         room: "Square Room (Tiny)",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
         images: [
-            "images/silvermoon.jpg"
+            "images/Silvermoon/silvermoon.jpg"
         ],
     },  
     
