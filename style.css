@@ -1287,3 +1287,8 @@ animation: breadcrumbShake .3s ease;
     }
 
 }
+.test-viewer {
+
+    border:10px solid red !important;
+
+}
