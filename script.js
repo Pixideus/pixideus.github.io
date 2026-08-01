@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const prevButton = document.querySelector(".prev-image");
     const nextButton = document.querySelector(".next-image");
-
+console.log("Next button :", nextButton);
 
     let currentIndex = 0;
 
