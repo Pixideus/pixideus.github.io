@@ -1040,3 +1040,36 @@ footer p{
     color: var(--accent);
 
 }
+.breadcrumb {
+
+    margin-top:25px;
+    margin-bottom:20px;
+
+    font-size:.9rem;
+
+    color:var(--text-soft);
+
+}
+
+
+.breadcrumb a {
+
+    color:var(--accent);
+
+    text-decoration:none;
+
+}
+
+
+.breadcrumb a:hover {
+
+    color:var(--accent-hover);
+
+}
+
+
+.breadcrumb span {
+
+    margin:0 8px;
+
+}
