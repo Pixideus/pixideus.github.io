@@ -78,10 +78,12 @@ if (buildId) {
         document.getElementById("build-description").textContent = build.description;
 
         document.getElementById("build-room").textContent = build.room;
-
+document.getElementById("breadcrumb-title").textContent = build.title;
+        
     }
 
 }
+
 // =========================
 // Build Image Carousel Viewer
 // =========================
