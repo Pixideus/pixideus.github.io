@@ -546,19 +546,6 @@ min-height:110px;
 
 
 
-.about-box::before,
-.about-box::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 20px;
-    background: rgba(255, 170, 210, 0.8);
-    border-radius: 100% 0 100% 0;
-    animation: petalFloat 6s infinite ease-in-out;
-}
-
-
-
 
 /*==========================
   CONTACT SECTION
