@@ -125,39 +125,100 @@ if(typeof builds !== "undefined"){
 }
 
 // =========================
-// Build Image Viewer
+// Build Image Carousel Viewer
 // =========================
 
 document.addEventListener("DOMContentLoaded", () => {
-
-
-    console.log(
-        "Images trouvées :",
-        document.querySelectorAll(".build-gallery img").length
-    );
 
 
     const galleryImages = document.querySelectorAll(".build-gallery img");
 
     const viewer = document.querySelector(".image-viewer");
     const viewerImage = document.querySelector(".image-viewer img");
+
     const closeViewer = document.querySelector(".close-viewer");
+
+    const prevButton = document.querySelector(".prev-image");
+    const nextButton = document.querySelector(".next-image");
+
+
+    let currentIndex = 0;
+
+
+
+    function showImage(index) {
+
+        currentIndex = index;
+
+        viewerImage.src = galleryImages[currentIndex].dataset.full;
+
+    }
+
 
 
     if(viewer && viewerImage){
 
 
-        galleryImages.forEach(image => {
+        galleryImages.forEach((image, index) => {
+
 
             image.addEventListener("click", () => {
 
-                viewerImage.src = image.dataset.full;
+
+                showImage(index);
 
                 viewer.classList.add("active");
 
+
             });
 
+
         });
+
+
+
+        if(nextButton){
+
+            nextButton.addEventListener("click", (event) => {
+
+                event.stopPropagation();
+
+                currentIndex++;
+
+                if(currentIndex >= galleryImages.length){
+
+                    currentIndex = 0;
+
+                }
+
+                showImage(currentIndex);
+
+            });
+
+        }
+
+
+
+        if(prevButton){
+
+            prevButton.addEventListener("click", (event) => {
+
+                event.stopPropagation();
+
+                currentIndex--;
+
+                if(currentIndex < 0){
+
+                    currentIndex = galleryImages.length - 1;
+
+                }
+
+                showImage(currentIndex);
+
+            });
+
+        }
+
 
 
         if(closeViewer){
@@ -171,13 +232,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
 
+
         viewer.addEventListener("click", (event) => {
+
 
             if(event.target === viewer){
 
                 viewer.classList.remove("active");
 
             }
+
 
         });
 
