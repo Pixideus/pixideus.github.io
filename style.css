@@ -126,7 +126,16 @@ p{
 
 }
 
-
+#build-title {
+    font-family: 'TBJ Palatino', serif;
+    font-weight:400;
+    color:#d98cff;
+    font-size:3rem;
+    letter-spacing:2px;
+    text-shadow:
+        0 0 8px rgba(217,140,255,0.5),
+        0 0 18px rgba(217,140,255,0.3);
+}
 
 
 
