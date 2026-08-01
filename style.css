@@ -444,13 +444,11 @@ section{
 
 }
 
-.build-card img{
-
-    aspect-ratio:16/10;
-
-    object-fit:cover;
-   transition:transform .5s ease;
-
+.build-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
 }
 
 .build-card:hover img{
