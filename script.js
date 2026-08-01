@@ -149,3 +149,4 @@ viewer.addEventListener("click", (event) => {
     }
 
 });
+console.log("Script chargé");
