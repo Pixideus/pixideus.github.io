@@ -99,9 +99,9 @@ build.images.forEach(image => {
 
     const img = document.createElement("img");
 
-    img.src = image.replace(".jpg", "-small.jpg");
+    img.src = "../" + image;
 
-    img.dataset.full = image;
+    img.dataset.full = "../" + image;
 
     img.alt = build.title;
 
