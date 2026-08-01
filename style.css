@@ -2,7 +2,15 @@
  PIXIDEUS PORTFOLIO
  World of Warcraft Housing Creations
 ==================================================*/
+@font-face {
+    font-family: 'TBJ Palatino';
+    src: url('fonts/TBJPalatino.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'Belgium Victory';
+    src: url('fonts/BelgiumVictory.ttf') format('truetype');
+}
 
 /*==========================
   RESET
