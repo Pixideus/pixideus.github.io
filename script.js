@@ -167,7 +167,15 @@ console.log("Next button :", nextButton);
 
         }
 
+document.addEventListener("keydown", (e) => {
 
+    if (e.key === "Escape") {
+
+        viewer.classList.remove("active");
+
+    }
+
+});
 
         viewer.addEventListener("click", (event) => {
 
