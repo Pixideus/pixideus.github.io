@@ -86,6 +86,7 @@ const builds = [
         section: "My Builds",
         title: "Burtonesque Wonderland",
         description: "Inspired by Tim Burton's universe.",
+             room: "Multiple Rooms",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         youtube: "https://www.youtube.com/watch?v=-0euCNUfjCo",
 
