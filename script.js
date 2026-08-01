@@ -119,7 +119,7 @@ play.innerHTML = "▶";
 
 const videoId = url.split("watch?v=")[1];
 
-img.src = `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
+img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
 img.alt = "Video " + (index + 1);
 
