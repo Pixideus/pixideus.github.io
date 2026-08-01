@@ -101,9 +101,9 @@ if (build.youtube) {
 
 if (build.videos) {
 
-    video.src = build.videos[0].replace("watch?v=", "embed/");
+    video.src = build.videos[0].url.replace("watch?v=", "embed/");
 
-    build.videos.forEach((url, index) => {
+    build.videos.forEach((item, index) => {
 
      const button = document.createElement("button");
 
@@ -117,18 +117,17 @@ play.className = "play-icon";
 
 play.innerHTML = "▶";
 
-const videoId = url.split("watch?v=")[1];
-
+const videoId = item.url.split("watch?v=")[1];
 img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
-img.alt = "Video " + (index + 1);
+img.alt = item.title;
 
 button.appendChild(img);
 button.appendChild(play);
 
 button.addEventListener("click", () => {
 
-    video.src = url.replace("watch?v=", "embed/");
+    video.src = item.url.replace("watch?v=", "embed/");
 
 });
 
