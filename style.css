@@ -527,18 +527,20 @@ min-height:110px;
 
 }
 
-.about-box{
+.about-box {
+    background: rgba(20, 15, 35, 0.7);
+    border: 1px solid rgba(217, 140, 255, 0.35);
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow:
+        0 0 20px rgba(217,140,255,0.15),
+        inset 0 0 20px rgba(217,140,255,0.05);
+}
 
-    background:var(--card);
-
-    border:1px solid var(--border);
-
-    border-radius:18px;
-
-    padding:45px;
-
-    box-shadow:var(--shadow);
-
+.about-signature {
+    font-family: 'Belgium Victory', cursive;
+    font-size: 2rem;
+    color: #f0c7ff;
 }
 
 .about-box h2{
