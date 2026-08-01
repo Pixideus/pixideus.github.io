@@ -105,9 +105,17 @@ if (build.videos) {
 
     build.videos.forEach((url, index) => {
 
-        const button = document.createElement("button");
+     const button = document.createElement("button");
+
+button.className = "video-thumb";
 
 const img = document.createElement("img");
+
+const play = document.createElement("span");
+
+play.className = "play-icon";
+
+play.innerHTML = "▶";
 
 const videoId = url.split("watch?v=")[1];
 
@@ -116,6 +124,7 @@ img.src = `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
 img.alt = "Video " + (index + 1);
 
 button.appendChild(img);
+button.appendChild(play);
 
 button.addEventListener("click", () => {
 
