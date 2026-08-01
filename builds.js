@@ -221,14 +221,7 @@ const builds = [
         "images/Old-builds/zulaman.jpg",
         "images/Old-builds/zulaman2.jpg"
     ],
-      youtube: "https://www.youtube.com/watch?v=yd_-wRA-b58", 
-      "https://www.youtube.com/watch?v=IqJvn-2acGA", 
-      "https://www.youtube.com/watch?v=ZbJCO1nO7uw",
-      "https://www.youtube.com/watch?v=chYvcghA6IE",
-      "https://www.youtube.com/watch?v=3s5p1KePvZQ",
-      "https://www.youtube.com/watch?v=N7ysApQUjWo",
-      "https://www.youtube.com/watch?v=5n0IOwvWkR8",
-      "https://www.youtube.com/watch?v=BE87NK2Ny80",
+      
 },
 
 ];
