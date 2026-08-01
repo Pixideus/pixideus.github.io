@@ -1324,12 +1324,34 @@ animation: breadcrumbShake .3s ease;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.portfolio-section h2 {
-    font-family: 'TBJ Palatino', serif;
-    font-size: 3rem;
-    color: #d98cff;
-    letter-spacing: 2px;
-    text-shadow:
-        0 0 8px rgba(217, 140, 255, 0.5),
-        0 0 18px rgba(217, 140, 255, 0.3);
+.portfolio-section h2::before,
+.portfolio-section h2::after {
+    content: "✦";
+    position: absolute;
+    color: #f5b6ff;
+    font-size: 1.2rem;
+    animation: sparkle 3s infinite ease-in-out;
+}
+
+.portfolio-section h2::before {
+    left: -35px;
+    top: 10px;
+}
+
+.portfolio-section h2::after {
+    right: -35px;
+    bottom: 10px;
+    animation-delay: 1.5s;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(0.8) rotate(0deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2) rotate(45deg);
+    }
 }
