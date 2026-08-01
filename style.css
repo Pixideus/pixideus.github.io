@@ -1324,6 +1324,15 @@ animation: breadcrumbShake .3s ease;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.portfolio-section h2 {
+    position: relative;
+    font-family: 'TBJ Palatino', serif;
+    font-size: 3rem;
+    color: #d98cff;
+    text-shadow:
+        0 0 8px rgba(217,140,255,0.5),
+        0 0 18px rgba(217,140,255,0.3);
+}
 .portfolio-section h2::before,
 .portfolio-section h2::after {
     content: "✦";
