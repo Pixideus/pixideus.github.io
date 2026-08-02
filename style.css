@@ -1543,3 +1543,7 @@ animation: breadcrumbShake .3s ease;
 }
 
 
+body > *:not(.petals-overlay){
+    position: relative;
+    z-index: 2;
+}
