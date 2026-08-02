@@ -194,7 +194,7 @@ section{
 
     display:flex;
 
-    align-items:center;
+    align-items:left;
 
     justify-content:center;
 
@@ -226,7 +226,7 @@ display:block;
 
     font-weight:700;
 
-    letter-spacing:1px;
+    letter-spacing:0.8px;
 
     line-height:1;
 
