@@ -303,7 +303,7 @@ document.addEventListener("keydown", (e) => {
 document.addEventListener("DOMContentLoaded", () => {
 
     const cursorChoice = document.getElementById("cursor-choice");
-
+const savedCursor = localStorage.getItem("pixideusCursor");
     const cursors = {
 
         default: null,
@@ -323,31 +323,42 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
 
+   function applyCursor(selected){
+
+    if(selected){
+
+        document.documentElement.style.cursor =
+        `url("${selected}") 16 16, auto`;
+
+        document.body.style.cursor =
+        `url("${selected}") 16 16, auto`;
+
+        magicTrailEnabled = true;
+
+    } 
+    else {
+
+        document.documentElement.style.cursor = "";
+        document.body.style.cursor = "";
+
+        magicTrailEnabled = false;
+
+    }
+
+}
     cursorChoice.addEventListener("change", function(){
+        if(savedCursor && cursors[savedCursor]){
 
-        const selected = cursors[this.value];
+    cursorChoice.value = savedCursor;
 
+    applyCursor(cursors[savedCursor]);
 
-        if(selected){
+}
 
-            document.documentElement.style.cursor =
-            `url("${selected}") 16 16, auto`;
+    const selected = cursors[this.value];
 
-            document.body.style.cursor =
-            `url("${selected}") 16 16, auto`;
+    localStorage.setItem("pixideusCursor", this.value);
 
-            magicTrailEnabled = true;
-
-        } 
-        else {
-
-            document.documentElement.style.cursor = "";
-            document.body.style.cursor = "";
-
-            magicTrailEnabled = false;
-
-        }
-
-    });
+    applyCursor(selected);
 
 });
