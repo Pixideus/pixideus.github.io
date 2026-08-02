@@ -1514,3 +1514,26 @@ footer{
     font-family: 'Josefin Sans', sans-serif;
 
 }
+/* ==========================
+   Keep Pixideus font in build viewer
+========================== */
+
+.image-viewer,
+.image-viewer *,
+.carousel-box,
+.carousel-box *,
+.build-card,
+.build-card * {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+/* ==========================
+   Global Pixideus Font
+========================== */
+
+*,
+*::before,
+*::after {
+    font-family: 'Josefin Sans', sans-serif;
+}
