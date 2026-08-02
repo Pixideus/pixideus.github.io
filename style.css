@@ -194,9 +194,9 @@ section{
 
     display:flex;
 
-    align-items:left;
+    align-items:cener;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     flex:1;
 
@@ -226,7 +226,7 @@ display:block;
 
     font-weight:700;
 
-    letter-spacing:0.8px;
+    letter-spacing:0.7px;
 
     line-height:1;
 
