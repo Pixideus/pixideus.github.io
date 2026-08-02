@@ -168,17 +168,16 @@ section{
 
     z-index:9999;
 
-    background:rgba(10,10,18,.30);
+    background:rgba(10,10,18,.10);
 
     backdrop-filter:blur(12px);
 
     -webkit-backdrop-filter:blur(12px);
 
-    
-
     transition:.3s;
 
 }
+
 
 .main-nav{
 
@@ -189,6 +188,8 @@ section{
     align-items:center;
 
 }
+
+
 .nav{
 
     display:flex;
@@ -197,12 +198,14 @@ section{
 
     justify-content:center;
 
-    gap:35px;
-
     flex:1;
 
+    gap:35px;
+
     background:transparent !important;
+
 }
+
 
 .logo img{
 
@@ -212,26 +215,12 @@ section{
 
 }
 
-.nav{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    flex:1;
-
-    gap:35px;
-
-}
 
 .nav a{
 
     color:#ffffff;
 
-    font-family: 'Josefin Sans', sans-serif;
-
+    font-family:'Josefin Sans', sans-serif;
 
     font-size:1.6rem;
 
@@ -240,15 +229,18 @@ section{
     letter-spacing:1px;
 
     line-height:1;
- text-transform: none;
+
+    text-transform:none;
 
 }
+
 
 .nav a:hover{
 
     color:var(--accent);
 
 }
+
 
 .nav a.active{
 
