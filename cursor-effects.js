@@ -94,10 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-        particle.style.left = e.clientX + "px";
-
-        particle.style.top = e.clientY + "px";
-
+        particle.style.left = (e.clientX + 8) + "px";
+particle.style.top = (e.clientY + 10) + "px";
 
 
         if(selectedEffect === "rainbow"){
