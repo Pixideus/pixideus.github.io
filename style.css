@@ -1582,7 +1582,6 @@ animation: breadcrumbShake .3s ease;
 
     }
 
-}
 .cursor-magic-trail{
 
     position:fixed;
@@ -1599,11 +1598,127 @@ animation: breadcrumbShake .3s ease;
 
     transform:translate(-50%, -50%);
 
-    filter:
-        drop-shadow(0 0 8px rgba(120,180,255,.9))
-        drop-shadow(0 0 15px rgba(180,220,255,.6));
-
     animation:magicTrailFade .8s ease-out forwards;
+
+}
+
+
+
+/* Aura par effet */
+
+.cursor-magic-trail.crystal{
+
+    filter:
+    drop-shadow(0 0 8px #35b8ff)
+    drop-shadow(0 0 18px #35b8ff);
+
+}
+
+
+.cursor-magic-trail.horde{
+
+    filter:
+    drop-shadow(0 0 8px #ff3030)
+    drop-shadow(0 0 18px #b00000);
+
+}
+
+
+.cursor-magic-trail.alliance{
+
+    filter:
+    drop-shadow(0 0 8px #4da6ff)
+    drop-shadow(0 0 18px #0066ff);
+
+}
+
+
+.cursor-magic-trail.bottle{
+
+    filter:
+    drop-shadow(0 0 8px #65ff65)
+    drop-shadow(0 0 18px #00aa44);
+
+}
+
+
+.cursor-magic-trail.flower{
+
+    filter:
+    drop-shadow(0 0 8px #ff8fd8)
+    drop-shadow(0 0 18px #ff4fbf);
+
+}
+
+
+.cursor-magic-trail.kirin{
+
+    filter:
+    drop-shadow(0 0 8px #b05cff)
+    drop-shadow(0 0 18px #7625d9);
+
+}
+
+
+.cursor-magic-trail.mrjigglesworth{
+
+    filter:
+    drop-shadow(0 0 8px #ffd966)
+    drop-shadow(0 0 18px #d4a000);
+
+}
+
+
+.cursor-magic-trail.murloc{
+
+    filter:
+    drop-shadow(0 0 8px #4fffff)
+    drop-shadow(0 0 18px #0099cc);
+
+}
+
+
+.cursor-magic-trail.pepe{
+
+    filter:
+    drop-shadow(0 0 8px white)
+    drop-shadow(0 0 18px #ffe9a3);
+
+}
+
+
+.cursor-magic-trail.lantern{
+
+    filter:
+    drop-shadow(0 0 8px #ff6600)
+    drop-shadow(0 0 18px #cc2200);
+
+}
+
+
+
+@keyframes magicTrailFade{
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        translate(-50%, -50%)
+        scale(1);
+
+    }
+
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        translate(-50%, -80%)
+        scale(.25);
+
+    }
 
 }
 
