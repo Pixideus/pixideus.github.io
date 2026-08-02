@@ -201,6 +201,7 @@ section{
 
     flex:1;
 
+    background:transparent !important;
 }
 
 .logo img{
