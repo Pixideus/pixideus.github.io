@@ -318,4 +318,80 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+
+    document.addEventListener("mousemove", function(e){
+
+        if(selectedEffect === "default") return;
+
+
+        const sparkle = document.createElement("span");
+
+        sparkle.className = "cursor-sparkle";
+
+
+        sparkle.style.left = e.clientX + "px";
+        sparkle.style.top = e.clientY + "px";
+
+
+
+        switch(selectedEffect){
+
+            case "crystal":
+                sparkle.textContent = "✦";
+                break;
+
+
+            case "flower":
+                sparkle.textContent = "🌸";
+                break;
+
+
+            case "horde":
+                sparkle.textContent = "🔴";
+                break;
+
+
+            case "alliance":
+                sparkle.textContent = "🔵";
+                break;
+
+
+            case "kirin":
+                sparkle.textContent = "✧";
+                break;
+
+
+            case "lantern":
+                sparkle.textContent = "🏮";
+                break;
+
+
+            case "pepe":
+                sparkle.textContent = "🪶";
+                break;
+
+
+            default:
+                sparkle.textContent = "✨";
+
+        }
+
+
+
+        document.body.appendChild(sparkle);
+
+
+
+        setTimeout(() => {
+
+            sparkle.remove();
+
+        }, 700);
+
+
+
+    });
+
+
+});
 });
