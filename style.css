@@ -1508,9 +1508,7 @@ footer{
    Global Pixideus Font
 ========================== */
 
-*,
-*::before,
-*::after {
+* {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -1528,22 +1526,5 @@ footer{
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900 !important;
 }
-/* ==========================
-   Restore Font Awesome Core
-========================== */
 
-.fa-brands::before,
-.fa-solid::before {
-    display: inline-block;
-}
-/* ==========================
-   Font Awesome Glyph Fix
-========================== */
 
-.fa-brands::before {
-    content: var(--fa);
-}
-
-.fa-solid::before {
-    content: var(--fa);
-}
