@@ -338,39 +338,115 @@ let lastTrail = 0;
 
     document.addEventListener("mousemove", function(e){
 
-
-        if(selectedEffect === "default") return;
-
-if(Date.now() - lastTrail < 80) return;
-
-lastTrail = Date.now();
-        const magic = document.createElement("img");
-magic.src = effects[selectedEffect];
-
-        console.log("image trail :", magic.src);
+    if(selectedEffect === "default") return;
 
 
-       magic.className = "cursor-magic-trail " + selectedEffect;
+    const glow = document.createElement("span");
+
+    glow.className = "cursor-glow " + selectedEffect;
 
 
-        magic.style.left = e.clientX + "px";
-        magic.style.top = e.clientY + "px";
+    glow.style.left = e.clientX + "px";
+    glow.style.top = e.clientY + "px";
 
 
-        document.body.appendChild(magic);
+    document.body.appendChild(glow);
 
 
+    setTimeout(() => {
 
-        setTimeout(() => {
+        glow.remove();
 
-            magic.remove();
-
-        }, 600);
-
-
-    });
+    }, 500);
 
 
+});
+
+.cursor-glow{
+
+    position:fixed;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    z-index:9998;
+
+    transform:translate(-50%, -50%);
+
+    animation:glowFade .5s ease-out forwards;
+
+}
+
+
+.cursor-glow.crystal{
+    box-shadow:
+    0 0 8px #35b8ff,
+    0 0 16px #35b8ff;
+}
+
+
+.cursor-glow.horde{
+    box-shadow:
+    0 0 8px #ff3030,
+    0 0 16px #b00000;
+}
+
+
+.cursor-glow.alliance{
+    box-shadow:
+    0 0 8px #4da6ff,
+    0 0 16px #0066ff;
+}
+
+
+.cursor-glow.bottle{
+    box-shadow:
+    0 0 8px #65ff65,
+    0 0 16px #00aa44;
+}
+
+
+.cursor-glow.kirin{
+    box-shadow:
+    0 0 8px #b05cff,
+    0 0 16px #7625d9;
+}
+
+
+.cursor-glow.lantern{
+    box-shadow:
+    0 0 8px #ff6600,
+    0 0 16px #cc2200;
+}
+
+
+@keyframes glowFade{
+
+    from{
+
+        opacity:1;
+        transform:
+        translate(-50%,-50%)
+        scale(1);
+
+    }
+
+
+    to{
+
+        opacity:0;
+        transform:
+        translate(-50%,-50%)
+        scale(2);
+
+    }
+
+}    
 });
 
 
