@@ -1382,18 +1382,6 @@ animation: breadcrumbShake .3s ease;
     pointer-events: none;
     z-index: 1;
     overflow: hidden;
-
-    -webkit-mask-image: radial-gradient(
-        ellipse at center,
-        black 55%,
-        transparent 95%
-    );
-
-    mask-image: radial-gradient(
-        ellipse at center,
-        black 55%,
-        transparent 95%
-    );
 }
 
 .petals-overlay img{
@@ -1402,6 +1390,7 @@ animation: breadcrumbShake .3s ease;
     object-fit: cover;
     opacity: .20;
 }
+
 header,
 main,
 section,
