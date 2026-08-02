@@ -1377,11 +1377,22 @@ animation: breadcrumbShake .3s ease;
 ========================== */
 
 .petals-overlay{
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    pointer-events: none;
-    overflow: hidden;
+
+    position:fixed;
+    inset:0;
+
+    background-image:url("images/sakurapetals.gif");
+
+    background-repeat:repeat;
+
+    background-size:500px;
+
+    opacity:.25;
+
+    pointer-events:none;
+
+    z-index:-1;
+
 }
 
 .petals-overlay img{
