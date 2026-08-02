@@ -306,56 +306,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!cursorChoice) return;
 
 
-    const cursors = {
-
-        default: null,
-
-        crystal: "/images/cristalbleucursor.webp",
-        horde: "/images/horde.png",
-        alliance: "/images/alliance.png",
-        bottle: "/images/bottle.webp",
-        flower: "/images/flower.webp",
-        kirin: "/images/kirin.webp",
-        mrjigglesworth: "/images/mrjigglesworth.png",
-        murloc: "/images/murloc.webp",
-        pepe: "/images/pepe.webp",
-        ink: "/images/feather.webp",
-        lantern: "/images/lantern.webp"
-
-    };
-
-
-    function applyCursor(selected){
-
-        if(selected){
-
-            document.documentElement.style.cursor =
-            `url("${selected}") 8 2, auto`;
-
-            document.body.style.cursor =
-            `url("${selected}") 8 2, auto`;
-
-            magicTrailEnabled = true;
-
-        } 
-        else {
-
-            document.documentElement.style.cursor = "";
-            document.body.style.cursor = "";
-
-            magicTrailEnabled = false;
-
-        }
-
-    }
+    let selectedEffect = "default";
 
 
     cursorChoice.addEventListener("change", function(){
 
-        const selected = cursors[this.value];
+        selectedEffect = this.value;
 
-        applyCursor(selected);
+        console.log("Magic effect selected :", selectedEffect);
 
     });
+
 
 });
