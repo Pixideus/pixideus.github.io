@@ -191,19 +191,12 @@ section{
 
 
 .nav{
-
-    display:flex;
-
-    align-items:cener;
-
-    justify-content:flex-start;
-
-    flex:1;
-
-    gap:35px;
-
-    background:transparent !important;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 35px;
+    margin-left: 60px;   /* ajuste 40, 50, 60, 70px selon le rendu */
 }
 
 
