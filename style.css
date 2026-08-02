@@ -1359,10 +1359,6 @@ animation: breadcrumbShake .3s ease;
         transform: translateY(-50%) scale(1.2) rotate(45deg);
     }
 }
-/* ==========================
-   Sakura Background
-========================== */
-
 .petals-overlay{
     position: fixed;
     inset: 0;
@@ -1371,36 +1367,55 @@ animation: breadcrumbShake .3s ease;
     overflow: hidden;
 }
 
+
 .petals-overlay img{
     position: absolute;
+
     width: 50%;
     height: auto;
+
     min-height: 50%;
+
     object-fit: contain;
+
+    opacity: .20;
+
+    left: 0;
+}
+
+
+/* deuxième couche */
+.petals-overlay::before{
+    content: "";
+    position: absolute;
+
+    width: 50%;
+    height: 100%;
+
+    right: 0;
+    top: 0;
+
+    background-image: url("images/sakurapetals.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
     opacity: .20;
 }
+
 
 .petals-overlay::after{
     content: "";
     position: absolute;
     inset: 0;
+
     background: linear-gradient(
         to bottom,
         #0d0d16 0%,
         transparent 20%,
         transparent 80%,
         #0d0d16 100%
-      .petals-overlay .petals-right{
-    left:50%;
-}
     );
-}
-header,
-main,
-section,
-footer{
-    position: relative;
-    z-index: 2;
 }
 /* ==========================
    Contact Social Icons
