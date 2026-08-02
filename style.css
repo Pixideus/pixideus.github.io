@@ -1502,3 +1502,15 @@ footer{
         transform: scale(0);
     }
 }
+/* Keep global font inside build viewer */
+
+.image-viewer,
+.image-viewer *,
+.carousel-box,
+.carousel-box *,
+.build-modal,
+.build-modal * {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
