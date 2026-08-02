@@ -1549,9 +1549,8 @@ animation: breadcrumbShake .3s ease;
 
     position:fixed;
 
-    width:18px;
-
-    height:18px;
+    width:10px;
+    height:10px;
 
     border-radius:50%;
 
@@ -1561,7 +1560,9 @@ animation: breadcrumbShake .3s ease;
 
     transform:translate(-50%, -50%);
 
-    animation:glowFade .5s ease-out forwards;
+    animation:glowFade .6s ease-out forwards;
+
+    opacity:.7;
 
 }
 
@@ -1571,8 +1572,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.crystal{
 
     box-shadow:
-    0 0 8px #35b8ff,
-    0 0 16px #35b8ff;
+    0 0 5px #35b8ff,
+    0 0 10px #35b8ff;
 
 }
 
@@ -1580,8 +1581,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.horde{
 
     box-shadow:
-    0 0 8px #ff3030,
-    0 0 16px #b00000;
+    0 0 5px #ff3030,
+    0 0 10px #b00000;
 
 }
 
@@ -1589,8 +1590,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.alliance{
 
     box-shadow:
-    0 0 8px #4da6ff,
-    0 0 16px #0066ff;
+    0 0 5px #4da6ff,
+    0 0 10px #0066ff;
 
 }
 
@@ -1598,8 +1599,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.bottle{
 
     box-shadow:
-    0 0 8px #65ff65,
-    0 0 16px #00aa44;
+    0 0 5px #65ff65,
+    0 0 10px #00aa44;
 
 }
 
@@ -1607,8 +1608,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.flower{
 
     box-shadow:
-    0 0 8px #ff8fd8,
-    0 0 16px #ff4fbf;
+    0 0 5px #ff8fd8,
+    0 0 10px #ff4fbf;
 
 }
 
@@ -1616,8 +1617,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.kirin{
 
     box-shadow:
-    0 0 8px #b05cff,
-    0 0 16px #7625d9;
+    0 0 5px #b05cff,
+    0 0 10px #7625d9;
 
 }
 
@@ -1625,8 +1626,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.mrjigglesworth{
 
     box-shadow:
-    0 0 8px #66ff66,
-    0 0 16px #22aa44;
+    0 0 5px #66ff66,
+    0 0 10px #22aa44;
 
 }
 
@@ -1634,8 +1635,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.murloc{
 
     box-shadow:
-    0 0 8px #4fffff,
-    0 0 16px #0099cc;
+    0 0 5px #4fffff,
+    0 0 10px #0099cc;
 
 }
 
@@ -1643,8 +1644,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.pepe{
 
     box-shadow:
-    0 0 8px white,
-    0 0 16px #ffe9a3;
+    0 0 5px white,
+    0 0 10px #ffe9a3;
 
 }
 
@@ -1652,8 +1653,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-glow.lantern{
 
     box-shadow:
-    0 0 8px #ff6600,
-    0 0 16px #cc2200;
+    0 0 5px #ff6600,
+    0 0 10px #cc2200;
 
 }
 
@@ -1663,7 +1664,7 @@ animation: breadcrumbShake .3s ease;
 
     0%{
 
-        opacity:1;
+        opacity:.8;
 
         transform:
         translate(-50%, -50%)
@@ -1677,8 +1678,8 @@ animation: breadcrumbShake .3s ease;
         opacity:0;
 
         transform:
-        translate(-50%, -50%)
-        scale(2);
+        translate(-50%, -90%)
+        scale(.2);
 
     }
 
