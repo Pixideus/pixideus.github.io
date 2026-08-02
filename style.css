@@ -1391,6 +1391,18 @@ animation: breadcrumbShake .3s ease;
     opacity: .20;
 }
 
+.petals-overlay::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        #0d0d16 0%,
+        transparent 20%,
+        transparent 80%,
+        #0d0d16 100%
+    );
+}
 header,
 main,
 section,
