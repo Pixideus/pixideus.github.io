@@ -304,12 +304,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cursorChoice = document.getElementById("cursor-choice");
 
-    // ...
-});
-
-    console.log(cursorChoice);
-
-
     const cursors = {
 
         default: null,
@@ -354,5 +348,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }
 
+    });
 
 });
