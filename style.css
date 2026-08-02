@@ -1546,3 +1546,6 @@ animation: breadcrumbShake .3s ease;
 }
 
 
+.header-area + .hero-section{
+    margin-top:0 !important;
+}
