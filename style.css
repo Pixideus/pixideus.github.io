@@ -168,7 +168,7 @@ section{
 
     z-index:9999;
 
-    background:rgba(10,10,18,.10);
+    background:rgba(10,10,18,.30);
 
     backdrop-filter:blur(12px);
 
@@ -1546,26 +1546,3 @@ animation: breadcrumbShake .3s ease;
 }
 
 
-header{
-    position:fixed;
-    z-index:9999;
-}
-
-main,
-section,
-footer{
-    position:relative;
-    z-index:2;
-}
-.main-nav{
-    background:transparent !important;
-}
-/* Force header inner transparency */
-
-.header-area *,
-.main-nav,
-.nav,
-.nav li,
-.nav a {
-    background: transparent !important;
-}
