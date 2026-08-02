@@ -363,7 +363,7 @@ magic.src = effects[selectedEffect];
 
             magic.remove();
 
-        }, 800);
+        }, 600);
 
 
     });
