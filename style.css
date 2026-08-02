@@ -1519,19 +1519,12 @@ footer{
    Font Awesome Fix
 ========================== */
 
-.fa-solid,
-.fa {
-    font-family: "Font Awesome 6 Free" !important;
-    font-weight: 900 !important;
-}
-
-.fa-brands,
-.fab {
+.fa-brands {
     font-family: "Font Awesome 6 Brands" !important;
     font-weight: 400 !important;
 }
-/* Font Awesome Render Fix */
 
-.fa-brands::before {
-    content: var(--fa);
+.fa-solid {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
 }
