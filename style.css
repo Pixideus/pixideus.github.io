@@ -625,6 +625,36 @@ min-height:110px;
 }
 
 
+/*==========================
+  COMMUNITIES SECTION
+==========================*/
+
+.communities-section {
+    text-align: center;
+}
+
+
+.communities-box {
+
+    position: relative;
+
+    background: rgba(20, 15, 35, 0.75);
+
+    border: 1px solid rgba(217, 140, 255, 0.35);
+
+    border-radius: 15px;
+
+    padding: 40px;
+
+    margin: 0 auto;
+
+    box-shadow:
+        0 0 25px rgba(217,140,255,0.15);
+
+    overflow: hidden;
+
+}
+
 
 
 
