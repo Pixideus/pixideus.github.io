@@ -1581,7 +1581,7 @@ animation: breadcrumbShake .3s ease;
         transform:translate(-50%, -80%) scale(0.2);
 
     }
-
+    }
 .cursor-magic-trail{
 
     position:fixed;
