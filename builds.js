@@ -1,5 +1,22 @@
 const builds = [
 
+     {
+        section: "My Builds",
+        id: "beach",
+        title: "PTR - Beach house",
+        description: "Testing new colors on ptr with this cute Beach Houes.",
+        room: "Exterior",
+        cover: "images/Beach/cover-beachhouse.jpg",
+        images: [
+            "images/Beach/beachhousejpg",
+            "images/Beach/beachhousejpg",
+            "images/Beach/beachhousejpg",
+            "images/Beach/beachhousejpg",
+            "images/Beach/beachhousejpg",
+            "images/Beach/beachhousejpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=m8fIw9BpyfI"
+    },
     {
         section: "My Builds",
         id: "babylon",
