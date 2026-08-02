@@ -1377,22 +1377,23 @@ animation: breadcrumbShake .3s ease;
 ========================== */
 
 .petals-overlay{
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
 
-    position:fixed;
-    inset:0;
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 45%,
+        transparent 90%
+    );
 
-    background-image:url("images/sakurapetals.gif");
-
-    background-repeat:repeat;
-
-    background-size:450px;
-
-    opacity:.25;
-
-    pointer-events:none;
-
-    z-index:-1;
-
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 45%,
+        transparent 90%
+    );
 }
 
 .petals-overlay img{
@@ -1400,10 +1401,6 @@ animation: breadcrumbShake .3s ease;
     height: 100%;
     object-fit: cover;
     opacity: .25;
-}
-body{
-    position: relative;
-    background: #0d0d16;
 }
 /* ==========================
    Contact Social Icons
