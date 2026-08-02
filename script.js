@@ -302,7 +302,52 @@ document.addEventListener("keydown", (e) => {
 
 console.log("Script chargé");
 
+const cursorChoice = document.getElementById("cursor-choice");
 
+const cursors = {
+
+    default: null,
+
+    crystal: "images/cristalbleucursor.webp",
+    horde: "images/horde.png",
+    alliance: "images/alliance.png",
+    bottle: "images/bottle.webp",
+    flower: "images/flower.webp",
+    kirin: "images/kirin.webp",
+    mrjigglesworth: "images/mrjigglesworth.png",
+    murloc: "images/murloc.webp",
+    pepe: "images/pepe.webp",
+    ink: "images/plumes.webp",
+    lantern: "images/lanter.webp"
+
+};
+
+
+cursorChoice.addEventListener("change", function(){
+
+    const selected = cursors[this.value];
+
+
+    if(selected){
+
+        document.documentElement.style.cursor =
+        `url("${selected}") 16 16, auto`;
+
+        document.body.style.cursor =
+        `url("${selected}") 16 16, auto`;
+
+        magicTrailEnabled = true;
+
+    } else {
+
+        document.documentElement.style.cursor = "";
+        document.body.style.cursor = "";
+
+        magicTrailEnabled = false;
+
+    }
+
+});
 let magicTrailEnabled = false;
 
 
