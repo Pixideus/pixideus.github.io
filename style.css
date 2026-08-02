@@ -1594,3 +1594,10 @@ filter:blur(.5px);
     0 0 8px rgba(217,140,255,.6);
 
 }
+/* ==========================
+   Anchor offset for fixed menu
+========================== */
+
+section {
+    scroll-margin-top: 110px;
+}
