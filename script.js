@@ -329,10 +329,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if(selected){
 
             document.documentElement.style.cursor =
-            `url("${selected}") 16 16, auto`;
+`url("${selected}") 0 0, auto`;
 
-            document.body.style.cursor =
-            `url("${selected}") 16 16, auto`;
+document.body.style.cursor =
+`url("${selected}") 0 0, auto`;
 
             magicTrailEnabled = true;
 
