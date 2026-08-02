@@ -301,3 +301,21 @@ document.addEventListener("keydown", (e) => {
 
 
 console.log("Script chargé");
+
+document.addEventListener("mousemove", function(e){
+
+    const particle = document.createElement("div");
+
+    particle.className = "magic-particle";
+
+    particle.style.left = e.clientX + "px";
+    particle.style.top = e.clientY + "px";
+
+    document.body.appendChild(particle);
+
+
+    setTimeout(() => {
+        particle.remove();
+    }, 800);
+
+});
