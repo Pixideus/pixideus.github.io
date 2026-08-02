@@ -303,6 +303,7 @@ document.addEventListener("keydown", (e) => {
 console.log("Script chargé");
 
 const cursorChoice = document.getElementById("cursor-choice");
+console.log(cursorChoice);
 
 const cursors = {
 
