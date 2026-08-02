@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const magic = document.createElement("img");
 
 
-        magic.src = effects[selectedEffect];
+        console.log("image trail :", magic.src);
 
 
        magic.className = "cursor-magic-trail " + selectedEffect;
