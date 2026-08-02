@@ -1507,7 +1507,7 @@ animation: breadcrumbShake .3s ease;
 
     pointer-events:none;
 
-    z-index:10000;
+    z-index:9998;
 
 
     transform:
