@@ -291,6 +291,12 @@ section{
 
     padding:0;
 
+    background: rgba(13,13,22,0.65);
+
+    backdrop-filter: blur(8px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+
 }
 
 .hero-bar-content{
