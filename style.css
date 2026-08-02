@@ -1545,4 +1545,6 @@ animation: breadcrumbShake .3s ease;
     font-weight: 900 !important;
 }
 
-
+.header-area{
+    isolation:isolate;
+}
