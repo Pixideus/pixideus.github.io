@@ -1438,4 +1438,10 @@ footer{
         0 0 28px rgba(255,182,255,.8),
         0 0 45px rgba(255,182,255,.5);
 }
-cursor: url("images/cursor-crystal.webp") 20 10, auto;
+/* ==========================
+   Custom Cursor Test
+========================== */
+
+body {
+    cursor: url("images/cristalbleucursor.webp") 32 32, auto;
+}
