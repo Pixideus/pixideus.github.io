@@ -1583,3 +1583,58 @@ animation: breadcrumbShake .3s ease;
     }
 
 }
+.cursor-magic-trail{
+
+    position:fixed;
+
+    width:32px;
+
+    height:32px;
+
+    object-fit:contain;
+
+    pointer-events:none;
+
+    z-index:10000;
+
+    transform:translate(-50%, -50%);
+
+    filter:
+        drop-shadow(0 0 8px rgba(120,180,255,.9))
+        drop-shadow(0 0 15px rgba(180,220,255,.6));
+
+    animation:magicTrailFade .8s ease-out forwards;
+
+}
+
+
+
+@keyframes magicTrailFade{
+
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        translate(-50%, -50%)
+        scale(1)
+        rotate(0deg);
+
+    }
+
+
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        translate(-50%, -80%)
+        scale(.3)
+        rotate(25deg);
+
+    }
+
+
+}
