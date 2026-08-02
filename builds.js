@@ -8,12 +8,12 @@ const builds = [
         room: "Exterior",
         cover: "images/Beach/cover-beachhouse.jpg",
         images: [
-            "images/Beach/beachhousejpg",
-            "images/Beach/beachhousejpg",
-            "images/Beach/beachhousejpg",
-            "images/Beach/beachhousejpg",
-            "images/Beach/beachhousejpg",
-            "images/Beach/beachhousejpg"
+            "images/Beach/beachhouse.jpg",
+            "images/Beach/beachhouse1.jpg",
+            "images/Beach/beachhouse2.jpg",
+            "images/Beach/beachhouse3.jpg",
+            "images/Beach/beachhouse4.jpg",
+            "images/Beach/beachhouse5.jpg"
         ],
         youtube: "https://www.youtube.com/watch?v=m8fIw9BpyfI"
     },
