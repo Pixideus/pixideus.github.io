@@ -299,11 +299,12 @@ document.addEventListener("keydown", (e) => {
 
 });
 
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const cursorChoice = document.getElementById("cursor-choice");
-const savedCursor = localStorage.getItem("pixideusCursor");
+
+    const savedCursor = localStorage.getItem("pixideusCursor");
+
     const cursors = {
 
         default: null,
@@ -323,42 +324,49 @@ const savedCursor = localStorage.getItem("pixideusCursor");
     };
 
 
-   function applyCursor(selected){
+    function applyCursor(selected){
 
-    if(selected){
+        if(selected){
 
-        document.documentElement.style.cursor =
-        `url("${selected}") 16 16, auto`;
+            document.documentElement.style.cursor =
+            `url("${selected}") 16 16, auto`;
 
-        document.body.style.cursor =
-        `url("${selected}") 16 16, auto`;
+            document.body.style.cursor =
+            `url("${selected}") 16 16, auto`;
 
-        magicTrailEnabled = true;
+            magicTrailEnabled = true;
 
-    } 
-    else {
+        } 
+        else {
 
-        document.documentElement.style.cursor = "";
-        document.body.style.cursor = "";
+            document.documentElement.style.cursor = "";
+            document.body.style.cursor = "";
 
-        magicTrailEnabled = false;
+            magicTrailEnabled = false;
+
+        }
 
     }
 
-}
+
     cursorChoice.addEventListener("change", function(){
-        if(savedCursor && cursors[savedCursor]){
 
-    cursorChoice.value = savedCursor;
+        const selected = cursors[this.value];
 
-    applyCursor(cursors[savedCursor]);
+        localStorage.setItem("pixideusCursor", this.value);
 
-}
+        applyCursor(selected);
 
-    const selected = cursors[this.value];
+    });
 
-    localStorage.setItem("pixideusCursor", this.value);
 
-    applyCursor(selected);
+    if(savedCursor && cursors[savedCursor]){
+
+        cursorChoice.value = savedCursor;
+
+        applyCursor(cursors[savedCursor]);
+
+    }
+
 
 });
