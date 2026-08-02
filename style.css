@@ -1507,7 +1507,7 @@ animation: breadcrumbShake .3s ease;
 
     pointer-events:none;
 
-    z-index:9998;
+    z-index:10000;
 
 
     transform:
@@ -1551,5 +1551,46 @@ animation: breadcrumbShake .3s ease;
 
 
     }
+
+}
+/* ==========================
+   Cursor Selector
+========================== */
+
+.cursor-selector {
+
+    position: fixed;
+
+    right: 25px;
+    top: 5px;
+
+    background: rgba(13,13,22,.85);
+
+    border: 1px solid rgba(217,140,255,.5);
+
+    padding: 10px 15px;
+
+    border-radius: 12px;
+
+    z-index: 99999;
+
+    box-shadow:
+    0 0 15px rgba(217,140,255,.25);
+
+}
+
+
+.cursor-selector label {
+
+    display: inline-block;
+
+    color: #d98cff;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    text-shadow:
+    0 0 8px rgba(217,140,255,.6);
 
 }
