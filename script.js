@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     let selectedEffect = "default";
-
+let lastTrail = 0;
 
     const effects = {
 
@@ -341,7 +341,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if(selectedEffect === "default") return;
 
+if(Date.now() - lastTrail < 80) return;
 
+lastTrail = Date.now();
         const magic = document.createElement("img");
 magic.src = effects[selectedEffect];
 
