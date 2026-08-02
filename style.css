@@ -1499,9 +1499,9 @@ animation: breadcrumbShake .3s ease;
 
     position:fixed;
 
-    width:4px;
+    width:5px;
 
-    height:4px;
+    height:9px;
 
     border-radius:50%;
 
@@ -1513,14 +1513,14 @@ animation: breadcrumbShake .3s ease;
     transform:
     translate(-50%, -50%);
 
-
+filter:blur(.5px);
     box-shadow:
     0 0 6px currentColor,
     0 0 12px currentColor;
 
 
     animation:
-    pixideusFade .5s ease-out forwards;
+    pixideusFade .7s ease-out forwards;
 
 }
 
