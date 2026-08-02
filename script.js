@@ -308,17 +308,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
         default: null,
 
-        crystal: "images/cristalbleucursor.webp",
-        horde: "images/horde.png",
-        alliance: "images/alliance.png",
-        bottle: "images/bottle.webp",
-        flower: "images/flower.webp",
-        kirin: "images/kirin.webp",
-        mrjigglesworth: "images/mrjigglesworth.png",
-        murloc: "images/murloc.webp",
-        pepe: "images/pepe.webp",
-        ink: "images/feather.webp",
-        lantern: "images/lantern.webp"
+        crystal: "/images/cristalbleucursor.webp",
+        horde: "/images/horde.png",
+        alliance: "/images/alliance.png",
+        bottle: "/images/bottle.webp",
+        flower: "/images/flower.webp",
+        kirin: "/images/kirin.webp",
+        mrjigglesworth: "/images/mrjigglesworth.png",
+        murloc: "/images/murloc.webp",
+        pepe: "/images/pepe.webp",
+        ink: "/images/feather.webp",
+        lantern: "/images/lantern.webp"
 
     };
 
