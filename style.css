@@ -265,7 +265,7 @@ section{
 
     position:relative;
 
-    margin-top:-70px;
+    margin-top:0px;
 
     padding:0;
 
@@ -1553,7 +1553,14 @@ animation: breadcrumbShake .3s ease;
 }
 
 
-body > *:not(.petals-overlay){
-    position: relative;
-    z-index: 2;
+header{
+    position:fixed;
+    z-index:9999;
+}
+
+main,
+section,
+footer{
+    position:relative;
+    z-index:2;
 }
