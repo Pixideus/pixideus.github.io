@@ -305,70 +305,57 @@ console.log("Script chargé");
 const cursorChoice = document.getElementById("cursor-choice");
 console.log(cursorChoice);
 
-const cursors = {
+document.addEventListener("DOMContentLoaded", () => {
 
-    default: null,
+    const cursorChoice = document.getElementById("cursor-choice");
 
-    crystal: "images/cristalbleucursor.webp",
-    horde: "images/horde.png",
-    alliance: "images/alliance.png",
-    bottle: "images/bottle.webp",
-    flower: "images/flower.webp",
-    kirin: "images/kirin.webp",
-    mrjigglesworth: "images/mrjigglesworth.png",
-    murloc: "images/murloc.webp",
-    pepe: "images/pepe.webp",
-    ink: "images/plumes.webp",
-    lantern: "images/lanter.webp"
-
-};
+    console.log(cursorChoice);
 
 
-cursorChoice.addEventListener("change", function(){
+    const cursors = {
 
-    const selected = cursors[this.value];
+        default: null,
 
+        crystal: "images/cristalbleucursor.webp",
+        horde: "images/horde.png",
+        alliance: "images/alliance.png",
+        bottle: "images/bottle.webp",
+        flower: "images/flower.webp",
+        kirin: "images/kirin.webp",
+        mrjigglesworth: "images/mrjigglesworth.png",
+        murloc: "images/murloc.webp",
+        pepe: "images/pepe.webp",
+        ink: "images/plumes.webp",
+        lantern: "images/lanter.webp"
 
-    if(selected){
-
-        document.documentElement.style.cursor =
-        `url("${selected}") 16 16, auto`;
-
-        document.body.style.cursor =
-        `url("${selected}") 16 16, auto`;
-
-        magicTrailEnabled = true;
-
-    } else {
-
-        document.documentElement.style.cursor = "";
-        document.body.style.cursor = "";
-
-        magicTrailEnabled = false;
-
-    }
-
-});
-let magicTrailEnabled = false;
+    };
 
 
-document.addEventListener("mousemove", function(e){
+    cursorChoice.addEventListener("change", function(){
 
-    if (!magicTrailEnabled) return;
-
-
-    const particle = document.createElement("div");
-
-    particle.className = "magic-particle";
-
-    particle.style.left = e.clientX + "px";
-    particle.style.top = e.clientY + "px";
-
-    document.body.appendChild(particle);
+        const selected = cursors[this.value];
 
 
-    setTimeout(() => {
-        particle.remove();
-    }, 800);
+        if(selected){
+
+            document.documentElement.style.cursor =
+            `url("${selected}") 16 16, auto`;
+
+            document.body.style.cursor =
+            `url("${selected}") 16 16, auto`;
+
+            magicTrailEnabled = true;
+
+        } 
+        else {
+
+            document.documentElement.style.cursor = "";
+            document.body.style.cursor = "";
+
+            magicTrailEnabled = false;
+
+        }
+
+    });
 
 });
