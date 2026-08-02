@@ -1710,3 +1710,66 @@ animation: breadcrumbShake .3s ease;
     0 0 18px #cc2200;
 
 }
+/* =========================================
+   Pixideus Magic Cursor Trail
+========================================= */
+
+
+.pixideus-particle{
+
+    position:fixed;
+
+    width:6px;
+
+    height:6px;
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    z-index:10000;
+
+
+    transform:
+    translate(-50%, -50%);
+
+
+    box-shadow:
+    0 0 6px currentColor,
+    0 0 12px currentColor;
+
+
+    animation:
+    pixideusFade .5s ease-out forwards;
+
+}
+
+
+
+@keyframes pixideusFade{
+
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        translate(-50%, -50%)
+        scale(1);
+
+    }
+
+
+    100%{
+
+
+        opacity:0;
+
+        transform:
+        translate(-50%, -90%)
+        scale(.2);
+
+
+    }
+
+}
