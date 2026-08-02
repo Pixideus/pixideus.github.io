@@ -1442,21 +1442,9 @@ footer{
         0 0 45px rgba(255,182,255,.5);
 }
 /* ==========================
-   Custom Cursor Test
+   Custom Cursor
 ========================== */
-* {
-    cursor: url("images/cristalbleucursor.webp") 16 16, auto;
-}
 
-a,
-button,
-input,
-textarea,
-select,
-.build-card,
-.social-icon {
-    cursor: url("images/cristalbleucursor.webp") 16 16, auto;
-}
 .magic-particle {
     position: fixed;
     width: 8px;
@@ -1474,6 +1462,7 @@ select,
     animation: fadeTrail .8s forwards;
 }
 
+
 .cursor-selector label {
     display: block;
     color: #d98cff;
@@ -1481,6 +1470,8 @@ select,
     text-align: center;
     text-shadow: 0 0 8px rgba(217,140,255,.6);
 }
+
+
 @keyframes fadeTrail {
 
     from {
