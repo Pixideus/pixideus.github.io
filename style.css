@@ -1560,3 +1560,12 @@ footer{
 .main-nav{
     background:transparent !important;
 }
+/* Force header inner transparency */
+
+.header-area *,
+.main-nav,
+.nav,
+.nav li,
+.nav a {
+    background: transparent !important;
+}
