@@ -1536,3 +1536,14 @@ footer{
 .fa-solid::before {
     display: inline-block;
 }
+/* ==========================
+   Font Awesome Glyph Fix
+========================== */
+
+.fa-brands::before {
+    content: var(--fa);
+}
+
+.fa-solid::before {
+    content: var(--fa);
+}
