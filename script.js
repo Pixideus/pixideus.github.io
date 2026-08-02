@@ -328,11 +328,25 @@ let lastTrail = 0;
 
     cursorChoice.addEventListener("change", function(){
 
-        selectedEffect = this.value;
+    selectedEffect = this.value;
 
-        console.log("Magic effect selected :", selectedEffect);
+    console.log("Magic effect selected :", selectedEffect);
 
-    });
+
+    if(selectedEffect === "default"){
+
+        document.body.style.cursor = "default";
+
+    } else {
+
+
+        document.body.style.cursor =
+        `url(${effects[selectedEffect]}), auto`;
+
+    }
+
+
+});
 
 
 
