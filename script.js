@@ -348,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
         magic.src = effects[selectedEffect];
 
 
-        magic.className = "cursor-magic-trail";
+       magic.className = "cursor-magic-trail " + selectedEffect;
 
 
         magic.style.left = e.clientX + "px";
