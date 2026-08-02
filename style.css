@@ -1474,6 +1474,13 @@ select,
     animation: fadeTrail .8s forwards;
 }
 
+.cursor-selector label {
+    display: block;
+    color: #d98cff;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(217,140,255,.6);
+}
 @keyframes fadeTrail {
 
     from {
