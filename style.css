@@ -1586,9 +1586,9 @@ animation: breadcrumbShake .3s ease;
 
     position:fixed;
 
-    width:55px;
+    width:38px;
 
-    height:55px;
+    height:8px;
 
     object-fit:contain;
 
@@ -1609,8 +1609,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.crystal{
 
     filter:
-    drop-shadow(0 0 8px #35b8ff)
-    drop-shadow(0 0 18px #35b8ff);
+    drop-shadow(0 0 5px #35b8ff)
+    drop-shadow(0 0 10px #35b8ff);
 
 }
 
@@ -1618,8 +1618,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.horde{
 
     filter:
-    drop-shadow(0 0 8px #ff3030)
-    drop-shadow(0 0 18px #b00000);
+    drop-shadow(0 0 5px #ff3030)
+    drop-shadow(0 0 10px #b00000);
 
 }
 
@@ -1627,8 +1627,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.alliance{
 
     filter:
-    drop-shadow(0 0 8px #4da6ff)
-    drop-shadow(0 0 18px #0066ff);
+    drop-shadow(0 0 5px #4da6ff)
+    drop-shadow(0 0 10px #0066ff);
 
 }
 
@@ -1636,8 +1636,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.bottle{
 
     filter:
-    drop-shadow(0 0 8px #65ff65)
-    drop-shadow(0 0 18px #00aa44);
+    drop-shadow(0 0 5px #65ff65)
+    drop-shadow(0 0 10px #00aa44);
 
 }
 
@@ -1645,8 +1645,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.flower{
 
     filter:
-    drop-shadow(0 0 8px #ff8fd8)
-    drop-shadow(0 0 18px #ff4fbf);
+    drop-shadow(0 0 5px #ff8fd8)
+    drop-shadow(0 0 10px #ff4fbf);
 
 }
 
@@ -1654,8 +1654,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.kirin{
 
     filter:
-    drop-shadow(0 0 8px #b05cff)
-    drop-shadow(0 0 18px #7625d9);
+    drop-shadow(0 0 5px #b05cff)
+    drop-shadow(0 0 10px #7625d9);
 
 }
 
@@ -1663,8 +1663,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.mrjigglesworth{
 
     filter:
-    drop-shadow(0 0 8px #ffd966)
-    drop-shadow(0 0 18px #d4a000);
+    drop-shadow(0 0 5px #66ff66)
+    drop-shadow(0 0 10px #22aa44);
 
 }
 
@@ -1672,8 +1672,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.murloc{
 
     filter:
-    drop-shadow(0 0 8px #4fffff)
-    drop-shadow(0 0 18px #0099cc);
+    drop-shadow(0 0 5px #4fffff)
+    drop-shadow(0 0 10px #0099cc);
 
 }
 
@@ -1681,8 +1681,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.pepe{
 
     filter:
-    drop-shadow(0 0 8px white)
-    drop-shadow(0 0 18px #ffe9a3);
+    drop-shadow(0 0 5px white)
+    drop-shadow(0 0 10px #ffe9a3);
 
 }
 
@@ -1690,8 +1690,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.lantern{
 
     filter:
-    drop-shadow(0 0 8px #ff6600)
-    drop-shadow(0 0 18px #cc2200);
+    drop-shadow(0 0 5px #ff6600)
+    drop-shadow(0 0 10px #cc2200);
 
 }
 
