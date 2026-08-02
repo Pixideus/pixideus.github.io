@@ -1471,7 +1471,17 @@ footer{
     text-shadow: 0 0 8px rgba(217,140,255,.6);
 }
 
-
+.cursor-selector {
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(13,13,22,.85);
+    border: 1px solid rgba(217,140,255,.5);
+    padding: 15px;
+    border-radius: 12px;
+    z-index: 9999;
+}
 @keyframes fadeTrail {
 
     from {
