@@ -1530,3 +1530,8 @@ footer{
     font-family: "Font Awesome 6 Brands" !important;
     font-weight: 400 !important;
 }
+/* Font Awesome Render Fix */
+
+.fa-brands::before {
+    content: var(--fa);
+}
