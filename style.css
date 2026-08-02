@@ -257,6 +257,7 @@ section{
 
 
 /*==========================
+/*==========================
   HERO
 ==========================*/
 
@@ -275,18 +276,18 @@ section{
     z-index:1;
 
 }
-.hero-section{
-    position:relative;
-    margin-top:-60px;
-    height:320px;
-    overflow:hidden;
-}
+
+
 .hero-video{
+
     width:100%;
+
     height:100%;
+
     object-fit:cover;
-    object-position:center top;
+
     display:block;
+
 }
 
 
@@ -298,13 +299,14 @@ section{
 
     padding:0;
 
-    background: rgba(13,13,22,0.65);
+    background:rgba(13,13,22,0.65);
 
-    backdrop-filter: blur(8px);
+    backdrop-filter:blur(8px);
 
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    border-bottom:1px solid rgba(255,255,255,0.08);
 
 }
+
 
 .hero-bar-content{
 
@@ -322,6 +324,7 @@ section{
     gap:15px;
 
 }
+
 
 .hero-social a{
 
@@ -345,16 +348,12 @@ section{
 
 }
 
+
 .hero-social a:hover{
 
     background:var(--accent);
 
 }
-
-.hero-section {
-    z-index: 1;
-}
-
 /*==========================
   HERO BUTTON
 ==========================*/
