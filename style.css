@@ -1502,20 +1502,6 @@ footer{
 
 }
 /* ==========================
-   Keep Pixideus font in build viewer
-========================== */
-
-.image-viewer,
-.image-viewer *,
-.carousel-box,
-.carousel-box *,
-.build-card,
-.build-card * {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-}
-/* ==========================
    Global Pixideus Font
 ========================== */
 
@@ -1524,19 +1510,22 @@ footer{
 *::after {
     font-family: 'Josefin Sans', sans-serif;
 }
+
+
 /* ==========================
-   Force Pixideus Font Test
+   Font Awesome Exception
 ========================== */
 
-html,
-body,
-body * {
-    font-family: 'Josefin Sans', sans-serif !important;
+.fa,
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+    font-family: "Font Awesome 6 Free" !important;
 }
-/* Test build title */
-#build-title {
-    font-family: 'Josefin Sans', sans-serif !important;
-    font-weight: 700 !important;
-    font-style: normal !important;
-    font-stretch: normal !important;
+
+.fa-brands {
+    font-family: "Font Awesome 6 Brands" !important;
 }
