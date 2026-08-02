@@ -1545,12 +1545,13 @@ animation: breadcrumbShake .3s ease;
     font-weight: 900 !important;
 }
 
-.cursor-glow{
+.cursor-trail{
 
     position:fixed;
 
-    width:10px;
-    height:10px;
+    width:35px;
+
+    height:35px;
 
     border-radius:50%;
 
@@ -1560,127 +1561,152 @@ animation: breadcrumbShake .3s ease;
 
     transform:translate(-50%, -50%);
 
-    animation:glowFade .6s ease-out forwards;
+    opacity:.45;
 
-    opacity:.7;
+    filter:blur(6px);
+
+    transition:
+    left .08s linear,
+    top .08s linear;
 
 }
 
 
-/* Couleurs des effets */
 
-.cursor-glow.crystal{
+/* Crystal */
+
+.cursor-trail.crystal{
+
+    background:#35b8ff;
 
     box-shadow:
-    0 0 5px #35b8ff,
-    0 0 10px #35b8ff;
+    0 0 8px #35b8ff,
+    0 0 18px #35b8ff;
 
 }
 
 
-.cursor-glow.horde{
+
+/* Horde */
+
+.cursor-trail.horde{
+
+    background:#ff3030;
 
     box-shadow:
-    0 0 5px #ff3030,
-    0 0 10px #b00000;
+    0 0 8px #ff3030,
+    0 0 18px #b00000;
 
 }
 
 
-.cursor-glow.alliance{
+
+/* Alliance */
+
+.cursor-trail.alliance{
+
+    background:#4da6ff;
 
     box-shadow:
-    0 0 5px #4da6ff,
-    0 0 10px #0066ff;
+    0 0 8px #4da6ff,
+    0 0 18px #0066ff;
 
 }
 
 
-.cursor-glow.bottle{
+
+/* Bottle */
+
+.cursor-trail.bottle{
+
+    background:#65ff65;
 
     box-shadow:
-    0 0 5px #65ff65,
-    0 0 10px #00aa44;
+    0 0 8px #65ff65,
+    0 0 18px #00aa44;
 
 }
 
 
-.cursor-glow.flower{
+
+/* Flower */
+
+.cursor-trail.flower{
+
+    background:#ff8fd8;
 
     box-shadow:
-    0 0 5px #ff8fd8,
-    0 0 10px #ff4fbf;
+    0 0 8px #ff8fd8,
+    0 0 18px #ff4fbf;
 
 }
 
 
-.cursor-glow.kirin{
+
+/* Kirin Tor */
+
+.cursor-trail.kirin{
+
+    background:#b05cff;
 
     box-shadow:
-    0 0 5px #b05cff,
-    0 0 10px #7625d9;
+    0 0 8px #b05cff,
+    0 0 18px #7625d9;
 
 }
 
 
-.cursor-glow.mrjigglesworth{
+
+/* Mr Jigglesworth */
+
+.cursor-trail.mrjigglesworth{
+
+    background:#66ff66;
 
     box-shadow:
-    0 0 5px #66ff66,
-    0 0 10px #22aa44;
+    0 0 8px #66ff66,
+    0 0 18px #22aa44;
 
 }
 
 
-.cursor-glow.murloc{
+
+/* Murloc */
+
+.cursor-trail.murloc{
+
+    background:#4fffff;
 
     box-shadow:
-    0 0 5px #4fffff,
-    0 0 10px #0099cc;
+    0 0 8px #4fffff,
+    0 0 18px #0099cc;
 
 }
 
 
-.cursor-glow.pepe{
+
+/* Pepe */
+
+.cursor-trail.pepe{
+
+    background:white;
 
     box-shadow:
-    0 0 5px white,
-    0 0 10px #ffe9a3;
+    0 0 8px white,
+    0 0 18px #ffe9a3;
 
 }
 
 
-.cursor-glow.lantern{
+
+/* Lantern */
+
+.cursor-trail.lantern{
+
+    background:#ff6600;
 
     box-shadow:
-    0 0 5px #ff6600,
-    0 0 10px #cc2200;
-
-}
-
-
-
-@keyframes glowFade{
-
-    0%{
-
-        opacity:.8;
-
-        transform:
-        translate(-50%, -50%)
-        scale(1);
-
-    }
-
-
-    100%{
-
-        opacity:0;
-
-        transform:
-        translate(-50%, -90%)
-        scale(.2);
-
-    }
+    0 0 8px #ff6600,
+    0 0 18px #cc2200;
 
 }
