@@ -1564,3 +1564,6 @@ footer{
     position:relative;
     z-index:2;
 }
+.main-nav{
+    background:transparent !important;
+}
