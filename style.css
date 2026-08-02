@@ -1524,3 +1524,12 @@ footer{
 *::after {
     font-family: 'Josefin Sans', sans-serif;
 }
+/* ==========================
+   Force Pixideus Font Test
+========================== */
+
+html,
+body,
+body * {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
