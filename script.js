@@ -300,14 +300,12 @@ document.addEventListener("keydown", (e) => {
 });
 
 
-console.log("Script chargé");
-
-const cursorChoice = document.getElementById("cursor-choice");
-console.log(cursorChoice);
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const cursorChoice = document.getElementById("cursor-choice");
+
+    // ...
+});
 
     console.log(cursorChoice);
 
