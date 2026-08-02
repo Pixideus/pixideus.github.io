@@ -303,7 +303,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cursorChoice = document.getElementById("cursor-choice");
 
-    const savedCursor = localStorage.getItem("pixideusCursor");
+    if (!cursorChoice) return;
+
 
     const cursors = {
 
@@ -326,47 +327,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function applyCursor(selected){
 
-    if(selected){
+        if(selected){
 
-        document.documentElement.style.cursor =
-        `url("/images/cristalbleucursor.webp") 0 0, auto`;
+            document.documentElement.style.cursor =
+            `url("${selected}") 8 2, auto`;
 
-        document.body.style.cursor =
-        `url("/images/cristalbleucursor.webp") 0 0, auto`;
+            document.body.style.cursor =
+            `url("${selected}") 8 2, auto`;
 
-        magicTrailEnabled = true;
+            magicTrailEnabled = true;
 
-    } 
-    else {
+        } 
+        else {
 
-        document.documentElement.style.cursor = "";
-        document.body.style.cursor = "";
+            document.documentElement.style.cursor = "";
+            document.body.style.cursor = "";
 
-        magicTrailEnabled = false;
+            magicTrailEnabled = false;
+
+        }
 
     }
-
-}
 
 
     cursorChoice.addEventListener("change", function(){
 
         const selected = cursors[this.value];
 
-        localStorage.setItem("pixideusCursor", this.value);
-
         applyCursor(selected);
 
     });
-
-
-    if(savedCursor && cursors[savedCursor]){
-
-        cursorChoice.value = savedCursor;
-
-        applyCursor(cursors[savedCursor]);
-
-    }
-
 
 });
