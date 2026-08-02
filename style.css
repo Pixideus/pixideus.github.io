@@ -1464,7 +1464,7 @@ footer{
 
 
 .cursor-selector label {
-    display: block;
+    display: inline-block;
     color: #d98cff;
     margin-bottom: 10px;
     text-align: center;
@@ -1472,15 +1472,23 @@ footer{
 }
 
 .cursor-selector {
-    position: fixed !important;
+    position: fixed;
+
     right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 25px;
+
     background: rgba(13,13,22,.85);
+
     border: 1px solid rgba(217,140,255,.5);
-    padding: 15px;
+
+    padding: 10px 15px;
+
     border-radius: 12px;
+
     z-index: 99999;
+
+    box-shadow:
+    0 0 15px rgba(217,140,255,.25);
 }
 @keyframes fadeTrail {
 
