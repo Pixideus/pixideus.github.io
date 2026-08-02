@@ -302,7 +302,14 @@ document.addEventListener("keydown", (e) => {
 
 console.log("Script chargé");
 
+
+let magicTrailEnabled = false;
+
+
 document.addEventListener("mousemove", function(e){
+
+    if (!magicTrailEnabled) return;
+
 
     const particle = document.createElement("div");
 
