@@ -1545,7 +1545,3 @@ animation: breadcrumbShake .3s ease;
     font-weight: 900 !important;
 }
 
-
-.header-area + .hero-section{
-    margin-top:0 !important;
-}
