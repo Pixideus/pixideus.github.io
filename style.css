@@ -264,13 +264,13 @@ section{
 
     position:relative;
 
-    margin-top:0px;
-
-    padding:0;
+    margin-top:-40px;
 
     height:320px;
 
     overflow:hidden;
+
+    z-index:99999;
 
 }
 .hero-section{
@@ -1555,8 +1555,4 @@ animation: breadcrumbShake .3s ease;
 body > *:not(.petals-overlay){
     position: relative;
     z-index: 2;
-}
-.header-area {
-    position: fixed;
-    z-index: 99999;
 }
