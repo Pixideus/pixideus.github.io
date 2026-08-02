@@ -349,7 +349,9 @@ section{
 
 }
 
-
+.hero-section {
+    z-index: 1;
+}
 
 /*==========================
   HERO BUTTON
@@ -1553,4 +1555,8 @@ animation: breadcrumbShake .3s ease;
 body > *:not(.petals-overlay){
     position: relative;
     z-index: 2;
+}
+.header-area {
+    position: fixed;
+    z-index: 99999;
 }
