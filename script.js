@@ -309,6 +309,23 @@ document.addEventListener("DOMContentLoaded", () => {
     let selectedEffect = "default";
 
 
+    const effects = {
+
+        crystal: "images/pointeur/cristalbleucursor.webp",
+        horde: "images/pointeur/horde.png",
+        alliance: "images/pointeur/alliance.png",
+        bottle: "images/pointeur/bottle.webp",
+        flower: "images/pointeur/flower.webp",
+        kirin: "images/pointeur/kirin.webp",
+        mrjigglesworth: "images/pointeur/mrjigglesworth.png",
+        murloc: "images/pointeur/murloc.webp",
+        pepe: "images/pointeur/pepe.webp",
+        lantern: "images/pointeur/lantern.webp"
+
+    };
+
+
+
     cursorChoice.addEventListener("change", function(){
 
         selectedEffect = this.value;
@@ -317,6 +334,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+
+
+    document.addEventListener("mousemove", function(e){
+
+
+        if(selectedEffect === "default") return;
+
+
+        const magic = document.createElement("img");
+
+
+        magic.src = effects[selectedEffect];
+
+
+        magic.className = "cursor-magic-trail";
+
+
+        magic.style.left = e.clientX + "px";
+        magic.style.top = e.clientY + "px";
+
+
+        document.body.appendChild(magic);
+
+
+
+        setTimeout(() => {
+
+            magic.remove();
+
+        }, 800);
+
+
+    });
+
+
+});
 
 
     document.addEventListener("mousemove", function(e){
