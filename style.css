@@ -1516,22 +1516,17 @@ footer{
 
 
 /* ==========================
-   Font Awesome Exception
+   Font Awesome Fix
 ========================== */
 
-.fa,
-.fas,
-.far,
-.fab,
 .fa-solid,
-.fa-regular,
-.fa-brands,
-i[class*="fa-"] {
+.fa {
     font-family: "Font Awesome 6 Free" !important;
-    font-style: normal;
+    font-weight: 900 !important;
 }
 
 .fa-brands,
-i[class*="fa-brands"] {
+.fab {
     font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400 !important;
 }
