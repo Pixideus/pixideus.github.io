@@ -166,13 +166,13 @@ section{
 
     height:70px;
 
-    z-index:1000;
+    z-index:9999;
 
-    background:rgba(10,10,18,.30);
+    background:rgba(10,10,18,.18);
 
-    backdrop-filter:blur(12px);
+    backdrop-filter:blur(10px);
 
-    -webkit-backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(10px);
 
     border-bottom:1px solid rgba(255,255,255,.08);
 
