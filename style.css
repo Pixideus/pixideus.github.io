@@ -1595,6 +1595,7 @@ animation: breadcrumbShake .3s ease;
     pointer-events:none;
 
     z-index:10000;
+  opacity:.75;
 
     transform:translate(-50%, -50%);
 
@@ -1681,8 +1682,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.pepe{
 
     filter:
-    drop-shadow(0 0 5px white)
-    drop-shadow(0 0 10px #ffe9a3);
+    drop-shadow(0 0 3px white)
+    drop-shadow(0 0 6px #ffe9a3);
 
 }
 
@@ -1690,8 +1691,8 @@ animation: breadcrumbShake .3s ease;
 .cursor-magic-trail.lantern{
 
     filter:
-    drop-shadow(0 0 5px #ff6600)
-    drop-shadow(0 0 10px #cc2200);
+    drop-shadow(0 0 3px #ff6600)
+    drop-shadow(0 0 6px #cc2200);
 
 }
 
