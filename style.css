@@ -217,7 +217,7 @@ section{
 
 
 .nav a{
-
+display:block;
     color:#ffffff;
 
     font-family:'Josefin Sans', sans-serif;
@@ -1545,6 +1545,4 @@ animation: breadcrumbShake .3s ease;
     font-weight: 900 !important;
 }
 
-.header-area{
-    isolation:isolate;
-}
+
