@@ -1528,3 +1528,11 @@ footer{
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900 !important;
 }
+/* ==========================
+   Restore Font Awesome Core
+========================== */
+
+.fa-brands::before,
+.fa-solid::before {
+    display: inline-block;
+}
