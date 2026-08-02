@@ -326,27 +326,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function applyCursor(selected){
 
-        if(selected){
+    if(selected){
 
-            document.documentElement.style.cursor =
-`url("${selected}") 0 0, auto`;
+        document.documentElement.style.cursor =
+        `url("/images/cristalbleucursor.webp") 0 0, auto`;
 
-document.body.style.cursor =
-`url("${selected}") 0 0, auto`;
+        document.body.style.cursor =
+        `url("/images/cristalbleucursor.webp") 0 0, auto`;
 
-            magicTrailEnabled = true;
+        magicTrailEnabled = true;
 
-        } 
-        else {
+    } 
+    else {
 
-            document.documentElement.style.cursor = "";
-            document.body.style.cursor = "";
+        document.documentElement.style.cursor = "";
+        document.body.style.cursor = "";
 
-            magicTrailEnabled = false;
-
-        }
+        magicTrailEnabled = false;
 
     }
+
+}
 
 
     cursorChoice.addEventListener("change", function(){
