@@ -350,30 +350,33 @@ let lastTrail = 0;
 
 
 
-    document.addEventListener("mousemove", function(e){
+ let trail = document.createElement("div");
 
-    if(selectedEffect === "default") return;
+trail.className = "cursor-trail";
 
-
-    const glow = document.createElement("span");
-
-    glow.className = "cursor-glow " + selectedEffect;
+document.body.appendChild(trail);
 
 
-    glow.style.left = e.clientX + "px";
-    glow.style.top = e.clientY + "px";
+
+document.addEventListener("mousemove", function(e){
+
+    if(selectedEffect === "default"){
+
+        trail.style.opacity = "0";
+
+        return;
+
+    }
 
 
-    document.body.appendChild(glow);
+    trail.className = "cursor-trail " + selectedEffect;
 
 
-    setTimeout(() => {
+    trail.style.left = e.clientX + "px";
 
-        glow.remove();
+    trail.style.top = e.clientY + "px";
 
-    }, 500);
+    trail.style.opacity = "1";
 
-
-});
 
 });
