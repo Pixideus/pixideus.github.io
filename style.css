@@ -1545,3 +1545,41 @@ animation: breadcrumbShake .3s ease;
     font-weight: 900 !important;
 }
 
+.cursor-sparkle{
+
+    position:fixed;
+
+    pointer-events:none;
+
+    z-index:10000;
+
+    font-size:22px;
+
+    transform:translate(-50%, -50%);
+
+    animation:sparkleFade .7s ease-out forwards;
+
+}
+
+
+
+@keyframes sparkleFade{
+
+    0%{
+
+        opacity:1;
+
+        transform:translate(-50%, -50%) scale(1);
+
+    }
+
+
+    100%{
+
+        opacity:0;
+
+        transform:translate(-50%, -80%) scale(0.2);
+
+    }
+
+}
