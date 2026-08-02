@@ -1390,3 +1390,33 @@ animation: breadcrumbShake .3s ease;
     object-fit: cover;
     opacity: .30;
 }
+
+/* ==========================
+   Contact Social Icons
+========================== */
+
+#contact .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+#contact .social-icons a{
+    font-size: 2.2rem;
+    color: #f7b6ff;
+    transition: all .3s ease;
+    text-shadow:
+        0 0 8px rgba(247,182,255,.6),
+        0 0 18px rgba(247,182,255,.4);
+}
+
+#contact .social-icons a:hover{
+    color: #ffd6f6;
+    transform: translateY(-4px) scale(1.15);
+    text-shadow:
+        0 0 12px rgba(255,214,246,.9),
+        0 0 28px rgba(255,182,255,.8),
+        0 0 45px rgba(255,182,255,.5);
+}
