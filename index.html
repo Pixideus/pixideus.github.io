@@ -338,22 +338,37 @@
 <!-- Footer                    -->
 <!-- ========================= -->
 
+<!-- ========================= -->
+<!-- Footer                    -->
+<!-- ========================= -->
 <footer>
-
-    <div class="build-grid">
-                <p>
-
-                    © 2026 Pixideus · World of Warcraft Housing Creations
-
-                </p>
-
-            </div>
-
-        </div>
-
+    <div class="build-grid" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+        <p style="margin: 0;">
+            © 2026 Pixideus · World of Warcraft Housing Creations
+        </p>
+        
+        <!-- Compteur Rose Lumineux Sans Masque placé à Droite -->
+        <p style="color: #ff69b4 !important; font-family: 'Josefin Sans', sans-serif !important; font-size: 15px !important; font-weight: bold !important; text-shadow: 0 0 6px #ff69b4, 0 0 15px #ff1493 !important; margin: 0; display: inline-block !important;">
+            <span id="wow-counter-final" style="text-shadow: 0 0 6px #ff69b4, 0 0 15px #ff1493 !important;">...</span> Azeroth visitors entered my Worlds
+        </p>
     </div>
-
 </footer>
+
+<script>
+(function() {
+  // Script isolé pour récupérer uniquement le chiffre
+  fetch('https://dwyl.com')
+    .then(res => res.json())
+    .then(data => {
+      var el = document.getElementById('wow-counter-final');
+      if(el) el.innerText = data.value;
+    })
+    .catch(() => {
+      var el = document.getElementById('wow-counter-final');
+      if(el) el.innerText = '1';
+    });
+})();
+</script>
 
 
 
@@ -423,20 +438,6 @@
   </p>
 </div>
 
-<script>
-(function() {
-  // Script sécurisé et isolé pour éviter les conflits de variables
-  fetch('https://dwyl.com')
-    .then(res => res.json())
-    .then(data => {
-      var el = document.getElementById('wow-counter-final');
-      if(el) el.innerText = data.value;
-    })
-    .catch(() => {
-      var el = document.getElementById('wow-counter-final');
-      if(el) el.innerText = '1';
-    });
-})();
-</script>
+
 
 
