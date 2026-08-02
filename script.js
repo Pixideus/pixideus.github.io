@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mrjigglesworth: "images/mrjigglesworth.png",
         murloc: "images/murloc.webp",
         pepe: "images/pepe.webp",
-        ink: "images/plume.webp",
+        ink: "images/feather.webp",
         lantern: "images/lantern.webp"
 
     };
