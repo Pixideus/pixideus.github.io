@@ -1442,7 +1442,45 @@ footer{
 /* ==========================
    Custom Cursor Test
 ========================== */
+* {
+    cursor: url("images/cristalbleucursor.webp") 16 16, auto;
+}
 
-body {
-    cursor: url("images/cristalbleucursor.webp") 32 32, auto;
+a,
+button,
+input,
+textarea,
+select,
+.build-card,
+.social-icon {
+    cursor: url("images/cristalbleucursor.webp") 16 16, auto;
+}
+.magic-particle {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: #7ddfff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99999;
+
+    box-shadow:
+        0 0 8px #7ddfff,
+        0 0 16px #4bbcff,
+        0 0 25px #9be7ff;
+
+    animation: fadeTrail .8s forwards;
+}
+
+@keyframes fadeTrail {
+
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
 }
