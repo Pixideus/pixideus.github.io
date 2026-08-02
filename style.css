@@ -1390,6 +1390,9 @@ animation: breadcrumbShake .3s ease;
         transparent 20%,
         transparent 80%,
         #0d0d16 100%
+      .petals-overlay .petals-right{
+    left:50%;
+}
     );
 }
 header,
