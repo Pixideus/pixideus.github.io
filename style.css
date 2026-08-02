@@ -1525,10 +1525,13 @@ footer{
 .fab,
 .fa-solid,
 .fa-regular,
-.fa-brands {
+.fa-brands,
+i[class*="fa-"] {
     font-family: "Font Awesome 6 Free" !important;
+    font-style: normal;
 }
 
-.fa-brands {
+.fa-brands,
+i[class*="fa-brands"] {
     font-family: "Font Awesome 6 Brands" !important;
 }
