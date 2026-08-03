@@ -337,7 +337,7 @@ display:block;
 .hero-social a:hover{
 
     background:var(--accent);
-
+}
 .hero-announcement{
     position:absolute;
     left:50%;
