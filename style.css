@@ -1593,3 +1593,13 @@ filter:blur(.5px);
 section {
     scroll-margin-top: 110px;
 }
+
+.friends-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.friends-list li {
+    margin: 12px 0;
+}
