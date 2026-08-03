@@ -289,18 +289,16 @@ display:block;
 
     backdrop-filter:blur(8px);
 
-    border-bottom:1px solid rgba(255,255,255,0.08);
+    border-bottom:none;
 
 }
 
 
 .hero-bar-content{
 
-    height:65px;
+    height:55px;
 
-    justify-content:center;
-
-}
+ }
 
 
 .hero-social{
@@ -401,15 +399,12 @@ display:block;
 ==========================*/
 
 .portfolio-section{
-
-    padding:35px 0;
-
+    padding:20px 0 35px;
 }
 
 .portfolio-section h2{
-
+    margin-top:0;
     margin-bottom:10px;
-
 }
 
 .portfolio-section p{
