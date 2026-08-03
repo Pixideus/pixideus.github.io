@@ -1594,10 +1594,28 @@ section {
     scroll-margin-top: 110px;
 }
 
-.friends-list {
+/* ==========================
+   friends list bullets remove
+========================== */
+.friends-list{
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin: 25px 0 0;
+}
+
+.friends-list li{
+    margin: 12px 0;
+}
+
+.friends-list a{
+    margin-left: 8px;
+    color: #9146FF; /* Violet Twitch */
+    transition: .3s ease;
+}
+
+.friends-list a:hover{
+    color: #c7a3ff;
+    text-shadow: 0 0 8px rgba(145,70,255,.6);
 }
 
 .friends-list li {
