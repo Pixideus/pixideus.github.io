@@ -444,11 +444,8 @@
         </p>
         
      
-<div class="visitor-counter">
-    <span>Azeroth explorers have entered my Worlds</span>
-    <div class="free-counter">
-        <p class="visitor-counter">
-    <span>Azeroth explorers have entered my Worlds</span>
+<<p class="visitor-counter">
+    <span id="wow-counter-final">...</span> Azeroth explorers have entered my Worlds
 </p>
 
 <script type="text/javascript" src="https://counter.websiteout.com/js/5/0/0/0"></script>
@@ -485,7 +482,19 @@
 <script src="script.js"></script>
 <script src="cursor-effects.js"></script>
 
-        
+ <script>
+const BASE = "https://countapi.mileshilliard.com/api/v1";
+const KEY = "pixideus-worlds-visitors";
+
+fetch(`${BASE}/hit/${KEY}`)
+.then(res => res.json())
+.then(data => {
+    document.getElementById("wow-counter-final").textContent = data.value;
+})
+.catch(() => {
+    document.getElementById("wow-counter-final").textContent = "...";
+});
+</script>       
 
 </body>
 </html>
