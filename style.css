@@ -338,15 +338,18 @@ display:block;
 
     background:var(--accent);
 }
+.hero-announcement-container{
+    flex:1;
+    overflow:hidden;
+    margin-left:40px;
+}
+
+
 .hero-announcement{
-    position:absolute;
-    left:0;
-
     color:#8fd3ff;
-    font-size:1.3rem;
+    font-size:1.1rem;
     white-space:nowrap;
-
-    animation: announcementMove 12s linear infinite;
+    animation:announcementMove 15s linear infinite;
 }
 
 @keyframes announcementMove{
