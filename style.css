@@ -354,7 +354,18 @@ display:block;
 
     animation:announcementMove 18s linear infinite;
 }
-
+.hero-announcement-track{
+    display:flex;
+    width:max-content;
+    animation:scrollNews 20s linear infinite;
+}
+  .hero-announcement-track span{
+    white-space:nowrap;
+    color:#8fd3ff;
+    font-size:1.3rem;
+    text-shadow:0 0 10px rgba(143,211,255,.8);
+    padding-right:80px;
+}
 
 @keyframes announcementMove {
 
@@ -363,7 +374,7 @@ display:block;
     }
 
     to {
-        transform: translateX(110%);
+        transform: translateX(-33.333%);
     }
 
 }
