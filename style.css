@@ -1606,12 +1606,18 @@ section {
 }
 
 .friends-list li{
-    margin: 12px 0;
+    margin-bottom: 30px;
+}
+
+.friend-name{
+    color: #d98cff;
+    font-size: 1.15rem;
+    font-weight: 700;
 }
 
 .friends-list a{
     margin-left: 8px;
-    color: #9146FF; /* Violet Twitch */
+    color: #9146FF;
     transition: .3s ease;
 }
 
@@ -1620,6 +1626,8 @@ section {
     text-shadow: 0 0 8px rgba(145,70,255,.6);
 }
 
-.friends-list li {
-    margin: 12px 0;
+.friends-list p{
+    margin: 8px 0 0;
+    line-height: 1.6;
+    color: rgba(255,255,255,.85);
 }
