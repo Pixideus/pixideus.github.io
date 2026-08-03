@@ -295,10 +295,11 @@ display:block;
 
 
 .hero-bar-content{
-
     height:55px;
-
- }
+    display:flex;
+    align-items:center;
+    position:relative;
+}
 
 
 .hero-social{
@@ -337,6 +338,25 @@ display:block;
 
     background:var(--accent);
 
+.hero-announcement{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+
+    color:#d98cff;
+    font-size:1.1rem;
+    animation: announcementGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes announcementGlow{
+
+    0%,100%{
+        opacity:.6;
+    }
+
+    50%{
+        opacity:1;
+    }
 }
 /*==========================
   HERO BUTTON
@@ -1643,13 +1663,3 @@ section {
     animation: blueprintGlow 2.5s ease-in-out infinite;
 }
 
-@keyframes blueprintGlow{
-
-    0%,100%{
-        opacity:0.6;
-    }
-
-    50%{
-        opacity:1;
-    }
-}
