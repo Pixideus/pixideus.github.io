@@ -370,11 +370,11 @@ display:block;
 @keyframes announcementMove {
 
     from {
-        transform: translateX(0);
+        transform: translateX(-100%);
     }
 
     to {
-        transform: translateX(-33.333%);
+        transform: translateX(100%);
     }
 
 }
