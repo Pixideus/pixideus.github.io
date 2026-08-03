@@ -167,7 +167,8 @@ section{
 
     height:70px;
 
-    z-index:9999;
+    z-index:10000;
+  isolation:isolate;
 
     background:rgba(10,10,18,.30);
 
