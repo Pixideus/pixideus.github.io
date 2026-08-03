@@ -443,12 +443,9 @@
             © 2026 Pixideus · World of Warcraft Housing Creations
         </p>
         
-        <!-- Compteur Rose Lumineux -->
-        <p style="color: #ff69b4 !important; font-family: 'Josefin Sans', sans-serif !important; font-size: 15px !important; font-weight: bold !important; text-shadow: 0 0 6px #ff69b4, 0 0 15px #ff1493 !important; margin: 0; display: inline-block !important;">
-            <span id="wow-counter-final" style="text-shadow: 0 0 6px #ff69b4, 0 0 15px #ff1493 !important;">...</span> Azeroth explorers have entered my World
-        </p>
-    </div>
-</footer>
+      <p class="visitor-counter">
+    <span id="wow-counter-final">...</span> Azeroth explorers have entered my Worlds
+</p>
 
 
 
@@ -482,6 +479,20 @@
 <script src="script.js"></script>
 <script src="cursor-effects.js"></script>
 
+        <script>
+fetch("https://api.countapi.xyz/hit/pixideus-worlds/visits")
+.then(response => response.json())
+.then(data => {
+    document.getElementById("wow-counter-final").textContent = data.value;
+})
+.catch(() => {
+    document.getElementById("wow-counter-final").textContent = "0";
+});
+</script>
+
+</body>
+</html>
+        
 <div id="magic-trail"></div>
 
     <!-- Cursor selector -->
