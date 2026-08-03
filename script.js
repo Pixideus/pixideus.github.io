@@ -76,7 +76,7 @@ if (buildId) {
     const build = builds.find(b => b.id === buildId);
 
     if (build) {
-
+document.title = `${build.title} - Pixideus`;
         document.getElementById("build-title").textContent = build.title;
 
         document.getElementById("build-description").textContent = build.description;
