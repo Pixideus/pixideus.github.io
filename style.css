@@ -356,14 +356,14 @@ display:block;
 }
 
 
-@keyframes announcementMove{
+@keyframes announcementMove {
 
-    from{
-        transform:translateX(120%);
+    from {
+        transform: translateX(0);
     }
 
-    to{
-        transform:translateX(-120%);
+    to {
+        transform: translateX(110%);
     }
 
 }
