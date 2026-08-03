@@ -399,12 +399,12 @@ display:block;
 ==========================*/
 
 .portfolio-section{
-    padding:20px 0 35px;
+    padding:10px 0 35px;
 }
 
 .portfolio-section h2{
     margin-top:0;
-    margin-bottom:0 0 10px;
+    margin-bottom:10px;
 }
 
 .portfolio-section p{
