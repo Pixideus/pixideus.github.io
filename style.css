@@ -338,12 +338,6 @@ display:block;
 
     background:var(--accent);
 }
-.hero-announcement-container{
-    flex:1;
-    overflow:hidden;
-    margin-left:40px;
-}
-
 
 
 .hero-announcement{
