@@ -342,8 +342,9 @@ display:block;
 
 .hero-announcement{
     position:absolute;
-    left:50%;
-    transform:translateX(-50%);
+    right:40px;
+    top:50%;
+    transform:translateY(-50%);
 
     color:#8fd3ff;
     font-size:1.3rem;
@@ -353,7 +354,7 @@ display:block;
         0 0 6px rgba(143,211,255,.5),
         0 0 12px rgba(143,211,255,.2);
 
-    animation:announcementPulse 2.8s ease-in-out infinite;
+    animation:announcementPulse 6s ease-in-out infinite;
 }
 
 
