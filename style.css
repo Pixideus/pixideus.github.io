@@ -340,12 +340,12 @@ display:block;
 }
 .hero-announcement{
     position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-
-    color:#d98cff;
+    color:#8fd3ff;
     font-size:1.1rem;
-    animation: announcementGlow 2.5s ease-in-out infinite;
+    white-space:nowrap;
+  text-shadow:0 0 10px rgba(143,211,255,0.8);
+
+    animation: announcementMove 12s linear infinite;
 }
 
 @keyframes announcementGlow{
