@@ -1631,3 +1631,16 @@ section {
     line-height: 1.6;
     color: rgba(255,255,255,.85);
 }
+.visitor-counter{
+    color:#ff69b4;
+    font-family:'Josefin Sans', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    text-shadow:0 0 6px #ff69b4, 0 0 15px #ff1493;
+    text-align:center;
+}
+
+.free-counter{
+    display:inline-block;
+    margin-left:8px;
+}
