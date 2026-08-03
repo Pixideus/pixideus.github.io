@@ -349,18 +349,24 @@ display:block;
     color:#8fd3ff;
     font-size:1.1rem;
     white-space:nowrap;
-    animation:announcementMove 15s linear infinite;
+
+    text-shadow:0 0 10px rgba(143,211,255,0.8);
+
+    animation:announcementMove 18s linear infinite;
 }
+
 
 @keyframes announcementMove{
 
-    0%{
-        transform:translateX(0);
+    from{
+        transform:translateX(120%);
     }
 
-    100%{
-        transform:translateX(600px);
+    to{
+        transform:translateX(-120%);
     }
+
+}
 }
 /*==========================
   HERO BUTTON
