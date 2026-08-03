@@ -1635,3 +1635,21 @@ section {
         0 0 8px #ff69b4,
         0 0 18px #d98cff;
 }
+.news-banner{
+    text-align:center;
+    color:#d98cff;
+    font-size:1.2rem;
+    padding:10px 0;
+    animation: blueprintGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes blueprintGlow{
+
+    0%,100%{
+        opacity:0.6;
+    }
+
+    50%{
+        opacity:1;
+    }
+}
