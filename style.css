@@ -523,6 +523,8 @@ min-height:110px;
         0 0 25px rgba(217,140,255,0.15);
 
     overflow: hidden;
+  max-width: 100%;
+    box-sizing: border-box;
 
 }
 
