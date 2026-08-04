@@ -228,6 +228,9 @@ section{
 
 .hero-mobile{
     display:none;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
 }
 
 .hero-section{
@@ -389,13 +392,18 @@ section{
 
     /* Hero */
 
-    .hero-desktop{
-        display:none;
-    }
+   .hero-desktop{
+    display:none;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}
 
-    .hero-mobile{
-        display:block;
-    }
+.hero-mobile{
+    display:block;
+    visibility:visible;
+    height:100%;
+}
 
     .hero-section{
         height:150px;
