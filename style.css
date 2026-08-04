@@ -1774,16 +1774,113 @@ section {
     animation: blueprintGlow 2.5s ease-in-out infinite;
 }
 
-/* TEST BANNIERE MOBILE */
+/*==================================================
+  MOBILE HEADER
+==================================================*/
 
 @media (max-width:768px){
 
-    .hero-desktop{
-        display:none !important;
+    .header-area{
+        height:60px;
     }
 
-    .hero-mobile{
-        display:block !important;
+
+    .main-nav{
+
+        height:60px;
+
+        justify-content:flex-end;
+
+    }
+
+
+    .logo{
+
+        display:none;
+
+    }
+
+
+    /* Hamburger */
+
+    .menu-toggle{
+
+        display:block;
+
+        position:relative;
+
+        z-index:10001;
+
+    }
+
+
+    /* Menu fermé */
+
+    .nav{
+
+        position:fixed;
+
+        top:60px;
+        left:0;
+        width:100%;
+
+        display:flex;
+        flex-direction:column;
+
+        margin:0;
+        padding:15px 0;
+
+        gap:0;
+
+        background:rgba(10,10,18,.98);
+
+        transform:translateY(-120%);
+
+        transition:.35s;
+
+        z-index:10000;
+
+    }
+
+
+    /* Menu ouvert */
+
+    .nav.active{
+
+        transform:translateY(0);
+
+    }
+
+
+    .nav li{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+
+    .nav a{
+
+        padding:15px;
+
+        font-size:1.15rem;
+
+    }
+
+
+    .desktop-title{
+
+        display:none;
+
+    }
+
+
+    .mobile-title{
+
+        display:inline;
+
     }
 
 }
