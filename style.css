@@ -265,14 +265,13 @@ display:block;
 
 
     .nav{
-        width:auto;
-        flex:none;
-        margin-left:0;
-        justify-content:center;
-        flex-wrap:wrap;
-        gap:15px;
-        overflow:hidden;
-    }
+    width:auto;
+    flex:none;
+    margin-left:0;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px 15px;
+}
 
 
     .nav a{
