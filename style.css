@@ -452,16 +452,35 @@ section{
 
     /* Hero Bar */
 
-    .hero-bar-content{
-        height:auto;
-        min-height:55px;
-        padding:10px 0;
-    }
+  .hero-bar-content{
+
+    height:auto;
+
+    min-height:55px;
+
+    padding:10px 0;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
 
     .hero-announcement{
-        right:15px;
-        font-size:.95rem;
-    }
+
+    position:static;
+
+    transform:none;
+
+    white-space:normal;
+
+    text-align:center;
+
+    font-size:.85rem;
+
+    line-height:1.3;
+
+}
 
 }
 /*==========================
