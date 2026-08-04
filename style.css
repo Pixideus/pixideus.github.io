@@ -466,11 +466,17 @@ section{
 
 }
 
-    .hero-announcement{
+  .hero-announcement{
 
     position:static;
 
     transform:none;
+
+    width:100%;
+
+    padding:0 10px;
+
+    box-sizing:border-box;
 
     white-space:normal;
 
