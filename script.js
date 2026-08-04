@@ -129,6 +129,11 @@ button.addEventListener("click", () => {
 
     video.src = item.url.replace("watch?v=", "embed/");
 
+    document.querySelector(".video-container").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+
 });
 const title = document.createElement("span");
 
