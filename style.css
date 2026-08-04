@@ -437,8 +437,12 @@ section{
 }
 
     .hero-section{
-        height:150px;
-    }
+
+    height:150px;
+
+    margin-top:60px;
+
+}
 
     .hero-video{
         width:100%;
