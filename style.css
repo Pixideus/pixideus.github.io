@@ -1875,3 +1875,27 @@ section {
     }
 
 }
+/*==========================
+  MOBILE BUILDS GRID
+==========================*/
+
+@media(max-width:768px){
+
+    .builds-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        margin-top:30px;
+
+    }
+
+
+    .build-card img{
+
+        height:220px;
+
+    }
+
+}
