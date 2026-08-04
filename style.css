@@ -1988,7 +1988,7 @@ section {
 
     #build-title{
 
-        font-size:2rem;
+        font-size:2rem !important;
 
     }
 
