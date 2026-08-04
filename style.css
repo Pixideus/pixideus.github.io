@@ -286,6 +286,9 @@ display:block;
         height:38px;
     }
 
+  .logo{
+    display:none;
+}
 }
 /*==========================
   HERO
