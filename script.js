@@ -176,7 +176,7 @@ build.images.forEach(image => {
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    const galleryImages = document.querySelectorAll(".build-gallery img");
+    let galleryImages = [];
 
     const viewer = document.querySelector(".image-viewer");
     const viewerImage = document.querySelector(".image-viewer img");
@@ -207,7 +207,7 @@ console.log("Next button :", nextButton);
         galleryImages.forEach((image, index) => {
 
 
-            image.addEventListener("click", () => {
+            galleryImages = document.querySelectorAll(".build-gallery img");
 
 
                 showImage(index);
