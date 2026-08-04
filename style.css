@@ -265,12 +265,13 @@ display:block;
 
 
     .nav{
-    width:auto;
+    width:100%;
     flex:none;
     margin-left:0;
     justify-content:center;
     flex-wrap:wrap;
     gap:10px 15px;
+    max-width:320px;
 }
 
 
