@@ -241,7 +241,39 @@ display:block;
 
 }
 
+/*==========================
+  HEADER - MOBILE
+==========================*/
 
+@media (max-width:768px){
+
+    .header-area{
+        height:auto;
+        padding:10px 0;
+    }
+
+    .main-nav{
+        height:auto;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav{
+        margin-left:0;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:15px 25px;
+    }
+
+    .nav a{
+        font-size:1rem;
+    }
+
+    .logo img{
+        height:46px;
+    }
+
+}
 
 /*==========================
   HERO
