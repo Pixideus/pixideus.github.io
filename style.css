@@ -1967,12 +1967,13 @@ section {
 }
 
 /*==========================
-  MOBILE TITLES
+  MOBILE SECTION TITLES
 ==========================*/
 
 @media(max-width:768px){
 
-    h2{
+    .portfolio-section h2,
+    .about-section h2 {
 
         font-size:2rem;
 
