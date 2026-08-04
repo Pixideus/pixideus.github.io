@@ -240,7 +240,9 @@ display:block;
     color:var(--accent);
 
 }
-
+.mobile-title{
+    display:none;
+}
 /*==========================
   HEADER - MOBILE
 ==========================*/
