@@ -1965,3 +1965,17 @@ section {
     }
 
 }
+
+/*==========================
+  MOBILE SECTION TITLES
+==========================*/
+
+@media(max-width:768px){
+
+    .section-title{
+
+        font-size:2rem;
+
+    }
+
+}
