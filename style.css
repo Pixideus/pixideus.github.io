@@ -249,7 +249,6 @@ display:block;
     display:none;
 }
 
-
 /*==========================
   HEADER - MOBILE
 ==========================*/
@@ -303,6 +302,34 @@ display:block;
     .mobile-title{
         display:inline;
     }
+
+
+    /*==========================
+      HERO MOBILE
+    ==========================*/
+
+    .hero-desktop{
+        display:none;
+    }
+
+
+    .hero-mobile{
+        display:block;
+    }
+
+
+    .hero-section{
+        height:160px;
+    }
+
+
+    .hero-video{
+        height:100%;
+        object-fit:contain;
+        object-position:center center;
+    }
+
+}
 
 
     /*==========================
