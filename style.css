@@ -1623,6 +1623,14 @@ filter:blur(.5px);
     0 0 8px rgba(217,140,255,.6);
 
 }
+@media (max-width: 768px){
+
+    .cursor-selector{
+        display:none;
+    }
+
+}
+
 /* ==========================
    Anchor offset for fixed menu
 ========================== */
