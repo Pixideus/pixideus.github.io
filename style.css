@@ -1899,3 +1899,69 @@ section {
     }
 
 }
+
+/*==========================
+  MOBILE BUILD PAGE
+==========================*/
+
+@media(max-width:768px){
+
+    .build-page{
+
+        padding:70px 15px 40px;
+
+    }
+
+
+    .build-intro{
+
+        flex-direction:column;
+
+        gap:25px;
+
+    }
+
+
+    .build-info{
+
+        width:100%;
+
+    }
+
+
+    .video-container{
+
+        width:100%;
+
+        max-width:none;
+
+        margin:20px 0;
+
+        aspect-ratio:16 / 9;
+
+    }
+
+
+    .video-container iframe{
+
+        height:100%;
+
+    }
+
+
+    .build-gallery{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+
+    .build-gallery img{
+
+        width:100%;
+
+    }
+
+}
