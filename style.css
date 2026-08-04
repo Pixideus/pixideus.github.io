@@ -165,8 +165,6 @@ section{
     background:rgba(10,10,18,.55);
 
     z-index:9999;
-
-    transition:none;
 }
 
 .main-nav{
@@ -185,11 +183,15 @@ section{
     display:flex;
     align-items:center;
     justify-content:flex-start;
+
     flex:1;
 
     gap:35px;
 
     margin-left:60px;
+
+    list-style:none;
+    padding:0;
 }
 
 .nav a{
@@ -197,12 +199,14 @@ section{
 
     color:#fff;
 
-    font-family:'Josefin Sans',sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     font-size:1.4rem;
     font-weight:700;
 
     letter-spacing:.7px;
     line-height:1;
+
+    text-decoration:none;
 
     transition:.25s;
 }
@@ -216,8 +220,36 @@ section{
     display:none;
 }
 
+/* Bouton hamburger (caché sur PC) */
 
+.menu-toggle{
+    display:none;
 
+    width:40px;
+    height:40px;
+
+    background:none;
+    border:none;
+
+    padding:0;
+
+    cursor:pointer;
+}
+
+.menu-toggle span{
+    display:block;
+
+    width:28px;
+    height:3px;
+
+    margin:5px auto;
+
+    border-radius:999px;
+
+    background:#d98cff;
+
+    transition:.3s;
+}
 /*==================================================
   HERO
 ==================================================*/
