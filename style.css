@@ -274,13 +274,14 @@ display:block;
 
 
     .nav a{
-    font-size:1rem;
+    font-size:0.85rem;
+    letter-spacing:0;
     white-space:nowrap;
 }
 
 
     .logo img{
-        height:46px;
+        height:38px;
     }
 
 }
