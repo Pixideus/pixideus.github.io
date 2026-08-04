@@ -755,14 +755,14 @@ footer p{
 
     .nav{
 
-        display:none;
+        display:flex;
 
     }
 
 
     .menu-trigger{
 
-        display:block;
+        display:none;
 
     }
 
