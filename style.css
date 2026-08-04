@@ -1980,3 +1980,16 @@ section {
     }
 
 }
+/*==========================
+  MOBILE BUILD TITLE
+==========================*/
+
+@media(max-width:768px){
+
+    #build-title{
+
+        font-size:2rem;
+
+    }
+
+}
