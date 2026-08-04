@@ -176,7 +176,7 @@ build.images.forEach(image => {
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    let galleryImages = [];
+    const galleryImages = document.querySelectorAll(".build-gallery img");
 
     const viewer = document.querySelector(".image-viewer");
     const viewerImage = document.querySelector(".image-viewer img");
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const prevButton = document.querySelector(".prev-image");
     const nextButton = document.querySelector(".next-image");
-console.log("Next button :", nextButton);
+
 
     let currentIndex = 0;
 
@@ -207,7 +207,7 @@ console.log("Next button :", nextButton);
         galleryImages.forEach((image, index) => {
 
 
-            galleryImages = document.querySelectorAll(".build-gallery img");
+            image.addEventListener("click", () => {
 
 
                 showImage(index);
@@ -226,9 +226,12 @@ console.log("Next button :", nextButton);
 
             nextButton.addEventListener("click", (event) => {
 
+
                 event.stopPropagation();
 
+
                 currentIndex++;
+
 
                 if(currentIndex >= galleryImages.length){
 
@@ -236,7 +239,9 @@ console.log("Next button :", nextButton);
 
                 }
 
+
                 showImage(currentIndex);
+
 
             });
 
@@ -248,9 +253,12 @@ console.log("Next button :", nextButton);
 
             prevButton.addEventListener("click", (event) => {
 
+
                 event.stopPropagation();
 
+
                 currentIndex--;
+
 
                 if(currentIndex < 0){
 
@@ -258,7 +266,9 @@ console.log("Next button :", nextButton);
 
                 }
 
+
                 showImage(currentIndex);
+
 
             });
 
@@ -270,28 +280,40 @@ console.log("Next button :", nextButton);
 
             closeViewer.addEventListener("click", () => {
 
+
                 viewer.classList.remove("active");
+
 
             });
 
         }
 
-document.addEventListener("keydown", (e) => {
 
-    if (e.key === "Escape") {
 
-        viewer.classList.remove("active");
+        document.addEventListener("keydown", (e) => {
 
-    }
 
-});
+            if(e.key === "Escape"){
+
+
+                viewer.classList.remove("active");
+
+
+            }
+
+
+        });
+
+
 
         viewer.addEventListener("click", (event) => {
 
 
             if(event.target === viewer){
 
+
                 viewer.classList.remove("active");
+
 
             }
 
@@ -303,7 +325,6 @@ document.addEventListener("keydown", (e) => {
 
 
 });
-
 
 /*==========================
   Mobile Menu
