@@ -302,7 +302,13 @@ display:block;
     .mobile-title{
         display:inline;
     }
+.hero-desktop{
+    display:none;
+}
 
+.hero-mobile{
+    display:block;
+}
 }
 /*==========================
   HERO
@@ -339,6 +345,9 @@ display:block;
 
 }
 
+.hero-mobile{
+    display:none;
+}
 /*==========================
  HERO BAR
 ==========================*/
