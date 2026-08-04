@@ -305,6 +305,10 @@ display:block;
     }
 
 
+    /*==========================
+      MOBILE HERO VIDEO
+    ==========================*/
+
     .hero-desktop{
         display:none;
     }
@@ -312,6 +316,17 @@ display:block;
 
     .hero-mobile{
         display:block;
+    }
+
+
+    .hero-section{
+        height:220px;
+    }
+
+
+    .hero-video{
+        height:100%;
+        object-position:center center;
     }
 
 }
