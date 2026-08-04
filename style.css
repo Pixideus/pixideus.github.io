@@ -1912,7 +1912,9 @@ section {
 
     }
 
-
+ .video-container{
+        order:1;
+    }
     .build-intro{
 
         flex-direction:column;
