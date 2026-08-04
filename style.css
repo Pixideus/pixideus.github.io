@@ -253,42 +253,54 @@ display:block;
     }
 
 
-   .main-nav{
-    height:auto;
-    flex-direction:row;
-    align-items:center;
-    justify-content:center;
-    gap:10px;
-    width:100%;
-    overflow:hidden;
-}
+    .main-nav{
+        height:auto;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        width:100%;
+        overflow:hidden;
+    }
 
 
-  .nav{
-    width:auto;
-    flex:none;
-    margin-left:0;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:15px;
-    overflow:hidden;
-}
+    .nav{
+        width:auto;
+        flex:none;
+        margin-left:0;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:15px;
+        overflow:hidden;
+    }
 
 
     .nav a{
-    font-size:0.85rem;
-    letter-spacing:0;
-    white-space:nowrap;
-}
+        font-size:0.85rem;
+        letter-spacing:0;
+        white-space:nowrap;
+    }
 
 
     .logo img{
         height:38px;
     }
 
-  .logo{
-    display:none;
-}
+
+    .logo{
+        display:none;
+    }
+
+
+    .desktop-title{
+        display:none;
+    }
+
+
+    .mobile-title{
+        display:inline;
+    }
+
 }
 /*==========================
   HERO
