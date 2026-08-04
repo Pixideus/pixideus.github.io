@@ -1967,12 +1967,12 @@ section {
 }
 
 /*==========================
-  MOBILE SECTION TITLES
+  MOBILE TITLES
 ==========================*/
 
 @media(max-width:768px){
 
-    .section-title{
+    h2{
 
         font-size:2rem;
 
