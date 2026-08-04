@@ -309,6 +309,26 @@ display:block;
     display:block;
 
 }
+.hero-mobile{
+    display:none;
+}
+
+/*==========================
+  HERO - MOBILE
+==========================*/
+
+@media (max-width:768px){
+
+    /* Affiche la vidéo mobile */
+    .hero-desktop{
+        display:none;
+    }
+
+    .hero-mobile{
+        display:block;
+    }
+
+}
 /*==========================
  HERO BAR
 ==========================*/
