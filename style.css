@@ -288,7 +288,22 @@ section{
     object-position:center 70%;
 }
 
+/*==================================================
+  TABLET HERO
+==================================================*/
 
+@media (min-width:769px) and (max-width:1200px){
+
+    .hero-section{
+        height:220px;
+    }
+
+    .hero-video{
+        height:100%;
+        object-position:center center;
+    }
+
+}
 
 /*==================================================
   HERO BAR
