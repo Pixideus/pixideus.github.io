@@ -2013,3 +2013,40 @@ section {
     }
 
 }
+/* ==========================
+   BLUEPRINT
+========================== */
+
+.blueprint-link{
+    color:#66b3ff;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+.blueprint-link:hover{
+    color:#a8d8ff;
+    text-shadow:
+        0 0 8px rgba(102,179,255,.7),
+        0 0 18px rgba(102,179,255,.5);
+}
+
+.blueprint-code{
+    margin-left:12px;
+    font-family:monospace;
+    color:var(--text-soft);
+}
+
+.blueprint-copy{
+    margin-left:10px;
+    padding:4px 10px;
+    border:1px solid #66b3ff;
+    background:transparent;
+    color:#66b3ff;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.blueprint-copy:hover{
+    color:#fff;
+    border-color:#a8d8ff;
+}
