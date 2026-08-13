@@ -1,29 +1,13 @@
 const builds = [
 
-     {
-        section: "My Builds",
-        id: "beach",
-        title: "PTR - Beach house",
-        description: "Testing new colors on ptr with this cute Beach Houes.",
-        room: "Exterior",
-        cover: "images/Beach/cover-beachhouse.jpg",
-        images: [
-            "images/Beach/beachhouse.jpg",
-            "images/Beach/beachhouse1.jpg",
-            "images/Beach/beachhouse2.jpg",
-            "images/Beach/beachhouse3.jpg",
-            "images/Beach/beachhouse4.jpg",
-            "images/Beach/beachhouse5.jpg"
-        ],
-        youtube: "https://www.youtube.com/watch?v=m8fIw9BpyfI"
-    },
-    {
+        {
         section: "My Builds",
         id: "babylon",
         title: "Hanging Gardens of Babylon",
         description: "An epic fantasy recreation inspired by the legendary Hanging Gardens of Babylon, bringing one of the Seven Wonders to life.",
         room: "Daylight Circle Room",
         cover: "images/Babylon/cover-babylon.jpg",
+        blueprint:"xxx",     
         images: [
             "images/Babylon/babylon1.jpg",
             "images/Babylon/babylon2.jpg",
@@ -246,6 +230,12 @@ const builds = [
         "images/Old-builds/silvermoonroom.jpg",
         "images/Old-builds/zulaman.jpg",
         "images/Old-builds/zulaman2.jpg",
+         "images/Beach/beachhouse.jpg",
+            "images/Beach/beachhouse1.jpg",
+            "images/Beach/beachhouse2.jpg",
+            "images/Beach/beachhouse3.jpg",
+            "images/Beach/beachhouse4.jpg",
+            "images/Beach/beachhouse5.jpg"
 ],
         videos: [
     {
@@ -279,7 +269,12 @@ const builds = [
     {
         title: "Cozy Night Elf Bedroom",
         url: "https://www.youtube.com/watch?v=BE87NK2Ny80"
+    },
+  {
+        title: "colorful Beach House (PTR)",
+        url: "https://www.youtube.com/watch?v=m8fIw9BpyfI"
     }
+            
 ]
 },
 ];
