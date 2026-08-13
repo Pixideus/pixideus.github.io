@@ -104,9 +104,7 @@ const builds = [
         "soon"
     ],
 
-    youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
-},
-        youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
+            youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
     },
     
 
