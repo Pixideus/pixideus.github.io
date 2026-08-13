@@ -219,7 +219,7 @@ videoList.appendChild(button);
 
        const gallery = document.getElementById("build-gallery");
 
-build.images.forEach(image => {
+build.images.forEach((image, index) => {
 
     const img = document.createElement("img");
 
@@ -227,11 +227,40 @@ build.images.forEach(image => {
 
     img.dataset.full = "../" + image;
 
-    img.alt = build.title;
+    img.alt = build.roomNames ? build.roomNames[index] : build.title;
 
     img.loading = "lazy";
 
-    gallery.appendChild(img);
+    if (build.id === "hogwarts") {
+
+        const roomBlock = document.createElement("div");
+        roomBlock.className = "room-block";
+
+        const roomName = document.createElement("h3");
+        roomName.textContent = build.roomNames[index];
+
+        const blueprint = document.createElement("div");
+        blueprint.className = "room-blueprint";
+
+        if (build.blueprints[index] === "soon") {
+
+            blueprint.innerHTML = `
+                <span class="blueprint-link">Blueprint</span><span class="blueprint-soon">: soon</span>
+            `;
+
+        }
+
+        roomBlock.appendChild(img);
+        roomBlock.appendChild(roomName);
+        roomBlock.appendChild(blueprint);
+
+        gallery.appendChild(roomBlock);
+
+    } else {
+
+        gallery.appendChild(img);
+
+    }
 
 });
  }
