@@ -234,11 +234,8 @@ build.images.forEach(image => {
     gallery.appendChild(img);
 
 });
-
-    }
-
-}
-
+ }
+    
 // =========================
 // Build Image Carousel Viewer
 // =========================
