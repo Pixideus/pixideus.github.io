@@ -70,7 +70,7 @@ const builds = [
         cover: "images/hogwarts/cover-hogwarts.jpg",
         
         images: [
-            "images/hogwarts/sortinghat2.jpg",
+            "images/hogwarts/sorting-hat2.jpg",
             "images/hogwarts/sortinghat.jpg",
             "images/hogwarts/hogwarts-hallway.jpg",
             "images/hogwarts/hogwarts-hallway2.jpg",         
