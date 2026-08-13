@@ -67,6 +67,7 @@ const builds = [
         id: "hogwarts",
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe. Sorting, Great Hall, Pensieve, Mandrakes, Hagrid's Hut, Potions and Defense against Dark Arts, and Divination classroom",
         room: "Multiple Rooms",
+            blueprint:"soon",
         cover: "images/hogwarts/cover-hogwarts.jpg",
         
         images: [
@@ -114,6 +115,7 @@ const builds = [
         id: "burton",
         description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuice, Alice in Wonderlands, Charlie and the chocolate factory.  Wednesday's bedroom was first a castle bedroom that i adjusted",
         room: "Multiple Rooms",
+            blueprint:"soon",
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         
              
