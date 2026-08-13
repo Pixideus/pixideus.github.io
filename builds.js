@@ -124,7 +124,7 @@ const builds = [
             "images/Tim-Burton/tim-burton2.jpg",
             "images/Tim-Burton/wednesday-bedroom1.jpg",
             "images/Tim-Burton/beetlejuice-hall.jpg",
-            "images/Tim-Burton/alice1.jpg",
+            "images/Tim-Burton/alice2.jpg",
             "images/Tim-Burton/charlie1.jpg",
                                     
         ],
