@@ -87,39 +87,70 @@ const blueprintElement = document.getElementById("build-blueprint");
 
 if (build.blueprint) {
 
-    blueprintElement.innerHTML = `
-        <span class="blueprint-link">Blueprint</span>
-        <span class="blueprint-code">${build.blueprint}</span>
-        <button class="blueprint-copy">Copy</button>
-    `;
+    if (build.blueprint === "contact") {
 
-    const blueprintLink = blueprintElement.querySelector(".blueprint-link");
-    const blueprintCode = blueprintElement.querySelector(".blueprint-code");
-    const blueprintCopy = blueprintElement.querySelector(".blueprint-copy");
+        blueprintElement.innerHTML = `
+            <span class="blueprint-link">Blueprint</span>
+            <span class="blueprint-code">Contact me</span>
+        `;
 
-    blueprintCode.style.display = "none";
-    blueprintCopy.style.display = "none";
+        const blueprintLink = blueprintElement.querySelector(".blueprint-link");
+        const blueprintCode = blueprintElement.querySelector(".blueprint-code");
 
-    blueprintLink.addEventListener("click", () => {
+        blueprintCode.style.display = "none";
 
-        const isHidden = blueprintCode.style.display === "none";
+        blueprintLink.addEventListener("click", () => {
 
-        blueprintCode.style.display = isHidden ? "inline-block" : "none";
-        blueprintCopy.style.display = isHidden ? "inline-block" : "none";
+            const isHidden = blueprintCode.style.display === "none";
 
-    });
+            blueprintCode.style.display = isHidden ? "inline-block" : "none";
 
-    blueprintCopy.addEventListener("click", async () => {
+        });
 
-        await navigator.clipboard.writeText(build.blueprint);
+    } else if (build.blueprint === "soon") {
 
-        blueprintCopy.textContent = "Copied!";
+        blueprintElement.innerHTML = `
+            <span class="blueprint-soon">Blueprint soon</span>
+        `;
 
-        setTimeout(() => {
-            blueprintCopy.textContent = "Copy";
-        }, 1500);
+    } else {
 
-    });
+        blueprintElement.innerHTML = `
+            <span class="blueprint-link">Blueprint</span>
+            <span class="blueprint-code">${build.blueprint}</span>
+            <button class="blueprint-copy">Copy</button>
+        `;
+
+        const blueprintLink = blueprintElement.querySelector(".blueprint-link");
+        const blueprintCode = blueprintElement.querySelector(".blueprint-code");
+        const blueprintCopy = blueprintElement.querySelector(".blueprint-copy");
+
+        blueprintCode.style.display = "none";
+        blueprintCopy.style.display = "none";
+
+        blueprintLink.addEventListener("click", () => {
+
+            const isHidden = blueprintCode.style.display === "none";
+
+            blueprintCode.style.display = isHidden ? "inline-block" : "none";
+            blueprintCopy.style.display = isHidden ? "inline-block" : "none";
+
+        });
+
+        blueprintCopy.addEventListener("click", async () => {
+
+            await navigator.clipboard.writeText(build.blueprint);
+
+            blueprintCopy.textContent = "Copied!";
+
+            setTimeout(() => {
+                blueprintCopy.textContent = "Copy";
+            }, 1500);
+
+        });
+
+    }
+}
 }
 
 document.getElementById("breadcrumb-title").textContent = build.title;
