@@ -7,7 +7,7 @@ const builds = [
         description: "An epic fantasy recreation inspired by the legendary Hanging Gardens of Babylon, bringing one of the Seven Wonders to life.",
         room: "Daylight Circle Room",
         cover: "images/Babylon/cover-babylon.jpg",
-        blueprint:"xxx",     
+        blueprint:"contact",     
         images: [
             "images/Babylon/babylon1.jpg",
             "images/Babylon/babylon2.jpg",
@@ -26,6 +26,7 @@ const builds = [
         title: "Getaway to Greece",
         description: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
         room: "Evening Circle Room",
+        blueprint:"soon",     
         cover: "images/Greek-village/cover-greek-village.jpg",
         images: [
             "images/Greek-village/greek-village1.jpg",
@@ -44,6 +45,7 @@ const builds = [
         id: "tree",
         description: "A cozy home hidden inside a giant enchanted tree. Climb all the way to the top to discover every corner.",
         room: "Daylight Circle Room",
+        blueprint:"contact",  
         cover: "images/Inside-the-tree/cover-tree.jpg",
         images: [
             "images/Inside-the-tree/tree1.jpg",
@@ -150,6 +152,7 @@ const builds = [
          id: "jamaican-bar",
         description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.  I've since added some decor as it was made with the 250 budget",
         room: "Exterior",
+        blueprint:"soon",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
             "images/Jamaican-bar/jamaican-bar1.jpg",
@@ -168,6 +171,7 @@ const builds = [
       id: "manor",
         description: "Gothic manor",
         room: "Exterior",
+          blueprint:"soon",
         cover: "images/Manor/cover-manor.jpg",
         images: [
             "images/Manor/manor1.jpg",
@@ -185,6 +189,7 @@ const builds = [
        id: "silvermoon",
         description: "A view of Silvermoon that was part of a larger Midnight build (see Old build section)",
         room: "Square Room (Tiny)",
+                    blueprint:"soon",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
         images: [
             "images/Silvermoon/silvermoon1.jpg"
