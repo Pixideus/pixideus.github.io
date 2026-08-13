@@ -216,45 +216,75 @@ videoList.appendChild(button);
     });
 
 }
-
-       const gallery = document.getElementById("build-gallery");
+const gallery = document.getElementById("build-gallery");
 
 build.images.forEach((image, index) => {
 
     const img = document.createElement("img");
 
     img.src = "../" + image;
-
     img.dataset.full = "../" + image;
-
     img.alt = build.roomNames ? build.roomNames[index] : build.title;
-
     img.loading = "lazy";
 
     if (build.id === "hogwarts") {
 
-        const roomBlock = document.createElement("div");
-        roomBlock.className = "room-block";
+        const roomInfo = document.createElement("h3");
 
-        const roomName = document.createElement("h3");
-        roomName.textContent = build.roomNames[index];
+        roomInfo.innerHTML = `
+            ${build.roomNames[index]} -
+            <span class="room-blueprint"></span>
+        `;
 
-        const blueprint = document.createElement("div");
-        blueprint.className = "room-blueprint";
+        const blueprintContainer = roomInfo.querySelector(".room-blueprint");
+        const blueprintValue = build.blueprints[index];
 
-        if (build.blueprints[index] === "soon") {
+        if (blueprintValue === "soon") {
 
-            blueprint.innerHTML = `
+            blueprintContainer.innerHTML = `
                 <span class="blueprint-link">Blueprint</span><span class="blueprint-soon">: soon</span>
             `;
 
+        } else {
+
+            blueprintContainer.innerHTML = `
+                <span class="blueprint-link">Blueprint</span>
+                <span class="blueprint-code">${blueprintValue}</span>
+                <button class="blueprint-copy">Copy</button>
+            `;
+
+            const blueprintLink = blueprintContainer.querySelector(".blueprint-link");
+            const blueprintCode = blueprintContainer.querySelector(".blueprint-code");
+            const blueprintCopy = blueprintContainer.querySelector(".blueprint-copy");
+
+            blueprintCode.style.display = "none";
+            blueprintCopy.style.display = "none";
+
+            blueprintLink.addEventListener("click", () => {
+
+                const isHidden = blueprintCode.style.display === "none";
+
+                blueprintCode.style.display = isHidden ? "inline-block" : "none";
+                blueprintCopy.style.display = isHidden ? "inline-block" : "none";
+
+            });
+
+            blueprintCopy.addEventListener("click", async () => {
+
+                await navigator.clipboard.writeText(blueprintValue);
+
+                blueprintCopy.textContent = "Copied!";
+
+                setTimeout(() => {
+                    blueprintCopy.textContent = "Copy";
+                }, 1500);
+
+            });
+
         }
 
-        roomBlock.appendChild(img);
-        roomBlock.appendChild(roomName);
-        roomBlock.appendChild(blueprint);
-
-        gallery.appendChild(roomBlock);
+        gallery.appendChild(img);
+        gallery.appendChild(roomInfo);
 
     } else {
 
