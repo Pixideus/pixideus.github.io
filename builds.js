@@ -80,6 +80,32 @@ const builds = [
              "images/hogwarts/potions2.jpg",
              "images/hogwarts/divination1.jpg",
                  ],
+             roomNames: [
+        "Sorting Hat",
+        "Hallway",
+        "Great Hall",
+        "Library",
+        "Herbology",
+        "Forbidden Forest",
+        "Hagrid's Hut",
+        "Potions",
+        "Divination"
+    ],
+
+    blueprints: [
+        "soon",
+        "soon",
+        "soon",
+        "soon",
+        "soon",
+        "soon",
+        "soon",
+        "soon",
+        "soon"
+    ],
+
+    youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
+},
         youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
     },
     
