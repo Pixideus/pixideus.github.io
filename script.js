@@ -77,13 +77,20 @@ if (buildId) {
 
     if (build) {
 document.title = `${build.title} - Pixideus`;
-        document.getElementById("build-title").textContent = build.title;
+document.getElementById("build-title").textContent = build.title;
 
-        document.getElementById("build-description").textContent = build.description;
+document.getElementById("build-description").textContent = build.description;
 
-        document.getElementById("build-room").textContent = build.room;
+document.getElementById("build-room").textContent = build.room;
 
-        document.getElementById("breadcrumb-title").textContent = build.title;
+const blueprintElement = document.getElementById("build-blueprint");
+
+if (build.blueprint) {
+    blueprintElement.textContent = "Blueprint";
+    blueprintElement.style.color = "#d98cff";
+}
+
+document.getElementById("breadcrumb-title").textContent = build.title;
 
 
        const video = document.getElementById("build-video");
