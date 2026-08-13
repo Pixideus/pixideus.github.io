@@ -109,9 +109,9 @@ if (build.blueprint) {
 
     } else if (build.blueprint === "soon") {
 
-        blueprintElement.innerHTML = `
-            <span class="blueprint-soon">Blueprint: soon</span>
-        `;
+       blueprintElement.innerHTML = `
+    <span class="blueprint-link">Blueprint</span><span class="blueprint-soon">: soon</span>
+`;
 
     } else {
 
