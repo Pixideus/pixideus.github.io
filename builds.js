@@ -128,6 +128,22 @@ const builds = [
             "images/Tim-Burton/charlie1.jpg",
                                     
         ],
+
+            roomNames: [
+    "Tim Burton",
+    "Wednesday's Bedroom",
+    "Beetlejuice Hall",
+    "Alice in Wonderland",
+    "Charlie and the Chocolate Factory"
+],
+
+blueprints: [
+    "soon",
+    "soon",
+    "soon",
+    "soon",
+    "soon"
+],
         videos: [
     {
     
