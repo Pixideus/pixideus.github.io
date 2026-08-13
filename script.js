@@ -227,7 +227,12 @@ build.images.forEach((image, index) => {
     img.alt = build.roomNames ? build.roomNames[index] : build.title;
     img.loading = "lazy";
 
-    if (build.id === "hogwarts") {
+    if (build.id === "hogwarts" || build.id === "burton") {
+
+        const roomBlock = document.createElement("div");
+        roomBlock.className = "room-block";
+
+        roomBlock.appendChild(img);
 
         const roomInfo = document.createElement("h3");
 
@@ -283,8 +288,9 @@ build.images.forEach((image, index) => {
 
         }
 
-        gallery.appendChild(img);
-        gallery.appendChild(roomInfo);
+        roomBlock.appendChild(roomInfo);
+
+        gallery.appendChild(roomBlock);
 
     } else {
 
