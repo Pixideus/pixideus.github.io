@@ -193,7 +193,7 @@ blueprints: [
         cover: "images/Manor/cover-manor.jpg",
         images: [
                 
-            "images/Manor/manor1.jpg",
+            "images/Manor/Manor1.jpg",
             "images/Manor/manor2.jpg",
             "images/Manor/manor3.jpg",
             "images/Manor/manor4.jpg",
