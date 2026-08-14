@@ -80,6 +80,12 @@ document.title = `${build.title} - Pixideus`;
 document.getElementById("build-title").textContent = build.title;
 
 document.getElementById("build-description").textContent = build.description;
+        
+const noteElement = document.getElementById("build-note");
+
+if (noteElement && build.note) {
+    noteElement.querySelector("span").textContent = build.note;
+}
 
 document.getElementById("build-room").textContent = build.room;
 
