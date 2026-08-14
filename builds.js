@@ -180,11 +180,12 @@ blueprints: [
         section: "My Builds",
         title: "Manor on the hill",
       id: "manor",
-        description: "Gothic manor",
+        description: "I rearranged the Manor with some easier decor to get form neighborhood vendors at the back.  You can rearrange ! I used the new black dye too, picture on main page and first picture below is new version.",
         room: "Exterior",
           blueprint:"soon",
         cover: "images/Manor/cover-manor.jpg",
         images: [
+                
             "images/Manor/manor1.jpg",
             "images/Manor/manor2.jpg",
             "images/Manor/manor3.jpg",
