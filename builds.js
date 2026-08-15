@@ -193,7 +193,7 @@ blueprints: [
         I used the new black dye too, picture on main page and first picture below is the new version.
         `,  
         room: "Exterior",
-          blueprint:"soon",
+          blueprint:"AgRb+OE3GEtA24jSb5HUyLEn",
         cover: "images/Manor/cover-manor.jpg",
         images: [
                 
