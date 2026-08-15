@@ -84,7 +84,7 @@ document.getElementById("build-description").textContent = build.description;
 const noteElement = document.getElementById("build-note");
 
 if (noteElement && build.note) {
-    noteElement.querySelector("span").textContent = build.note;
+    noteElement.querySelector("span").innerHTML = build.note;
 }
 
 document.getElementById("build-room").textContent = build.room;
