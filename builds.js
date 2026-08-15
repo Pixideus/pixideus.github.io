@@ -187,9 +187,9 @@ blueprints: [
         title: "Manor on the hill",
       id: "manor",
         description: "A simple black manor with spooky vibes",
-        note : `I rearranged the back of the house with some easier decor to get from neighborhood vendors at the back.<br> 
-        There were a bunch of Forsaken tents, i switched to some of wooden Tiles.  It's not that pretty, it will look like a black block but you can rearrange, make a little terrace, add windows.. <br>
-        The Budget is 273/350, so you can add some more decor ! <br>
+        note : `I rearranged the back of the house with some easier decor to get from neighborhood vendors.<br> 
+        There were a bunch of Forsaken tents, i switched to some of wooden Tiles and plants.  Add your own touch with a little terrace, windows.. <br>
+        The Budget is 290/350, so you can add some more decor ! <br>
         I used the new black dye too, picture on main page and first picture below is the new version.
         `,  
         room: "Exterior",
