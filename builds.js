@@ -187,9 +187,9 @@ blueprints: [
         title: "Manor on the hill",
       id: "manor",
         description: "A simple black manor with spooky vibes",
-        note : "I rearranged the Manor with some easier decor to get form neighborhood vendors at the back.  Budget is 278/350, so you can add some more decor ! I used the new black dye too, picture on main page and first picture below is the new version.",  
+        note : "I rearranged the back of the house with some easier decor to get form neighborhood vendors at the back.  There were a bunch of Forsaken tents, i switched some of wooden Tiles.  The Budget is 278/350, so you can add some more decor ! I used the new black dye too, picture on main page and first picture below is the new version.",  
         room: "Exterior",
-          blueprint:"AgQp34IJh35O3ZB86OLdp94d",
+          blueprint:"soon",
         cover: "images/Manor/cover-manor.jpg",
         images: [
                 
