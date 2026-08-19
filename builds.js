@@ -1,5 +1,22 @@
 const builds = [
 
+         {
+        section: "My Builds",
+        id: "modernbeach",
+        title: "Modern Beach House",
+        description: "A modern Beach House.",
+        note: "Horde Plot 6 exterior.",       
+        room: "Exterior",
+        cover: "images/Modern-Beach-House/Modern-beachhouse-cover.jpg",
+        blueprint:"soon",     
+        images: [
+            "images/Modern-Beach-House/Modern-beachhouse1.jpg",
+            "images/Modern-Beach-House/Modern-beachhouse2.jpg",
+            "images/Modern-Beach-House/Modern-beachhouse3.jpg"
+            
+        ],
+        youtube: "https://www.youtube.com/watch?v=vzqH7bQsZx0"
+    },
         {
         section: "My Builds",
         id: "babylon",
