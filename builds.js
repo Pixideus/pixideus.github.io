@@ -116,14 +116,14 @@ const builds = [
 
     blueprints: [
         "soon",
+        "AgJ2L2025ixNbI+VPS8qWuJx",
         "soon",
         "soon",
+        "AgLTnBccCipIg6aIeLYZHtBZ",
+        "AgKvFzw01YRDaYgTXFZqRJxN",
+        "AgJT/zpIcLpDG4mP6hqFmiYG",
         "soon",
-        "soon",
-        "soon",
-        "soon",
-        "soon",
-        "soon"
+        "AgKo3vkne8tCYq8B5HBHVCiv"
     ],
 
             youtube: "https://www.youtube.com/watch?v=znn1qVpnJGg"
