@@ -30,7 +30,18 @@ const builds = [
                  "images/Disneyland/disney19.jpg"
             
         ],
-        youtube: "https://www.youtube.com/watch?v=9PliyKWc8z4"
+                      videos: [
+    {
+    
+        title: "Disneyland - Video 1",
+        url: "https://www.youtube.com/watch?v=9PliyKWc8z4"
+    },
+    {
+        title: "Full house tour with BBH - Video 2"",
+        url: "https://www.youtube.com/watch?v=JjlZL-g1avE"
+    }
+]
+       
     },
          {
         section: "My Builds",
