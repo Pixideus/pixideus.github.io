@@ -37,7 +37,7 @@ const builds = [
         url: "https://www.youtube.com/watch?v=9PliyKWc8z4"
     },
     {
-        title: "Full house tour with BBH - Video 2"",
+        title: "Full house tour with BBH - Video 2",
         url: "https://www.youtube.com/watch?v=JjlZL-g1avE"
     }
 ]
