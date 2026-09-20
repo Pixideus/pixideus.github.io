@@ -1,5 +1,37 @@
 const builds = [
 
+           {
+        section: "My Builds",
+        id: "Disneyland",
+        title: "Disneyland Paris",
+        description: "An evening at Disneyland, You can shop while wandering in Main Street, eat in Ratatouille's restaurant, read a book in Belle's Library, meet the Aristocats and Pirates of the Caribbean, have a ride with the dolls in It's a small world, and visit Sleeping Beauty castle. ",
+        note: "An evening at Disneyland, You can shop while wandering in Main Street, eat in Ratatouille's restaurant, read a book in Belle's Library, meet the Aristocats and Pirates of the Caribbean, have a ride with the dolls in It's a small world, and visit Sleeping Beauty castle.",       
+        room: "Multiple",
+        cover: "images/Disneyland/Cover-Disneyland.jpg",
+        blueprint:"soon",     
+        images: [
+            "images/Disneyland/Disney1.jpg",
+           "images/Disneyland/Disney2.jpg",
+      "images/Disneyland/Disney3.jpg",
+                 "images/Disneyland/Disney4.jpg",
+                 "images/Disneyland/Disney5.jpg",
+                 "images/Disneyland/Disney6.jpg",
+                 "images/Disneyland/Disney7.jpg",
+                 "images/Disneyland/Disney8.jpg",
+                 "images/Disneyland/Disney9.jpg",
+                 "images/Disneyland/Disney11.jpg",
+                 "images/Disneyland/Disney12.jpg",
+                 "images/Disneyland/Disney13.jpg",
+                 "images/Disneyland/Disney14.jpg",
+                 "images/Disneyland/Disney15.jpg",
+                 "images/Disneyland/Disney16.jpg",
+                 "images/Disneyland/Disney17.jpg",
+                 "images/Disneyland/Disney18.jpg",
+                 "images/Disneyland/Disney19.jpg"
+            
+        ],
+        youtube: "https://www.youtube.com/watch?v=9PliyKWc8z4"
+    },
          {
         section: "My Builds",
         id: "modernbeach",
