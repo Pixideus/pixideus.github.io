@@ -21,13 +21,13 @@ const builds = [
                  "images/Disneyland/Disney9.jpg",
                  "images/Disneyland/Disney11.jpg",
                  "images/Disneyland/Disney12.jpg",
-                 "images/Disneyland/Disney13.jpg",
+                 "images/Disneyland/disney13.jpg",
                  "images/Disneyland/Disney14.jpg",
                  "images/Disneyland/Disney15.jpg",
                  "images/Disneyland/Disney16.jpg",
                  "images/Disneyland/Disney17.jpg",
                  "images/Disneyland/Disney18.jpg",
-                 "images/Disneyland/Disney19.jpg"
+                 "images/Disneyland/disney19.jpg"
             
         ],
         youtube: "https://www.youtube.com/watch?v=9PliyKWc8z4"
