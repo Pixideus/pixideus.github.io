@@ -1,5 +1,22 @@
 const builds = [
 
+            {
+        section: "My Builds",
+        id: "SpookyManor",
+        title: "Spooky Manor",
+        description: "A spooky haunted manor on horde Plot 21.",
+        note: "Budget is 350/350",       
+        room: "Exterior",
+        cover: "images/Spooky-Manor/spookymanor-cover.jpg",
+        blueprint:"soon",     
+        images: [
+            "images/Spooky-Manor/spookymanor1.jpg",
+            "images/Spooky-Manor/spookymanor2.jpg",
+            "images/Spooky-Manor/spookymanor3.jpg",
+            "images/Spooky-Manor/spookymanor4.jpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=T1A--Pfr5GI"
+    },
            {
         section: "My Builds",
         id: "Disneyland",
