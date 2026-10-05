@@ -1,14 +1,32 @@
 const builds = [
 
+                 {
+        section: "My Builds",
+        id: "Pumpkinhollow",
+        title: "The Pumpkin Hollow",
+        description: "A crooked and whimsical house ally plot.",
+        note: "Budget is 350/350",       
+        room: "Exterior",
+        cover: "images/Pumpkin-hollow/Pumpkin-cover.jpg",
+         blueprint:"contact", 
+        images: [
+            "images/Pumpkin-hollow/Pumpkin1.jpg",
+            "images/Pumpkin-hollow/Pumpkin2.jpg",
+            "images/Pumpkin-hollow/Pumpkin3.jpg",
+            "images/Pumpkin-hollow/Pumpkin4.jpg",
+                    "images/Pumpkin-hollow/Pumpkin5.jpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=5of7RwFOZpk"
+    },
             {
         section: "My Builds",
         id: "SpookyManor",
         title: "Spooky Manor",
-        description: "A spooky haunted manor on horde Plot 21.",
+        description: "A spooky haunted manor on horde Plot",
         note: "Budget is 350/350",       
         room: "Exterior",
         cover: "images/Spooky-Manor/spookymanor-cover.jpg",
-        blueprint:"soon",     
+         blueprint:"contact",  
         images: [
             "images/Spooky-Manor/spookymanor1.jpg",
             "images/Spooky-Manor/spookymanor2.jpg",
@@ -25,7 +43,7 @@ const builds = [
         note: "An evening at Disneyland, You can shop while wandering in Main Street, eat in Ratatouille's restaurant, read a book in Belle's Library, meet the Aristocats and Pirates of the Caribbean, have a ride with the dolls in It's a small world, and visit Sleeping Beauty castle.",       
         room: "Multiple",
         cover: "images/Disneyland/Cover-Disneyland.jpg",
-        blueprint:"soon",     
+          blueprint:"contact", 
         images: [
             "images/Disneyland/Disney1.jpg",
            "images/Disneyland/Disney2.jpg",
@@ -68,7 +86,7 @@ const builds = [
         note: "Budget is 347/350.  Cannot share blueprint right now as the build is not stable, lots of things moving, turning around, ...",       
         room: "Exterior",
         cover: "images/Modern-Beach-House/Modern-beachhouse-cover.jpg",
-        blueprint:"soon",     
+           blueprint:"contact", 
         images: [
             "images/Modern-Beach-House/Modern-beachhouse1.jpg",
             "images/Modern-Beach-House/Modern-beachhouse2.jpg",
@@ -105,7 +123,7 @@ const builds = [
         description: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
              note: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
         room: "Evening Circle Room",
-        blueprint:"soon",     
+           blueprint:"contact", 
         cover: "images/Greek-village/cover-greek-village.jpg",
         images: [
             "images/Greek-village/greek-village1.jpg",
@@ -148,7 +166,7 @@ const builds = [
         description: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe. Sorting, Great Hall, Pensieve, Mandrakes, Hagrid's Hut, Potions and Defense against Dark Arts, and Divination classroom",
         note: "One of my first builds, this School of Magic is greatly inspired by Harry Potter's universe. Sorting, Great Hall, Pensieve, Mandrakes, Hagrid's Hut, Potions and Defense against Dark Arts, and Divination classroom",
             room: "Multiple Rooms",
-            blueprint:"soon",
+            blueprint:"some blueprints availabe, check it out!",
         cover: "images/hogwarts/cover-hogwarts.jpg",
         
         images: [
@@ -197,7 +215,7 @@ const builds = [
         description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuice, Alice in Wonderlands, Charlie and the chocolate factory.",
         note: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuice, Alice in Wonderlands, Charlie and the chocolate factory.  Wednesday's bedroom was first a castle bedroom that i adjusted, i joined a little video",
             room: "Multiple Rooms",
-            blueprint:"soon",
+         blueprint:"contact", 
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         
              
@@ -220,11 +238,11 @@ const builds = [
 ],
 
 blueprints: [
-    "soon",
-    "soon",
-    "soon",
-    "soon",
-    "soon"
+    "contact",
+    "contact",
+    "contact",
+    "contact",
+    "contact"
 ],
         videos: [
     {
