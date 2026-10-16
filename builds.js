@@ -1,5 +1,23 @@
 const builds = [
 
+      {
+        section: "My Builds",
+        id: "Ritualruins",
+        title: "The Ritual ruins",
+        description: "Going back to Halloween's celtic origins with this strange ritual site...",
+        note: "Budget is 350/350",       
+        room: "Evening Circle Room",
+        cover: "images/Ritualruins/Ritual-cover.jpg",
+         blueprint:"contact", 
+        images: [
+            "images/Ritualruins/Ritual1.jpg",
+             "images/Ritualruins/Ritual2.jpg",
+             "images/Ritualruins/Ritual3.jpg",
+             "images/Ritualruins/Ritual4.jpg",
+              "images/Ritualruins/Ritual5.jpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=cqDL7mUBpIM"
+    },
                  {
         section: "My Builds",
         id: "Pumpkinhollow",
