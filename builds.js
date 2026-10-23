@@ -8,7 +8,7 @@ const builds = [
         note: "Budget is 350/350",       
         room: "Evening Circle Room",
         cover: "images/Ritualruins/Ritual-cover.jpg",
-         blueprint:"contact", 
+         blueprint:"/", 
         images: [
             "images/Ritualruins/Ritual1.jpg",
              "images/Ritualruins/Ritual2.jpg",
@@ -26,7 +26,7 @@ const builds = [
         note: "Budget is 350/350",       
         room: "Exterior",
         cover: "images/Pumpkin-hollow/Pumpkin-cover.jpg",
-         blueprint:"contact", 
+         blueprint:"/", 
         images: [
             "images/Pumpkin-hollow/Pumpkin1.jpg",
             "images/Pumpkin-hollow/Pumpkin2.jpg",
@@ -44,7 +44,7 @@ const builds = [
         note: "Budget is 350/350",       
         room: "Exterior",
         cover: "images/Spooky-Manor/spookymanor-cover.jpg",
-         blueprint:"contact",  
+         blueprint:"/",  
         images: [
             "images/Spooky-Manor/spookymanor1.jpg",
             "images/Spooky-Manor/spookymanor2.jpg",
@@ -61,7 +61,7 @@ const builds = [
         note: "An evening at Disneyland, You can shop while wandering in Main Street, eat in Ratatouille's restaurant, read a book in Belle's Library, meet the Aristocats and Pirates of the Caribbean, have a ride with the dolls in It's a small world, and visit Sleeping Beauty castle.",       
         room: "Multiple",
         cover: "images/Disneyland/Cover-Disneyland.jpg",
-          blueprint:"contact", 
+          blueprint:"/", 
         images: [
             "images/Disneyland/Disney1.jpg",
            "images/Disneyland/Disney2.jpg",
@@ -104,7 +104,7 @@ const builds = [
         note: "Budget is 347/350.  Cannot share blueprint right now as the build is not stable, lots of things moving, turning around, ...",       
         room: "Exterior",
         cover: "images/Modern-Beach-House/Modern-beachhouse-cover.jpg",
-           blueprint:"contact", 
+           blueprint:"/", 
         images: [
             "images/Modern-Beach-House/Modern-beachhouse1.jpg",
             "images/Modern-Beach-House/Modern-beachhouse2.jpg",
@@ -121,7 +121,7 @@ const builds = [
         note: "An epic fantasy recreation inspired by the legendary Hanging Gardens of Babylon, bringing one of the Seven Wonders to life.",       
         room: "Daylight Circle Room",
         cover: "images/Babylon/cover-babylon.jpg",
-        blueprint:"contact",     
+        blueprint:"/",     
         images: [
             "images/Babylon/babylon1.jpg",
             "images/Babylon/babylon2.jpg",
@@ -141,7 +141,7 @@ const builds = [
         description: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
              note: "A peaceful Greek village inspired by the whitewashed streets and blue rooftops of Santorini.",
         room: "Evening Circle Room",
-           blueprint:"contact", 
+           blueprint:"/", 
         cover: "images/Greek-village/cover-greek-village.jpg",
         images: [
             "images/Greek-village/greek-village1.jpg",
@@ -161,7 +161,7 @@ const builds = [
         description: "A cozy home hidden inside a giant enchanted tree. Climb all the way to the top to discover every corner.",
             note: "A cozy home hidden inside a giant enchanted tree. Climb all the way to the top to discover every corner.",
         room: "Daylight Circle Room",
-        blueprint:"contact",  
+        blueprint:"/",  
         cover: "images/Inside-the-tree/cover-tree.jpg",
         images: [
             "images/Inside-the-tree/tree1.jpg",
@@ -211,14 +211,14 @@ const builds = [
     ],
 
     blueprints: [
-        "soon",
+        "/",
         "AgJ2L2025ixNbI+VPS8qWuJx",
-        "soon",
-        "soon",
+        "/",
+        "/",
         "AgLTnBccCipIg6aIeLYZHtBZ",
         "AgKvFzw01YRDaYgTXFZqRJxN",
         "AgJT/zpIcLpDG4mP6hqFmiYG",
-        "soon",
+        "/",
         "AgKo3vkne8tCYq8B5HBHVCiv"
     ],
 
@@ -233,7 +233,7 @@ const builds = [
         description: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuice, Alice in Wonderlands, Charlie and the chocolate factory.",
         note: "Inspired by Tim Burton's universe : Nightmare before christmas, Sleepy Hollow, Wednesday, Beetlejuice, Alice in Wonderlands, Charlie and the chocolate factory.  Wednesday's bedroom was first a castle bedroom that i adjusted, i joined a little video",
             room: "Multiple Rooms",
-         blueprint:"contact", 
+         blueprint:"/", 
         cover: "images/Tim-Burton/cover-tim-burton.jpg",
         
              
@@ -256,11 +256,11 @@ const builds = [
 ],
 
 blueprints: [
-    "contact",
-    "contact",
-    "contact",
-    "contact",
-    "contact"
+    "/",
+    "/",
+    "/",
+    "/",
+    "/"
 ],
         videos: [
     {
@@ -282,7 +282,7 @@ blueprints: [
         description: "A vibrant beach bar inspired by the laid-back atmosphere of the Caribbean.",
              Note: "I've since added some decor as it was made with the 250 budget",
         room: "Exterior",
-        blueprint:"soon",
+        blueprint:"AgTyQyICpCBPZJBHgjBpCiX0",
         cover: "images/Jamaican-bar/cover-jamaican-bar.jpg",
         images: [
             "images/Jamaican-bar/jamaican-bar1.jpg",
@@ -325,7 +325,7 @@ blueprints: [
         description: "A view of Silvermoon",
            note: "A view of Silvermoon that was part of a larger Midnight build (see Old build section)",
         room: "Square Room (Tiny)",
-                    blueprint:"soon",
+                    blueprint:"/",
         cover: "images/Silvermoon/cover-silvermoon.jpg",
         images: [
             "images/Silvermoon/silvermoon1.jpg"
