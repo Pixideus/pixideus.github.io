@@ -17,7 +17,7 @@ const builds = [
              "images/Hallow_entry/Hallow5.jpg",
               "images/Hallow_entry/Hallow6.jpg"
         ],
-        youtube: "https://www.youtube.com/watch?v=cqDL7mUBpIM"
+        youtube: "https://www.youtube.com/watch?v=7SGcKsY4dg0"
     },
       {
         section: "My Builds",
