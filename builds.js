@@ -1,5 +1,24 @@
 const builds = [
 
+        {
+        section: "My Builds",
+        id: "Hallowsend",
+        title: "Freaky entry Hall",
+        description: "Entry Hall for my Halloween's build.",
+        
+        room: "Empty Stairwell",
+        cover: "images/Hallow_entry/Hallow-cover.jpg",
+         blueprint:"/", 
+        images: [
+            "images/Hallow_entry/Hallow1.jpg",
+             "images/Hallow_entry/Hallow2.jpg",
+          "images/Hallow_entry/Hallow3.jpg",
+            "images/Hallow_entry/Hallow4.jpg",
+             "images/Hallow_entry/Hallow5.jpg",
+              "images/Hallow_entry/Hallow6.jpg"
+        ],
+        youtube: "https://www.youtube.com/watch?v=cqDL7mUBpIM"
+    },
       {
         section: "My Builds",
         id: "Ritualruins",
